@@ -1,8 +1,6 @@
 import unrealsdk
 from unrealsdk import *
 
-import os
-
 from ..ModMenu import EnabledSaveType, SDKMod, KeybindManager, ModTypes, Game, RegisterMod
 
 class Main(SDKMod):
