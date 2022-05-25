@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "authors": "PyrexBLJ",
+        "source": "https://github.com/PyrexBLJ/blsdk-mods",
+        "issues": "https://github.com/PyrexBLJ/blsdk-mods/issues",
+        "supports":  [ "BL2", "TPS" ],
+        "license": "GNU GPLv3"
+      },
+    "mods": [
+      {
+        "name": "Bank & Stash Anywhere (BASA)",
+        "description": ["Use the bank and stash from anywhere with a hotkey"],
+        "types": ["Utility"],
+        "latest": "1.0.1",
+        "versions": {
+          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/BASA/BASA.rar"
+        },
+        "requirements": {}
+      }
+    ]
+  }
