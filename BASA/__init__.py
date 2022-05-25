@@ -1,9 +1,8 @@
 import unrealsdk
-from unrealsdk import *
 
-from ..ModMenu import EnabledSaveType, SDKMod, KeybindManager, ModTypes, Game, RegisterMod
+from Mods import ModMenu
 
-class Main(SDKMod):
+class Main(ModMenu.SDKMod):
     Name: str = "Bank & Stash Anywhere"
     Description: str = "<font size='20' color='#00ffe8'>Bank & Stash Anywhere</font>\n\n" \
     "Use the bank and stash from anywhere with a hotkey\n\n" \
@@ -12,43 +11,45 @@ class Main(SDKMod):
                 "Open stash: <b>F11</b>\n\n" \
                     "Keys can be rebound in modded key bindings"
     Author: str = "PyrexBLJ"
-    Version = "1.0.0"
-    SaveEnabledState: EnabledSaveType = EnabledSaveType.LoadWithSettings
+    Version: str = "1.0.1"
+    SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
-    Types: ModTypes = ModTypes.Utility
-    SupportedGames = Game.TPS | Game.BL2
+    Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
+    SupportedGames: ModMenu.Game = ModMenu.Game.TPS | ModMenu.Game.BL2
 
-    Keybinds = [KeybindManager.Keybind("Open Bank", "F10"), 
-                KeybindManager.Keybind("Open Stash", "F11")]
+    BankBind = ModMenu.Keybind("Open Bank", "F10")
+    StashBind = ModMenu.Keybind("Open Stash", "F11")
 
-    def __init__(self):
+    Keybinds = [ BankBind, StashBind ]
+
+    def __init__(self) -> None:
         super().__init__()
 
-    def ForceLoad(self):
-        if Game.GetCurrent() == Game.BL2:
+    def ForceLoad(self) -> None:
+        if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
             unrealsdk.LoadPackage("Glacial_Dynamic")
-        elif Game.GetCurrent() == Game.TPS:
+        elif ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
             unrealsdk.LoadPackage("Spaceport_P")
         else : raise RuntimeError("Unsupported Game")
 
         unrealsdk.KeepAlive(unrealsdk.FindObject("GFxMovieDefinition", "UI_TwoPanelInterface.BankDef"))
         unrealsdk.KeepAlive(unrealsdk.FindObject("GFxMovieDefinition", "UI_TwoPanelInterface.StashDef"))
 
-    def GameInputPressed(self, input):
-        if input.Name == "Open Bank":
+    def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
+        if bind == self.BankBind and event == ModMenu.InputEvent.Pressed:
             controller = unrealsdk.GetEngine().GamePlayers[0].Actor
             controller.PlayGfxMovieDefinition("UI_TwoPanelInterface.BankDef")
-        if input.Name == "Open Stash":
+        if bind == self.StashBind and event == ModMenu.InputEvent.Pressed:
             controller = unrealsdk.GetEngine().GamePlayers[0].Actor
             controller.PlayGfxMovieDefinition("UI_TwoPanelInterface.StashDef")
 
-    def Enable(self):
+    def Enable(self) -> None:
         self.ForceLoad()
         super().Enable()
 
-    def Disable(self):
+    def Disable(self) -> None:
         super().Disable()
 
+instance = Main()
 
-
-RegisterMod(Main())
+ModMenu.RegisterMod(instance)
