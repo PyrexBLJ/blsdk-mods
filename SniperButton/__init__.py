@@ -14,7 +14,7 @@ class Main(ModMenu.SDKMod):
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
-    SupportedGames: ModMenu.Game = ModMenu.Game.TPS | ModMenu.Game.BL2
+    SupportedGames: ModMenu.Game = ModMenu.Game.BL2
 
     aimRate = "0.5"
     aimRateNum = 0.5
@@ -26,7 +26,7 @@ class Main(ModMenu.SDKMod):
             Caption="Aimed Rate",
             Description="How much sensitivity should be multiplied by while aiming",
             StartingValue="0.5",
-            Choices=[ "0.1", "0.25", "0.5", "0.75", "1.5", "2.0"]
+            Choices=[ "0.1", "0.25", "0.5", "0.75", "1.0", "1.1", "1.25", "1.5", "1.75", "2.0", "2.25", "2.5", "2.75", "3.0"]
         )
         
         self.Options = [
@@ -43,12 +43,10 @@ class Main(ModMenu.SDKMod):
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
         self.defaultMouseSense = controller.PlayerInput.MouseSensitivity
         controller.PlayerInput.MouseSensitivity = self.defaultMouseSense * self.aimRateNum
-        unrealsdk.Log("onStartZoom called")
         return True
 
     @ModMenu.Hook("WillowGame.WillowWeapon.StopZoom")
     def onStopZoom(self, caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
-        unrealsdk.Log("onSpawn called")
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
         controller.PlayerInput.MouseSensitivity = self.defaultMouseSense
         return True
