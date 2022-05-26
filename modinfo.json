@@ -16,6 +16,16 @@
           "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/BASA/BASA.rar"
         },
         "requirements": {}
+      },
+      {
+        "name": "SniperButton",
+        "description": ["Automatically changes aim sensitivity while aiming"],
+        "types": ["Utility"],
+        "latest": "1.0.1",
+        "versions": {
+          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/SniperButton/SniperButton.rar"
+        },
+        "requirements": {}
       }
     ]
   }
