@@ -6,7 +6,7 @@ class Main(ModMenu.SDKMod):
     Name: str = "Respec HotKey"
     Description: str = "<font size='20' color='#00ffe8'>Respec HotKey</font>\n\n" \
     "Respec your skills from anywhere with a hotkey\n\n" \
-        "Default keys:\n\n" \
+        "Default key:\n\n" \
             "Respec: <b>Num-1</b>\n\n" \
                 "Key can be rebound in modded key bindings"
     Author: str = "PyrexBLJ"
