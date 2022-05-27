@@ -1,4 +1,3 @@
-from locale import atof
 import unrealsdk
 
 from Mods import ModMenu
@@ -6,10 +5,10 @@ from Mods import ModMenu
 class Main(ModMenu.SDKMod):
     Name: str = "Sniper Button"
     Description: str = "<font size='20' color='#00ffe8'>Sniper Button</font>\n\n" \
-    "Automatically changes aim sensitivity while aiming\n\n" \
+    "Automatically changes ADS sensitivity\n\n" \
             "change rate can be modified in mod settings"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -17,16 +16,16 @@ class Main(ModMenu.SDKMod):
 
     defaultMouseSense = 60
     aimRate = 1
-    increase = False
+    increase = True
 
     def __init__(self) -> None:
         super().__init__()
         self.MySlider = ModMenu.Options.Slider(
             Caption="Aimed Rate",
-            Description="How much sensitivity should be modified by while aiming",
-            StartingValue = 1,
-            MinValue = 1,
-            MaxValue = 5,
+            Description="How much sensitivity should be modified by. From 1x-3x",
+            StartingValue = 100,
+            MinValue = 100,
+            MaxValue = 300,
             Increment = 1,
         )
         self.MyBoolean = ModMenu.Options.Boolean(
@@ -51,9 +50,9 @@ class Main(ModMenu.SDKMod):
     def onStartZoom(self, caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
         if self.increase == True:
-            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity * self.aimRate
+            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity * (self.aimRate / 100)
         elif self.increase == False: 
-            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity / self.aimRate
+            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity / (self.aimRate / 100)
 
         return True
 
