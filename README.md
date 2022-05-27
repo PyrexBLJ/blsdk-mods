@@ -8,7 +8,7 @@ feel free to use/edit em
 Use the bank and stash with hotkeys on any map. Supports BL2 + TPS.
 
 ![SniperButton](https://github.com/PyrexBLJ/blsdk-mods/tree/main/SniperButton)
-Automatically Slows Aiming when ads'd. Supports BL2 + TPS.
+Automatically modifies ADS speed. Supports BL2 + TPS.
 
 ![Respec HotKey](https://github.com/PyrexBLJ/blsdk-mods/tree/main/RHK)
 Respec skills from anywhere with a hotkey, still costs cash. Supports BL2 + TPS.
