@@ -15,6 +15,7 @@ class Main(ModMenu.SDKMod):
     SupportedGames: ModMenu.Game = ModMenu.Game.BL2 | ModMenu.Game.TPS
 
     defaultMouseSense = 60
+    workingMouseSense = 60
     aimRate = 1
     increase = True
 
@@ -46,25 +47,22 @@ class Main(ModMenu.SDKMod):
         if option == self.MyBoolean:
             self.increase = new_value
 
-    @ModMenu.Hook("WillowGame.WillowWeapon.StartZoom")
+    @ModMenu.Hook("WillowGame.WillowPlayerController.PlayerTick")
     def onStartZoom(self, caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
-        if self.increase == True:
-            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity * (self.aimRate / 100)
-        elif self.increase == False: 
-            controller.PlayerInput.MouseSensitivity = controller.PlayerInput.MouseSensitivity / (self.aimRate / 100)
+        if controller.IsZoomed() is True:
+            if self.increase == True:
+                controller.PlayerInput.MouseSensitivity = self.workingMouseSense * (self.aimRate / 100)
+            elif self.increase == False: 
+                controller.PlayerInput.MouseSensitivity = self.workingMouseSense / (self.aimRate / 100)
+        else: controller.PlayerInput.MouseSensitivity = self.defaultMouseSense
 
-        return True
-
-    @ModMenu.Hook("WillowGame.WillowWeapon.StopZoom")
-    def onStopZoom(self, caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
-        controller = unrealsdk.GetEngine().GamePlayers[0].Actor
-        controller.PlayerInput.MouseSensitivity = self.defaultMouseSense
         return True
 
     def Enable(self) -> None:
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
         self.defaultMouseSense = controller.PlayerInput.MouseSensitivity
+        self.workingMouseSense = controller.PlayerInput.MouseSensitivity
         super().Enable()
 
     def Disable(self) -> None:
