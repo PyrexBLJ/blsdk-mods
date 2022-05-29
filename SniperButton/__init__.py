@@ -8,7 +8,7 @@ class Main(ModMenu.SDKMod):
     "Automatically changes ADS sensitivity\n\n" \
             "change rate can be modified in mod settings"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.2"
+    Version: str = "1.0.3"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -50,7 +50,13 @@ class Main(ModMenu.SDKMod):
     @ModMenu.Hook("WillowGame.WillowPlayerController.PlayerTick")
     def onStartZoom(self, caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
         controller = unrealsdk.GetEngine().GamePlayers[0].Actor
-        if controller.IsZoomed() is True:
+        if controller.Pawn is None:
+            return True
+        
+        if controller.Pawn.Weapon is None:
+            return True
+
+        if controller.Pawn.Weapon.ZoomState is 2:
             if self.increase == True:
                 controller.PlayerInput.MouseSensitivity = self.workingMouseSense * (self.aimRate / 100)
             elif self.increase == False: 
