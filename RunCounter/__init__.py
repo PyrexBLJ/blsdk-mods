@@ -1,3 +1,5 @@
+import json
+import os
 import unrealsdk
 
 from Mods import ModMenu
@@ -10,7 +12,7 @@ class Main(ModMenu.SDKMod):
             "Reset Count: Num-5 (default)\n\n" \
                 "WIP"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.0"
+    Version: str = "1.0.1"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -22,7 +24,7 @@ class Main(ModMenu.SDKMod):
     DrawPs: bool = False
     DrawSs: bool = False
     DrawEs: bool = False
-    ResetDrops: bool = True
+    skipthisDrop: bool = False
     legendaries: int = 0
     pearls: int = 0
     seraph: int = 0
@@ -31,6 +33,9 @@ class Main(ModMenu.SDKMod):
     x: int = 50
     y: int = 50
     rarity: int = 0
+    basepath: str = "Mods/RunCounter/Farms/"
+    currentFarm: str = "farminfo"
+    lastFarm:str = "None"
 
     ResetCountBind = ModMenu.Keybind("Reset Count", "Num-5")
 
@@ -70,20 +75,13 @@ class Main(ModMenu.SDKMod):
             StartingValue=False,
             Choices=["No", "Yes"]  # False, True
         )
-        self.resetdropcounters = ModMenu.Options.Boolean(
-            Caption="Reset Drops With Runs",
-            Description="Will make the Reset Count reset the drops count as well",
-            StartingValue=True,
-            Choices=["No", "Yes"]  # False, True
-        )
         
         self.Options = [
             self.runcount,
             self.lcount,
             self.pcount,
             self.scount,
-            self.ecount,
-            self.resetdropcounters
+            self.ecount
         ]
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value) -> None:
@@ -102,17 +100,14 @@ class Main(ModMenu.SDKMod):
         if option == self.ecount:
             self.DrawEs = new_value
 
-        if option == self.resetdropcounters:
-            self.ResetDrops = new_value
-
-    def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
-        if bind == self.ResetCountBind and event == ModMenu.InputEvent.Pressed:
+    def ResetFarm(self, runs, drops) -> None:
+        if runs is True:
             self.Runs = 1
-            if self.ResetDrops is True:
-                self.legendaries = 0
-                self.pearls = 0
-                self.seraph = 0
-                self.effervescent = 0
+        if drops is True:
+            self.legendaries = 0
+            self.pearls = 0
+            self.seraph = 0
+            self.effervescent = 0
         
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
         canvas.Font = unrealsdk.FindObject("Font", "UI_Fonts.Font_Willowbody_18pt")
@@ -122,7 +117,65 @@ class Main(ModMenu.SDKMod):
         canvas.DrawText(text, False, scalex, scaley, ())
         self.NumDisplayedCounters += 1
 
+    def loadFarm(self, filename) -> None:
+        if os.path.exists(self.basepath + filename + ".json") is True:
+            file = open(self.basepath + filename + ".json")
+            farmdata = json.loads(file.read())
+            self.currentFarm = farmdata["farmname"]
+            self.Runs = farmdata["runs"]
+            self.legendaries = farmdata["legendaries"]
+            self.pearls = farmdata["pearls"]
+            self.seraph = farmdata["seraphs"]
+            self.effervescent = farmdata["effervescents"]
+            file.close()
+
+    def saveFarm(self, filename) -> None:
+        data = {
+            "farmname": filename,
+            "runs": self.Runs,
+            "legendaries":  self.legendaries,
+            "pearls": self.pearls,
+            "seraphs": self.seraph,
+            "effervescents": self.effervescent
+        }
+        if os.path.exists(self.basepath + filename + ".json"):
+            os.remove(self.basepath + filename + ".json")
+
+            create = open(self.basepath + filename + ".json", "x")
+            farmdata = json.dumps(data)
+            create.write(farmdata)
+            create.close()
+        else:
+            create = open(self.basepath + filename + ".json", "x")
+            farmdata = json.dumps(data)
+            create.write(farmdata)
+            create.close()
+
+    def SetLastSessionData(self) -> None:
+        data = {
+            "farmname": self.currentFarm
+        }
+        if os.path.exists(self.basepath + "defaultfarminfo.json"):
+            os.remove(self.basepath + "defaultfarminfo.json")
+
+        file = open(self.basepath + "defaultfarminfo.json", "w")
+        farmdata = json.dumps(data)
+        file.write(farmdata)
+        file.close()
+
+    def GetLastSessionData(self) -> None:
+         if os.path.exists(self.basepath + "defaultfarminfo.json"):
+            file = open(self.basepath + "defaultfarminfo.json")
+            farmdata = json.loads(file.read())
+            self.lastFarm = farmdata["farmname"]
+            file.close()
+
+
     def Enable(self) -> None:
+            if os.path.isdir(self.basepath) is False:
+                os.mkdir(self.basepath)
+            self.GetLastSessionData()
+            self.loadFarm(self.lastFarm)
             def onPostRender(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
                 if not params.Canvas:
                     return True
@@ -132,6 +185,7 @@ class Main(ModMenu.SDKMod):
                 self.NumDisplayedCounters = 0
 
                 if self.DrawCounter is True:
+                    self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, 255), 1, 1)
                     self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, 255), 1, 1)
 
                 if self.DrawLs is True:
@@ -151,22 +205,28 @@ class Main(ModMenu.SDKMod):
                 return True
 
             def onSaveQuit(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
+                self.saveFarm(str(self.currentFarm))
+                self.SetLastSessionData()
                 if self.DrawCounter is True:
                     self.Runs += 1
 
                 return True
 
             def onQuitWithoutSaving(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                self.saveFarm(str(self.currentFarm))
+                self.SetLastSessionData()
                 if self.DrawCounter is True:
                     self.Runs += 1
 
                 return True
 
             def onNewDrop(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.skipthisDrop is True:
+                    self.skipthisDrop = False
+                    return True
+
                 if self.DrawLs is True:
-                    if caller.InventoryRarityLevel == 9: #Legendaries
-                        self.legendaries += 1
-                    if caller.InventoryRarityLevel == 5: #Legendary class mods
+                    if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
                         self.legendaries += 1
                 if self.DrawPs is True:
                     if caller.InventoryRarityLevel == 500: #Pearls
@@ -182,10 +242,39 @@ class Main(ModMenu.SDKMod):
 
                 return True
 
+            def onChatCommand(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if params.msg.lower().startswith(".rc") is True:
+                    splitstring = params.msg.split(" ", 2)
+                    if splitstring[1].lower() == "create":
+                        self.ResetFarm(True, True)
+                        self.currentFarm = splitstring[2]
+                        self.saveFarm(splitstring[2])
+                        self.SetLastSessionData()
+                    if splitstring[1].lower() == "load":
+                        self.currentFarm = splitstring[2]
+                        self.loadFarm(splitstring[2])
+                        self.SetLastSessionData()
+                    if splitstring[1].lower() == "delete":
+                        if os.path.exists(self.basepath + splitstring[2] + ".json") is True:
+                            os.remove(self.basepath + splitstring[2] + ".json")
+                    if splitstring[1].lower() == "reset":
+                        if splitstring[2].lower() == "runs":
+                            self.ResetFarm(True, False)
+                        if splitstring[2].lower() == "drops":
+                            self.ResetFarm(False, True)
+                
+                return True 
+
+            def onIDroppedSomething(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                self.skipthisDrop = True
+                return True
+
             unrealsdk.RegisterHook("WillowGame.WillowGameViewportClient.PostRender", "Postrender", onPostRender)
             unrealsdk.RegisterHook("WillowGame.PauseGFxMovie.CompleteQuitToMenu", "SaveQuit", onSaveQuit)
             unrealsdk.RegisterHook("Engine.PlayerController.NotifyDisconnect", "QuitWithoutSaving", onQuitWithoutSaving)
             unrealsdk.RegisterHook("WillowGame.WillowPickup.EnableRagdollCollision", "DropCounter", onNewDrop)
+            unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", onChatCommand)
+            unrealsdk.RegisterHook("WillowGame.WillowWeapon.DropFrom", "NotMyDrops", onIDroppedSomething)
             super().Enable()
 
     def Disable(self) -> None:
@@ -193,6 +282,8 @@ class Main(ModMenu.SDKMod):
         unrealsdk.RemoveHook("WillowGame.PauseGFxMovie.CompleteQuitToMenu", "SaveQuit")
         unrealsdk.RemoveHook("Engine.PlayerController.NotifyDisconnect", "QuitWithoutSaving")
         unrealsdk.RemoveHook("WillowGame.WillowPickup.EnableRagdollCollision", "DropCounter")
+        unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
+        unrealsdk.RemoveHook("WillowGame.WillowWeapon.DropFrom", "NotMyDrops")
         super().Disable()
 
 instance = Main()
