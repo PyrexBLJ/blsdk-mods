@@ -12,3 +12,6 @@ Automatically modifies ADS speed. Supports BL2 + TPS.
 
 ![Respec HotKey](https://github.com/PyrexBLJ/blsdk-mods/tree/main/RHK)
 Respec skills from anywhere with a hotkey, still costs cash. Supports BL2 + TPS.
+
+![RunCounter](https://github.com/PyrexBLJ/blsdk-mods/tree/main/RunCounter)
+Counts farming runs per save quit. also tracks all weapon/item drops above legendary rarity. Supports BL2 + TPS.
