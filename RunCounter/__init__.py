@@ -1,3 +1,4 @@
+from ast import Mod
 import json
 import os
 import unrealsdk
@@ -12,7 +13,7 @@ class Main(ModMenu.SDKMod):
             "Counters only increment while being drawn\n\n" \
                 "WIP"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.2"
+    Version: str = "1.0.3"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -24,11 +25,13 @@ class Main(ModMenu.SDKMod):
     DrawPs: bool = True
     DrawSs: bool = True
     DrawEs: bool = True
+    DrawGs: bool = True
     skipthisDrop: bool = False
     legendaries: int = 0
     pearls: int = 0
     seraph: int = 0
     effervescent: int = 0
+    glitch: int = 0
     NumDisplayedCounters: int = 0
     x: int = 50
     y: int = 50
@@ -91,6 +94,7 @@ class Main(ModMenu.SDKMod):
             self.DrawPs = farmdata["showpearls"]
             self.DrawSs = farmdata["showseraphs"]
             self.DrawEs = farmdata["showeffervescents"]
+            self.DrawGs = farmdata["showglitches"]
             file.close()
 
     def saveFarm(self, filename) -> None:
@@ -106,6 +110,7 @@ class Main(ModMenu.SDKMod):
             "showpearls": self.DrawPs,
             "showseraphs": self.DrawSs,
             "showeffervescents": self.DrawEs,
+            "showglitches": self.DrawGs,
             "displayx": self.x,
             "displayy": self.y
         }
@@ -155,21 +160,32 @@ class Main(ModMenu.SDKMod):
 
                 self.NumDisplayedCounters = 0
 
-                if self.DrawCounter is True:
-                    self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
-                    self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
+                    if self.DrawCounter is True:
+                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
-                if self.DrawLs is True:
-                    self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                    if self.DrawLs is True:
+                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
-                if self.DrawPs is True:
-                    self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                    if self.DrawPs is True:
+                        self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
-                if self.DrawSs is True:
-                    self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                    if self.DrawSs is True:
+                        self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
-                if self.DrawEs is True:
-                    self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                    if self.DrawEs is True:
+                        self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
+                    if self.DrawCounter is True:
+                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+
+                    if self.DrawLs is True:
+                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+
+                    if self.DrawGs is True:
+                        self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 #self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 165, 255, 255), 1, 1)
                 
@@ -201,8 +217,8 @@ class Main(ModMenu.SDKMod):
                 if self.DrawPs is True:
                     if caller.InventoryRarityLevel == 500: #Pearls
                         self.pearls += 1
-                if self.DrawSs is True:
-                    if caller.InventoryRarityLevel == 501: #Seraphs
+                if self.DrawSs is True or self.DrawGs is True:
+                    if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
                         self.seraph += 1
                 if self.DrawEs is True:
                     if caller.InventoryRarityLevel == 506: #Effervescents
@@ -243,6 +259,8 @@ class Main(ModMenu.SDKMod):
                             self.DrawSs = not self.DrawSs
                         if splitstring[2].lower() == "e":
                             self.DrawEs = not self.DrawEs
+                        if splitstring[2].lower() == "g":
+                            self.DrawGs = not self.DrawGs
                     elif splitstring[1].lower() == "x":
                         self.x = int(splitstring[2])
                     elif splitstring[1].lower() == "y":
@@ -257,11 +275,11 @@ class Main(ModMenu.SDKMod):
                         elif splitstring[2].lower() == "reset":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Reset usage: .rc Reset Runs/Drops, Will reset either run count or drop count in currently loaded farm", 0)
                         elif splitstring[2].lower() == "toggle":
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle r/l/p/s/e, Toggles the display of certain counters for current farm", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle r/l/p/s/e/g, Toggles the display of certain counters for current farm", 0)
                         elif splitstring[2].lower() == "delete":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Delete usage: .rc delete name, Removes all saved data for specified farm", 0)
                         elif splitstring[2].lower() == "me": 
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y, A", 0)
                         elif splitstring[2].lower() == "x": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say X Usage: .rc X number, sets the pixel x value for the display, 50 by default", 0)
                         elif splitstring[2].lower() == "y": 
