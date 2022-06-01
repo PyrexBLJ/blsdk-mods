@@ -6,24 +6,24 @@ from Mods import ModMenu
 
 class Main(ModMenu.SDKMod):
     Name: str = "Run Counter"
-    Description: str = "<font size='20' color='#00ffe8'>Run Counter</font>\n\n" \
+    Description: str = "<font size='20' color='#ffa600'>Run Counter</font>\n\n" \
     "Adds 1 to the counter on save quit\n" \
         "Drop Counter will count any dropped object of at least legendary rarity\n\n" \
-            "Reset Count: Num-5 (default)\n\n" \
+            "Counters only increment while being drawn\n\n" \
                 "WIP"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
     SupportedGames: ModMenu.Game = ModMenu.Game.BL2 | ModMenu.Game.TPS
 
     Runs: int = 1
-    DrawCounter: bool = False
-    DrawLs: bool = False
-    DrawPs: bool = False
-    DrawSs: bool = False
-    DrawEs: bool = False
+    DrawCounter: bool = True
+    DrawLs: bool = True
+    DrawPs: bool = True
+    DrawSs: bool = True
+    DrawEs: bool = True
     skipthisDrop: bool = False
     legendaries: int = 0
     pearls: int = 0
@@ -32,73 +32,32 @@ class Main(ModMenu.SDKMod):
     NumDisplayedCounters: int = 0
     x: int = 50
     y: int = 50
+    yinc: int = 50
+    alpha: int = 255
     rarity: int = 0
     basepath: str = "Mods/RunCounter/Farms/"
     currentFarm: str = "farminfo"
     lastFarm:str = "None"
 
-    ResetCountBind = ModMenu.Keybind("Reset Count", "Num-5")
-
-    Keybinds = [ ResetCountBind ]
-
     blackcolor = (0, 0, 0, 255)
 
     def __init__(self) -> None:
         super().__init__()
-        self.runcount = ModMenu.Options.Boolean(
-            Caption="Draw Counter",
-            Description="Turn the counter on and off",
-            StartingValue=False,
-            Choices=["No", "Yes"]  # False, True
+        self.OpacitySlider = ModMenu.Options.Slider(
+            Caption="Text Opacity",
+            Description="How see-thru the text is",
+            StartingValue = 255,
+            MinValue = 20,
+            MaxValue = 255,
+            Increment = 1,
         )
-        self.lcount = ModMenu.Options.Boolean(
-            Caption="Draw Legendary Drop Counter",
-            Description="Turn the drop counter on and off",
-            StartingValue=False,
-            Choices=["No", "Yes"]  # False, True
-        )
-        self.pcount = ModMenu.Options.Boolean(
-            Caption="Draw Pearlescent Drop Counter",
-            Description="Turn the drop counter on and off",
-            StartingValue=False,
-            Choices=["No", "Yes"]  # False, True
-        )
-        self.scount = ModMenu.Options.Boolean(
-            Caption="Draw Seraph Drop Counter",
-            Description="Turn the drop counter on and off",
-            StartingValue=False,
-            Choices=["No", "Yes"]  # False, True
-        )
-        self.ecount = ModMenu.Options.Boolean(
-            Caption="Draw Effervescent Drop Counter",
-            Description="Turn the drop counter on and off",
-            StartingValue=False,
-            Choices=["No", "Yes"]  # False, True
-        )
-        
         self.Options = [
-            self.runcount,
-            self.lcount,
-            self.pcount,
-            self.scount,
-            self.ecount
+            self.OpacitySlider
         ]
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value) -> None:
-        if option == self.runcount:
-            self.DrawCounter = new_value
-
-        if option == self.lcount:
-            self.DrawLs = new_value
-
-        if option == self.pcount:
-            self.DrawPs = new_value
-
-        if option == self.scount:
-            self.DrawSs = new_value
-
-        if option == self.ecount:
-            self.DrawEs = new_value
+        if option == self.OpacitySlider:
+            self.alpha = new_value
 
     def ResetFarm(self, runs, drops) -> None:
         if runs is True:
@@ -112,7 +71,7 @@ class Main(ModMenu.SDKMod):
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
         canvas.Font = unrealsdk.FindObject("Font", "UI_Fonts.Font_Willowbody_18pt")
 
-        canvas.SetPos(x, y + (self.NumDisplayedCounters * y), 0)
+        canvas.SetPos(x, y + (self.NumDisplayedCounters * self.yinc), 0)
         canvas.SetDrawColorStruct(color) #b, g, r, a
         canvas.DrawText(text, False, scalex, scaley, ())
         self.NumDisplayedCounters += 1
@@ -127,6 +86,11 @@ class Main(ModMenu.SDKMod):
             self.pearls = farmdata["pearls"]
             self.seraph = farmdata["seraphs"]
             self.effervescent = farmdata["effervescents"]
+            self.DrawCounter = farmdata["showRunInfo"]
+            self.DrawLs = farmdata["showlegendaries"]
+            self.DrawPs = farmdata["showpearls"]
+            self.DrawSs = farmdata["showseraphs"]
+            self.DrawEs = farmdata["showeffervescents"]
             file.close()
 
     def saveFarm(self, filename) -> None:
@@ -136,7 +100,14 @@ class Main(ModMenu.SDKMod):
             "legendaries":  self.legendaries,
             "pearls": self.pearls,
             "seraphs": self.seraph,
-            "effervescents": self.effervescent
+            "effervescents": self.effervescent,
+            "showRunInfo": self.DrawCounter,
+            "showlegendaries": self.DrawLs,
+            "showpearls": self.DrawPs,
+            "showseraphs": self.DrawSs,
+            "showeffervescents": self.DrawEs,
+            "displayx": self.x,
+            "displayy": self.y
         }
         if os.path.exists(self.basepath + filename + ".json"):
             os.remove(self.basepath + filename + ".json")
@@ -185,43 +156,42 @@ class Main(ModMenu.SDKMod):
                 self.NumDisplayedCounters = 0
 
                 if self.DrawCounter is True:
-                    self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, 255), 1, 1)
-                    self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                    self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                    self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 if self.DrawLs is True:
-                    self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                    self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 if self.DrawPs is True:
-                    self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                    self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 if self.DrawSs is True:
-                    self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                    self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 if self.DrawEs is True:
-                    self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                    self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 #self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 165, 255, 255), 1, 1)
                 
                 return True
 
             def onSaveQuit(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
-                self.saveFarm(str(self.currentFarm))
-                self.SetLastSessionData()
                 if self.DrawCounter is True:
                     self.Runs += 1
-
+                self.saveFarm(str(self.currentFarm))
+                self.SetLastSessionData()
                 return True
 
             def onQuitWithoutSaving(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
-                self.saveFarm(str(self.currentFarm))
-                self.SetLastSessionData()
                 if self.DrawCounter is True:
                     self.Runs += 1
-
+                self.saveFarm(str(self.currentFarm))
+                self.SetLastSessionData()
                 return True
 
             def onNewDrop(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
                 if self.skipthisDrop is True:
+                    #self.rarity = caller.InventoryRarityLevel
                     self.skipthisDrop = False
                     return True
 
@@ -246,22 +216,58 @@ class Main(ModMenu.SDKMod):
                 if params.msg.lower().startswith(".rc") is True:
                     splitstring = params.msg.split(" ", 2)
                     if splitstring[1].lower() == "create":
+                        self.saveFarm(splitstring[2])
                         self.ResetFarm(True, True)
                         self.currentFarm = splitstring[2]
-                        self.saveFarm(splitstring[2])
                         self.SetLastSessionData()
-                    if splitstring[1].lower() == "load":
+                    elif splitstring[1].lower() == "load":
                         self.currentFarm = splitstring[2]
                         self.loadFarm(splitstring[2])
                         self.SetLastSessionData()
-                    if splitstring[1].lower() == "delete":
+                    elif splitstring[1].lower() == "delete":
                         if os.path.exists(self.basepath + splitstring[2] + ".json") is True:
                             os.remove(self.basepath + splitstring[2] + ".json")
-                    if splitstring[1].lower() == "reset":
+                    elif splitstring[1].lower() == "reset":
                         if splitstring[2].lower() == "runs":
                             self.ResetFarm(True, False)
                         if splitstring[2].lower() == "drops":
                             self.ResetFarm(False, True)
+                    elif splitstring[1].lower() == "toggle":
+                        if splitstring[2].lower() == "r":
+                            self.DrawCounter = not self.DrawCounter
+                        if splitstring[2].lower() == "l":
+                            self.DrawLs = not self.DrawLs
+                        if splitstring[2].lower() == "p":
+                            self.DrawPs = not self.DrawPs
+                        if splitstring[2].lower() == "s":
+                            self.DrawSs = not self.DrawSs
+                        if splitstring[2].lower() == "e":
+                            self.DrawEs = not self.DrawEs
+                    elif splitstring[1].lower() == "x":
+                        self.x = int(splitstring[2])
+                    elif splitstring[1].lower() == "y":
+                        self.y = int(splitstring[2])
+                    elif splitstring[1].lower() == "a":
+                        self.alpha = int(splitstring[2])
+                    elif splitstring[1].lower() == "help":
+                        if splitstring[2].lower() == "create":
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Create usage: .rc create name, Makes a new tracked farm", 0)
+                        elif splitstring[2].lower() == "load":
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Load usage: .rc load name, Opens a previously made farm", 0)
+                        elif splitstring[2].lower() == "reset":
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Reset usage: .rc Reset Runs/Drops, Will reset either run count or drop count in currently loaded farm", 0)
+                        elif splitstring[2].lower() == "toggle":
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle r/l/p/s/e, Toggles the display of certain counters for current farm", 0)
+                        elif splitstring[2].lower() == "delete":
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Delete usage: .rc delete name, Removes all saved data for specified farm", 0)
+                        elif splitstring[2].lower() == "me": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y", 0)
+                        elif splitstring[2].lower() == "x": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say X Usage: .rc X number, sets the pixel x value for the display, 50 by default", 0)
+                        elif splitstring[2].lower() == "y": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Y Usage: .rc Y number, sets the pixel y value for the display, 50 by default", 0)
+                        elif splitstring[2].lower() == "a": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say A Usage: .rc A number, sets the alpha value for the display 20-255, 255 by default", 0)
                 
                 return True 
 
