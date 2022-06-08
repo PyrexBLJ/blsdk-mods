@@ -11,7 +11,7 @@ class Main(ModMenu.SDKMod):
                 "Open stash: <b>F11</b>\n\n" \
                     "Keys can be rebound in modded key bindings"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -27,9 +27,9 @@ class Main(ModMenu.SDKMod):
 
     def ForceLoad(self) -> None:
         if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
-            unrealsdk.LoadPackage("Glacial_Dynamic")
+            unrealsdk.LoadPackage("Glacial_Dynamic", 0, False) #flag LOAD_None, force = false. seems to stop checkerboard textures
         elif ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
-            unrealsdk.LoadPackage("Spaceport_P")
+            unrealsdk.LoadPackage("Spaceport_P", 0, False)
         else : raise RuntimeError("Unsupported Game")
 
         unrealsdk.KeepAlive(unrealsdk.FindObject("GFxMovieDefinition", "UI_TwoPanelInterface.BankDef"))
