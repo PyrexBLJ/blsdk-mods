@@ -1,4 +1,3 @@
-from ast import Mod
 import json
 import os
 import unrealsdk
@@ -11,13 +10,22 @@ class Main(ModMenu.SDKMod):
     "Adds 1 to the counter on save quit\n" \
         "Drop Counter will count any dropped object of at least legendary rarity\n\n" \
             "Counters only increment while being drawn\n\n" \
-                "WIP"
+                "Main toggle hotkey is Num-7 by default\n\n"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.3"
+    Version: str = "1.0.4"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
     SupportedGames: ModMenu.Game = ModMenu.Game.BL2 | ModMenu.Game.TPS
+
+    MainBind = ModMenu.Keybind("Toggle Counter", "Num-7")
+
+    Keybinds = [ MainBind ]
+
+    doCounting: bool = True
+
+    countRagdollDrops: bool = True
+    countContainerDrops: bool = True
 
     Runs: int = 1
     DrawCounter: bool = True
@@ -41,6 +49,7 @@ class Main(ModMenu.SDKMod):
     basepath: str = "Mods/RunCounter/Farms/"
     currentFarm: str = "farminfo"
     lastFarm:str = "None"
+    itemmodel:str = "nothing to see here"
 
     blackcolor = (0, 0, 0, 255)
 
@@ -54,13 +63,106 @@ class Main(ModMenu.SDKMod):
             MaxValue = 255,
             Increment = 1,
         )
-        self.Options = [
-            self.OpacitySlider
-        ]
+        self.countdrops = ModMenu.Options.Boolean(
+            Caption="Count Enemy Drops",
+            Description="Turn the counter on and off",
+            StartingValue=True,
+            Choices=["No", "Yes"]  # False, True
+        )
+        self.countboxes = ModMenu.Options.Boolean(
+            Caption="Count Chest Drops",
+            Description="Turn the counter on and off",
+            StartingValue=True,
+            Choices=["No", "Yes"]  # False, True
+        )
+        self.runcount = ModMenu.Options.Boolean(
+            Caption="Draw Counter",
+            Description="Turn the counter on and off",
+            StartingValue=True,
+            Choices=["No", "Yes"]  # False, True
+        )
+        self.lcount = ModMenu.Options.Boolean(
+            Caption="Draw Legendary Drop Counter",
+            Description="Turn the drop counter on and off",
+            StartingValue=True,
+            Choices=["No", "Yes"]  # False, True
+        )
+        if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
+            self.pcount = ModMenu.Options.Boolean(
+                Caption="Draw Pearlescent Drop Counter",
+                Description="Turn the drop counter on and off",
+                StartingValue=True,
+                Choices=["No", "Yes"]  # False, True
+            )
+            self.scount = ModMenu.Options.Boolean(
+                Caption="Draw Seraph Drop Counter",
+                Description="Turn the drop counter on and off",
+                StartingValue=True,
+                Choices=["No", "Yes"]  # False, True
+            )
+            self.ecount = ModMenu.Options.Boolean(
+                Caption="Draw Effervescent Drop Counter",
+                Description="Turn the drop counter on and off",
+                StartingValue=True,
+                Choices=["No", "Yes"]  # False, True
+            )
+            self.Options = [
+                self.OpacitySlider,
+                self.countdrops,
+                self.countboxes,
+                self.runcount,
+                self.lcount,
+                self.pcount,
+                self.scount,
+                self.ecount
+            ]
+        if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
+            self.gcount = ModMenu.Options.Boolean(
+                Caption="Draw Glitch Drop Counter",
+                Description="Turn the drop counter on and off",
+                StartingValue=True,
+                Choices=["No", "Yes"]  # False, True
+            )
+            self.Options = [
+                self.OpacitySlider,
+                self.countdrops,
+                self.countboxes,
+                self.runcount,
+                self.lcount,
+                self.gcount
+            ]
+
+        
+
+    def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
+        if bind == self.MainBind and event == ModMenu.InputEvent.Pressed:
+            self.doCounting = not self.doCounting
+
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value) -> None:
         if option == self.OpacitySlider:
             self.alpha = new_value
+        if option == self.countdrops:
+            self.countRagdollDrops = new_value
+        if option == self.countboxes:
+            self.countContainerDrops = new_value
+
+        if option == self.runcount:
+            self.DrawCounter = new_value
+        if option == self.lcount:
+            self.DrawLs = new_value
+        
+        if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
+            if option == self.pcount:
+                self.DrawPs = new_value
+            if option == self.scount:
+                self.DrawSs = new_value
+            if option == self.ecount:
+                self.DrawEs = new_value
+
+        if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
+            if option == self.gcount:
+                self.DrawGs = new_value
 
     def ResetFarm(self, runs, drops) -> None:
         if runs is True:
@@ -72,7 +174,7 @@ class Main(ModMenu.SDKMod):
             self.effervescent = 0
         
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
-        canvas.Font = unrealsdk.FindObject("Font", "UI_Fonts.Font_Willowbody_18pt")
+        canvas.Font = unrealsdk.FindObject("Font", "ui_fonts.font_willowbody_18pt")
 
         canvas.SetPos(x, y + (self.NumDisplayedCounters * self.yinc), 0)
         canvas.SetDrawColorStruct(color) #b, g, r, a
@@ -95,6 +197,10 @@ class Main(ModMenu.SDKMod):
             self.DrawSs = farmdata["showseraphs"]
             self.DrawEs = farmdata["showeffervescents"]
             self.DrawGs = farmdata["showglitches"]
+            self.x = farmdata["displayx"]
+            self.y = ["displayy"]
+            self.countRagdollDrops = farmdata["countEntDrops"]
+            self.countContainerDrops = farmdata["countBoxDrops"]
             file.close()
 
     def saveFarm(self, filename) -> None:
@@ -112,7 +218,9 @@ class Main(ModMenu.SDKMod):
             "showeffervescents": self.DrawEs,
             "showglitches": self.DrawGs,
             "displayx": self.x,
-            "displayy": self.y
+            "displayy": self.y,
+            "countEntDrops": self.countRagdollDrops,
+            "countBoxDrops": self.countContainerDrops
         }
         if os.path.exists(self.basepath + filename + ".json"):
             os.remove(self.basepath + filename + ".json")
@@ -153,6 +261,9 @@ class Main(ModMenu.SDKMod):
             self.GetLastSessionData()
             self.loadFarm(self.lastFarm)
             def onPostRender(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.doCounting is False:
+                    return True
+
                 if not params.Canvas:
                     return True
 
@@ -188,10 +299,13 @@ class Main(ModMenu.SDKMod):
                         self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
 
                 #self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 165, 255, 255), 1, 1)
+                #self.DrawText(canvas, "Item Model: " + str(self.itemmodel), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
                 
                 return True
 
             def onSaveQuit(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
+                if self.doCounting is False:
+                    return True
                 if self.DrawCounter is True:
                     self.Runs += 1
                 self.saveFarm(str(self.currentFarm))
@@ -199,6 +313,8 @@ class Main(ModMenu.SDKMod):
                 return True
 
             def onQuitWithoutSaving(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.doCounting is False:
+                    return True
                 if self.DrawCounter is True:
                     self.Runs += 1
                 self.saveFarm(str(self.currentFarm))
@@ -206,8 +322,14 @@ class Main(ModMenu.SDKMod):
                 return True
 
             def onNewDrop(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.doCounting is False:
+                    return True
+
+                if self.countRagdollDrops is False:
+                    return True
+
                 if self.skipthisDrop is True:
-                    #self.rarity = caller.InventoryRarityLevel
+                    self.rarity = caller.InventoryRarityLevel
                     self.skipthisDrop = False
                     return True
 
@@ -225,10 +347,40 @@ class Main(ModMenu.SDKMod):
                         self.effervescent += 1
                 
                 self.rarity = caller.InventoryRarityLevel
+                self.itemmodel = caller.Inventory.GenerateHumanReadableName()
+
+                return True
+
+            def onChestDrop(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
+                if self.doCounting is False:
+                    return True
+
+                if self.countContainerDrops is False:
+                    return True
+
+                if self.DrawLs is True:
+                    if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
+                        self.legendaries += 1
+                if self.DrawPs is True:
+                    if caller.InventoryRarityLevel == 500: #Pearls
+                        self.pearls += 1
+                if self.DrawSs is True or self.DrawGs is True:
+                    if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
+                        self.seraph += 1
+                if self.DrawEs is True:
+                    if caller.InventoryRarityLevel == 506: #Effervescents
+                        self.effervescent += 1
+                
+                self.rarity = caller.InventoryRarityLevel
+                self.itemmodel = caller.Inventory.GenerateHumanReadableName()
 
                 return True
 
             def onChatCommand(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.doCounting is False and params.msg.lower().startswith(".rc") is True:
+                    unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Please toggle the main keybind to use the chat commands", 0)
+                    return True
+
                 if params.msg.lower().startswith(".rc") is True:
                     splitstring = params.msg.split(" ", 2)
                     if splitstring[1].lower() == "create":
@@ -251,15 +403,19 @@ class Main(ModMenu.SDKMod):
                     elif splitstring[1].lower() == "toggle":
                         if splitstring[2].lower() == "r":
                             self.DrawCounter = not self.DrawCounter
-                        if splitstring[2].lower() == "l":
+                        elif splitstring[2].lower() == "enemy":
+                            self.countRagdollDrops = not self.countRagdollDrops
+                        elif splitstring[2].lower() == "chest":
+                            self.countContainerDrops = not self.countContainerDrops
+                        elif splitstring[2].lower() == "l":
                             self.DrawLs = not self.DrawLs
-                        if splitstring[2].lower() == "p":
+                        elif splitstring[2].lower() == "p":
                             self.DrawPs = not self.DrawPs
-                        if splitstring[2].lower() == "s":
+                        elif splitstring[2].lower() == "s":
                             self.DrawSs = not self.DrawSs
-                        if splitstring[2].lower() == "e":
+                        elif splitstring[2].lower() == "e":
                             self.DrawEs = not self.DrawEs
-                        if splitstring[2].lower() == "g":
+                        elif splitstring[2].lower() == "g":
                             self.DrawGs = not self.DrawGs
                     elif splitstring[1].lower() == "x":
                         self.x = int(splitstring[2])
@@ -275,7 +431,7 @@ class Main(ModMenu.SDKMod):
                         elif splitstring[2].lower() == "reset":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Reset usage: .rc Reset Runs/Drops, Will reset either run count or drop count in currently loaded farm", 0)
                         elif splitstring[2].lower() == "toggle":
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle r/l/p/s/e/g, Toggles the display of certain counters for current farm", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle enemy/chest  r/l/p/s/e/g, toggles if the current farm tracks enemy or chest drops, or toggles the display of certain counters for current farm", 0)
                         elif splitstring[2].lower() == "delete":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Delete usage: .rc delete name, Removes all saved data for specified farm", 0)
                         elif splitstring[2].lower() == "me": 
@@ -290,6 +446,8 @@ class Main(ModMenu.SDKMod):
                 return True 
 
             def onIDroppedSomething(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> bool:
+                if self.doCounting is False:
+                    return True
                 self.skipthisDrop = True
                 return True
 
@@ -299,6 +457,7 @@ class Main(ModMenu.SDKMod):
             unrealsdk.RegisterHook("WillowGame.WillowPickup.EnableRagdollCollision", "DropCounter", onNewDrop)
             unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", onChatCommand)
             unrealsdk.RegisterHook("WillowGame.WillowWeapon.DropFrom", "NotMyDrops", onIDroppedSomething)
+            unrealsdk.RegisterHook("WillowGame.WillowPickup.AdjustPickupPhysicsAndCollisionForBeingAttached", "ChestDrops", onChestDrop)
             super().Enable()
 
     def Disable(self) -> None:
@@ -308,6 +467,7 @@ class Main(ModMenu.SDKMod):
         unrealsdk.RemoveHook("WillowGame.WillowPickup.EnableRagdollCollision", "DropCounter")
         unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
         unrealsdk.RemoveHook("WillowGame.WillowWeapon.DropFrom", "NotMyDrops")
+        unrealsdk.RemoveHook("WillowGame.WillowPickup.AdjustPickupPhysicsAndCollisionForBeingAttached", "ChestDrops")
         super().Disable()
 
 instance = Main()
