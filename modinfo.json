@@ -39,12 +39,12 @@
       },
       {
         "name": "Run Counter",
-        "description": ["A Mod that tracks save quits and item drops of at least legendary rarity. Chat command control with .rc prefix allows you to create new tracked farms, load previously made farms and control what data is shown where at any given time. ![yt](https://youtu.be/hHG11Ky_Pko)"],
+        "description": ["A Mod that tracks save quits and item drops of at least legendary rarity. Chat command control with .rc prefix allows you to create new tracked farms, load previously made farms and control what data is shown where at any given time. ![yt](https://youtu.be/uA7ywuPifFo)"],
         "tagline": ["Farm and drop tracker"],
         "types": ["Utility"],
-        "latest": "1.0.5",
+        "latest": "1.0.6",
         "versions": {
-          "1.0.5": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/RunCounter/RunCounter.rar"
+          "1.0.6": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/RunCounter/RunCounter.rar"
         },
         "requirements": {}
       }

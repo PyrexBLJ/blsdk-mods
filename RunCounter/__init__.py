@@ -10,9 +10,10 @@ class Main(ModMenu.SDKMod):
     "Adds 1 to the counter on save quit\n" \
         "Drop Counter will count any dropped object of at least legendary rarity\n\n" \
             "Counters only increment while being drawn\n\n" \
-                "Main toggle hotkey is Num-7 by default\n\n"
+                "old Run Counter mod folder must be deleted on new update\n\n" \
+                    "Main toggle hotkey is Num-7 by default\n\n"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.5"
+    Version: str = "1.0.6"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -41,8 +42,8 @@ class Main(ModMenu.SDKMod):
     effervescent: int = 0
     glitch: int = 0
     NumDisplayedCounters: int = 0
-    x: int = 50
-    y: int = 50
+    x = 50
+    y = 50
     yinc: int = 50
     alpha: int = 255
     rarity: int = 0
@@ -50,14 +51,25 @@ class Main(ModMenu.SDKMod):
     currentFarm: str = "farminfo"
     lastFarm:str = "None"
     itemmodel:str = "nothing to see here"
+    trackAnItem: str = "Rarity"
+    trackitem:str = ""
+    trackedItemCount:int = 0
+    trackedItems: str = []
+    trackedItemCounts:int = []
+    trackmodes:str = ["Rarity", "Item"]
 
     blackcolor = (0, 0, 0, 255)
     whitecolor = (255, 255, 255, 255)
     goldcolor = (0, 165, 255, alpha)
+    raincolor = (0, 0, 0, 255)
+    glowin = (0, 1)
+    glowout = (1, 0)
 
     background: str = "fx_shared_items.Textures.Customization_Skin"
 
+
     backgroundImages: str = [
+        "",
         "fx_shared_items.Textures.Customization_Skin", 
         "fx_shared_items.Textures.Customization_Head", 
         "EngineMaterials.DefaultDiffuse", 
@@ -73,7 +85,6 @@ class Main(ModMenu.SDKMod):
         "Common_GunMaterials.Patterns.Pattern_Jakobs_CaseHardened",
         "Common_GunMaterials.Patterns.Pattern_JakobsEpic_Zebrawood",
         "Common_GunMaterials.Logos.Logo_Logan5th",
-        ""
         ]
 
     def __init__(self) -> None:
@@ -83,6 +94,12 @@ class Main(ModMenu.SDKMod):
             Description="A few to choose from",
             StartingValue = self.backgroundImages[0],
             Choices = self.backgroundImages,
+        )
+        self.trackingSlider = ModMenu.Options.Spinner(
+            Caption="Tracking Mode",
+            Description="How to track item drops, add items with .rc item <name of item> in chat",
+            StartingValue = "Rarity",
+            Choices = self.trackmodes,
         )
         self.OpacitySlider = ModMenu.Options.Slider(
             Caption="Text Opacity",
@@ -136,6 +153,7 @@ class Main(ModMenu.SDKMod):
                 Choices=["No", "Yes"]  # False, True
             )
             self.Options = [
+                self.trackingSlider,
                 self.TextureSlider,
                 self.OpacitySlider,
                 self.countdrops,
@@ -154,6 +172,7 @@ class Main(ModMenu.SDKMod):
                 Choices=["No", "Yes"]  # False, True
             )
             self.Options = [
+                self.trackingSlider,
                 self.TextureSlider,
                 self.OpacitySlider,
                 self.countdrops,
@@ -172,6 +191,8 @@ class Main(ModMenu.SDKMod):
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value) -> None:
         if option == self.TextureSlider:
+            self.background = new_value
+        if option == self.trackingSlider:
             self.background = new_value
         if option == self.OpacitySlider:
             self.alpha = new_value
@@ -209,10 +230,9 @@ class Main(ModMenu.SDKMod):
         
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
         canvas.Font = unrealsdk.FindObject("Font", "ui_fonts.font_willowbody_18pt")
-        yval = y + self.NumDisplayedCounters * self.yinc
-        canvas.SetPos(x, yval, 0)
+        canvas.SetPos(x, y + self.NumDisplayedCounters * self.yinc, 50)
         canvas.SetDrawColorStruct(color) #b, g, r, a
-        canvas.DrawText(text, False, scalex, scaley, ())
+        canvas.DrawText(text, 1, scalex, scaley, (1, 1, (1, self.blackcolor, self.glowin, self.glowout)))
         self.NumDisplayedCounters += 1
 
     def DrawShader(self, canvas, x, y, w, h, color, shader) -> None:
@@ -239,10 +259,15 @@ class Main(ModMenu.SDKMod):
             self.DrawEs = farmdata["showeffervescents"]
             self.DrawGs = farmdata["showglitches"]
             self.x = farmdata["displayx"]
-            self.y = ["displayy"]
+            self.y = farmdata["displayy"]
             self.countRagdollDrops = farmdata["countEntDrops"]
             self.countContainerDrops = farmdata["countBoxDrops"]
             self.background = farmdata["bgimg"]
+            self.trackAnItem = farmdata["trackanitem"]
+            self.trackedItemCount = farmdata["trackedItemCount"]
+            self.trackitem = farmdata["trackitem"]
+            self.trackedItems = farmdata["trackeditem"]
+            self.trackedItemCounts = farmdata["trackeditemcounts"]
             file.close()
 
     def saveFarm(self, filename) -> None:
@@ -263,7 +288,12 @@ class Main(ModMenu.SDKMod):
             "displayy": self.y,
             "countEntDrops": self.countRagdollDrops,
             "countBoxDrops": self.countContainerDrops,
-            "bgimg": self.background
+            "bgimg": self.background,
+            "trackanitem": self.trackAnItem,
+            "trackedItemCount": self.trackedItemCount,
+            "trackitem": self.trackitem,
+            "trackeditem": self.trackedItems,
+            "trackeditemcounts": self.trackedItemCounts
         }
         if os.path.exists(self.basepath + filename + ".json"):
             os.remove(self.basepath + filename + ".json")
@@ -297,7 +327,6 @@ class Main(ModMenu.SDKMod):
             self.lastFarm = farmdata["farmname"]
             file.close()
 
-
     def Enable(self) -> None:
             if os.path.isdir(self.basepath) is False:
                 os.mkdir(self.basepath)
@@ -310,38 +339,48 @@ class Main(ModMenu.SDKMod):
                 if not params.Canvas:
                     return True
 
+
                 canvas = params.Canvas
 
                 self.NumDisplayedCounters = 0
 
+                x = self.x - 25
+                y = self.y - 25
+                self.DrawShader(canvas, x, y, 400, 350, self.whitecolor, self.background)
+
                 if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
                     if self.DrawCounter is True:
-                        self.DrawShader(canvas, self.x - 25, self.y - 25, 400, 350, self.whitecolor, self.background)
                         self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, self.goldcolor, 1, 1)
                         self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawLs is True:
-                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
+                    if self.trackingSlider.CurrentValue is "Rarity":
+                        if self.DrawLs is True:
+                            self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawPs is True:
-                        self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, self.goldcolor, 1, 1)
+                        if self.DrawPs is True:
+                            self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawSs is True:
-                        self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
+                        if self.DrawSs is True:
+                            self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawEs is True:
-                        self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, self.goldcolor, 1, 1)
+                        if self.DrawEs is True:
+                            self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, self.goldcolor, 1, 1)
+                    elif self.trackingSlider.CurrentValue is "Item":
+                        #for item in self.trackedItems:
+                        self.DrawText(canvas, str(self.trackitem) + "s: " + str(self.trackedItemCount), self.x, self.y, self.goldcolor, 1, 1)
                 if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
                     if self.DrawCounter is True:
-                        self.DrawShader(canvas, self.x - 25, self.y - 25, 200, 200, self.whitecolor, self.background)
                         self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, self.goldcolor, 1, 1)
                         self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawLs is True:
-                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
+                    if self.trackingSlider.CurrentValue is "Rarity":
+                        if self.DrawLs is True:
+                            self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
 
-                    if self.DrawGs is True:
-                        self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
+                        if self.DrawGs is True:
+                            self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
+                    elif self.trackingSlider.CurrentValue is "Item":
+                        self.DrawText(canvas, str(self.trackitem) + "s: " + str(self.trackedItemCount), self.x, self.y, self.goldcolor, 1, 1)
 
                 #self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 165, 255, 255), 1, 1)
                 #self.DrawText(canvas, "Item Model: " + str(self.itemmodel), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
@@ -378,18 +417,27 @@ class Main(ModMenu.SDKMod):
                     self.skipthisDrop = False
                     return True
 
-                if self.DrawLs is True:
-                    if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
-                        self.legendaries += 1
-                if self.DrawPs is True:
-                    if caller.InventoryRarityLevel == 500: #Pearls
-                        self.pearls += 1
-                if self.DrawSs is True or self.DrawGs is True:
-                    if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
-                        self.seraph += 1
-                if self.DrawEs is True:
-                    if caller.InventoryRarityLevel == 506: #Effervescents
-                        self.effervescent += 1
+                if self.trackingSlider.CurrentValue is "Rarity":
+                    if self.DrawLs is True:
+                        if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
+                            self.legendaries += 1
+                    if self.DrawPs is True:
+                        if caller.InventoryRarityLevel == 500: #Pearls
+                            self.pearls += 1
+                    if self.DrawSs is True or self.DrawGs is True:
+                        if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
+                            self.seraph += 1
+                    if self.DrawEs is True:
+                        if caller.InventoryRarityLevel == 506: #Effervescents
+                            self.effervescent += 1
+                elif self.trackingSlider.CurrentValue is "Item":
+                    if caller.Inventory.GenerateHumanReadableName().find(self.trackitem) is not -1:
+                        self.trackedItemCount += 1
+                    #x = 0 #why
+                    #for item in self.trackedItems:
+                        #if caller.Inventory.GenerateHumanReadableName().find(item) is not -1:
+                            #self.trackedItemCounts[x] += 1
+                            #x += 1 #why
                 
                 self.rarity = caller.InventoryRarityLevel
                 self.itemmodel = caller.Inventory.GenerateHumanReadableName()
@@ -402,19 +450,27 @@ class Main(ModMenu.SDKMod):
 
                 if self.countContainerDrops is False:
                     return True
-
-                if self.DrawLs is True:
-                    if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
-                        self.legendaries += 1
-                if self.DrawPs is True:
-                    if caller.InventoryRarityLevel == 500: #Pearls
-                        self.pearls += 1
-                if self.DrawSs is True or self.DrawGs is True:
-                    if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
-                        self.seraph += 1
-                if self.DrawEs is True:
-                    if caller.InventoryRarityLevel == 506: #Effervescents
-                        self.effervescent += 1
+                if self.trackingSlider.CurrentValue is "Rarity":
+                    if self.DrawLs is True:
+                        if caller.InventoryRarityLevel > 4 and caller.InventoryRarityLevel < 11 and caller.InventoryRarityLevel is not 6: #Legendaries, idk what 6 is but i dont think its one of these
+                            self.legendaries += 1
+                    if self.DrawPs is True:
+                        if caller.InventoryRarityLevel == 500: #Pearls
+                            self.pearls += 1
+                    if self.DrawSs is True or self.DrawGs is True:
+                        if caller.InventoryRarityLevel == 501: #Seraphs & Glitch (tps)
+                            self.seraph += 1
+                    if self.DrawEs is True:
+                        if caller.InventoryRarityLevel == 506: #Effervescents
+                            self.effervescent += 1
+                elif self.trackingSlider.CurrentValue is "Item":
+                    if caller.Inventory.GenerateHumanReadableName().find(self.trackitem) is not -1:
+                        self.trackedItemCount += 1
+                        #x = 0 #why
+                        #for item in self.trackedItems:
+                            #if caller.Inventory.GenerateHumanReadableName().find(item) is not -1:
+                                #self.trackedItemCounts[x] += 1
+                                #x += 1 #why
                 
                 self.rarity = caller.InventoryRarityLevel
                 self.itemmodel = caller.Inventory.GenerateHumanReadableName()
@@ -479,15 +535,22 @@ class Main(ModMenu.SDKMod):
                         elif splitstring[2].lower() == "delete":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Delete usage: .rc delete name, Removes all saved data for specified farm", 0)
                         elif splitstring[2].lower() == "me": 
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y, A", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y, A, item", 0)
                         elif splitstring[2].lower() == "x": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say X Usage: .rc X number, sets the pixel x value for the display, 50 by default", 0)
                         elif splitstring[2].lower() == "y": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Y Usage: .rc Y number, sets the pixel y value for the display, 50 by default", 0)
                         elif splitstring[2].lower() == "a": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say A Usage: .rc A number, sets the alpha value for the display 20-255, 255 by default", 0)
+                        elif splitstring[2].lower() == "item": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say item Usage: .rc item <item name>, sets the current item being tracked and switches to item mode", 0)
                     elif splitstring[1].lower() == "back":
                         self.background = splitstring[2]
+                    elif splitstring[1].lower() == "item":
+                        self.trackAnItem = True
+                        self.trackingSlider.CurrentValue = "Item"
+                        self.trackitem = splitstring[2]
+
                 
                 return True 
 
