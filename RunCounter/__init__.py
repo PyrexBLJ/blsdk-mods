@@ -12,7 +12,7 @@ class Main(ModMenu.SDKMod):
             "Counters only increment while being drawn\n\n" \
                 "Main toggle hotkey is Num-7 by default\n\n"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.4"
+    Version: str = "1.0.5"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -52,9 +52,38 @@ class Main(ModMenu.SDKMod):
     itemmodel:str = "nothing to see here"
 
     blackcolor = (0, 0, 0, 255)
+    whitecolor = (255, 255, 255, 255)
+    goldcolor = (0, 165, 255, alpha)
+
+    background: str = "fx_shared_items.Textures.Customization_Skin"
+
+    backgroundImages: str = [
+        "fx_shared_items.Textures.Customization_Skin", 
+        "fx_shared_items.Textures.Customization_Head", 
+        "EngineMaterials.DefaultDiffuse", 
+        "WillowHUD.Textures.Fixed_Marker_Flag", 
+        "FX_Shared_Smoke.Textures.Tex_Fractal_Cloud", 
+        "UI_Popup_DialogBox.DialogBox_I12", 
+        "fx_shared_items.Textures.CommDeck_Dif",
+        "FX_ENV_Misc.Textures.StarNebula_Dif", 
+        "FX_Shared_Tech.Textures.Tex_Shield_Triangle_Pattern", 
+        "FX_ENV_Misc.Textures.MissionSelect_Dif",
+        "FX_Shared_Energy.Textures.Assassin_Dash_Screen_Tex",
+        "Common_GunMaterials.Patterns.Pattern_JakobsEpic_SpaltedMaple", 
+        "Common_GunMaterials.Patterns.Pattern_Jakobs_CaseHardened",
+        "Common_GunMaterials.Patterns.Pattern_JakobsEpic_Zebrawood",
+        "Common_GunMaterials.Logos.Logo_Logan5th",
+        ""
+        ]
 
     def __init__(self) -> None:
         super().__init__()
+        self.TextureSlider = ModMenu.Options.Spinner(
+            Caption="Background Tex",
+            Description="A few to choose from",
+            StartingValue = self.backgroundImages[0],
+            Choices = self.backgroundImages,
+        )
         self.OpacitySlider = ModMenu.Options.Slider(
             Caption="Text Opacity",
             Description="How see-thru the text is",
@@ -107,6 +136,7 @@ class Main(ModMenu.SDKMod):
                 Choices=["No", "Yes"]  # False, True
             )
             self.Options = [
+                self.TextureSlider,
                 self.OpacitySlider,
                 self.countdrops,
                 self.countboxes,
@@ -124,6 +154,7 @@ class Main(ModMenu.SDKMod):
                 Choices=["No", "Yes"]  # False, True
             )
             self.Options = [
+                self.TextureSlider,
                 self.OpacitySlider,
                 self.countdrops,
                 self.countboxes,
@@ -140,8 +171,11 @@ class Main(ModMenu.SDKMod):
 
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value) -> None:
+        if option == self.TextureSlider:
+            self.background = new_value
         if option == self.OpacitySlider:
             self.alpha = new_value
+            self.goldcolor = (0, 165, 255, self.alpha)
         if option == self.countdrops:
             self.countRagdollDrops = new_value
         if option == self.countboxes:
@@ -175,11 +209,18 @@ class Main(ModMenu.SDKMod):
         
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
         canvas.Font = unrealsdk.FindObject("Font", "ui_fonts.font_willowbody_18pt")
-
-        canvas.SetPos(x, y + (self.NumDisplayedCounters * self.yinc), 0)
+        yval = y + self.NumDisplayedCounters * self.yinc
+        canvas.SetPos(x, yval, 0)
         canvas.SetDrawColorStruct(color) #b, g, r, a
         canvas.DrawText(text, False, scalex, scaley, ())
         self.NumDisplayedCounters += 1
+
+    def DrawShader(self, canvas, x, y, w, h, color, shader) -> None:
+        tex = unrealsdk.FindObject("Texture2D", shader)
+
+        canvas.SetPos(x, y, 0)
+        canvas.SetDrawColorStruct(color) #b, g, r, a
+        canvas.DrawRect(w, h, tex)
 
     def loadFarm(self, filename) -> None:
         if os.path.exists(self.basepath + filename + ".json") is True:
@@ -201,6 +242,7 @@ class Main(ModMenu.SDKMod):
             self.y = ["displayy"]
             self.countRagdollDrops = farmdata["countEntDrops"]
             self.countContainerDrops = farmdata["countBoxDrops"]
+            self.background = farmdata["bgimg"]
             file.close()
 
     def saveFarm(self, filename) -> None:
@@ -220,7 +262,8 @@ class Main(ModMenu.SDKMod):
             "displayx": self.x,
             "displayy": self.y,
             "countEntDrops": self.countRagdollDrops,
-            "countBoxDrops": self.countContainerDrops
+            "countBoxDrops": self.countContainerDrops,
+            "bgimg": self.background
         }
         if os.path.exists(self.basepath + filename + ".json"):
             os.remove(self.basepath + filename + ".json")
@@ -273,30 +316,32 @@ class Main(ModMenu.SDKMod):
 
                 if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
                     if self.DrawCounter is True:
-                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
-                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawShader(canvas, self.x - 25, self.y - 25, 400, 350, self.whitecolor, self.background)
+                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, self.goldcolor, 1, 1)
+                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawLs is True:
-                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawPs is True:
-                        self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Pearlescents: " + str(self.pearls), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawSs is True:
-                        self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Seraphs: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawEs is True:
-                        self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Effervescents: " + str(self.effervescent), self.x, self.y, self.goldcolor, 1, 1)
                 if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
                     if self.DrawCounter is True:
-                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
-                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawShader(canvas, self.x - 25, self.y - 25, 200, 200, self.whitecolor, self.background)
+                        self.DrawText(canvas, "Farming: " + self.currentFarm, self.x, self.y, self.goldcolor, 1, 1)
+                        self.DrawText(canvas, "Run # " + str(self.Runs), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawLs is True:
-                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Legendaries: " + str(self.legendaries), self.x, self.y, self.goldcolor, 1, 1)
 
                     if self.DrawGs is True:
-                        self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
+                        self.DrawText(canvas, "Glitch: " + str(self.seraph), self.x, self.y, self.goldcolor, 1, 1)
 
                 #self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 165, 255, 255), 1, 1)
                 #self.DrawText(canvas, "Item Model: " + str(self.itemmodel), self.x, self.y, (0, 165, 255, self.alpha), 1, 1)
@@ -389,7 +434,6 @@ class Main(ModMenu.SDKMod):
                         self.currentFarm = splitstring[2]
                         self.SetLastSessionData()
                     elif splitstring[1].lower() == "load":
-                        self.currentFarm = splitstring[2]
                         self.loadFarm(splitstring[2])
                         self.SetLastSessionData()
                     elif splitstring[1].lower() == "delete":
@@ -442,6 +486,8 @@ class Main(ModMenu.SDKMod):
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Y Usage: .rc Y number, sets the pixel y value for the display, 50 by default", 0)
                         elif splitstring[2].lower() == "a": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say A Usage: .rc A number, sets the alpha value for the display 20-255, 255 by default", 0)
+                    elif splitstring[1].lower() == "back":
+                        self.background = splitstring[2]
                 
                 return True 
 
