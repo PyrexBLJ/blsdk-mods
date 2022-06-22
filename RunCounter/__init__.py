@@ -12,7 +12,7 @@ class Main(ModMenu.SDKMod):
             "Counters only increment while being drawn\n\n" \
                 "Main toggle hotkey is Num-7 by default\n\n"
     Author: str = "PyrexBLJ"
-    Version: str = "1.0.7"
+    Version: str = "1.0.8"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -38,7 +38,6 @@ class Main(ModMenu.SDKMod):
     y = 50
     yinc: int = 50
     alpha: int = 255
-    currentWidth: int = 100
     rarity: int = 0
     basepath: str = "Mods/RunCounter/Farms/"
     currentFarm: str = "farminfo"
@@ -50,12 +49,13 @@ class Main(ModMenu.SDKMod):
     trackedItemCounts:int = []
     trackmodes: str = ["Rarity", "Item"]
     #trackmode: str = "Rarity"
+    needsupdate: bool = True
 
     blackcolor = (0, 0, 0, 255)
     whitecolor = (255, 255, 255, alpha)
     goldcolor = (0, 165, 255, alpha)
     raincolor = (0, 0, 0, 255)
-    glowin = (50, 10)
+    glowin = (50, 10) # idk just tryin stuff
     glowout = (210, 90)
 
 
@@ -125,6 +125,15 @@ class Main(ModMenu.SDKMod):
             StartingValue=True,
             Choices=["No", "Yes"]  # False, True
         )
+        self.currentWidth = ModMenu.Options.Slider(
+            Caption="shader width",
+            Description="you shouldnt see this",
+            StartingValue=100,
+            MinValue = 10,
+            MaxValue = 10000,
+            Increment = 1,
+            IsHidden = True
+        )
         if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
             self.pcount = ModMenu.Options.Boolean(
                 Caption="Draw Pearlescent Drop Counter",
@@ -148,6 +157,7 @@ class Main(ModMenu.SDKMod):
                 self.trackingSlider,
                 self.TextureSlider,
                 self.OpacitySlider,
+                self.currentWidth,
                 self.countdrops,
                 self.countboxes,
                 self.runcount,
@@ -167,6 +177,7 @@ class Main(ModMenu.SDKMod):
                 self.trackingSlider,
                 self.TextureSlider,
                 self.OpacitySlider,
+                self.currentWidth,
                 self.countdrops,
                 self.countboxes,
                 self.runcount,
@@ -185,8 +196,6 @@ class Main(ModMenu.SDKMod):
         if option == self.OpacitySlider:
             self.alpha = new_value
             self.goldcolor = (0, 165, 255, self.alpha)
-        #if option == self.trackingSlider:
-            #self.trackmode = str(new_value)
 
     def ResetFarm(self, runs, drops) -> None:
         if runs is True:
@@ -196,14 +205,23 @@ class Main(ModMenu.SDKMod):
             self.pearls = 0
             self.seraph = 0
             self.effervescent = 0
+            self.trackedItemCount = 0
+            self.trackitem = ""
+            self.lcount.CurrentValue = True
+            self.countdrops.CurrentValue = True
+            self.countboxes.CurrentValue = True
+            if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
+                self.pcount.CurrentValue = True
+                self.scount.CurrentValue = True
+                self.ecount.CurrentValue = True
+            if ModMenu.Game.GetCurrent() == ModMenu.Game.TPS:
+                self.gcount.CurrentValue = True
+        self.currentWidth.CurrentValue = 100
         
     def DrawText(self, canvas, text, x, y, color, scalex, scaley) -> None:
-        canvas.Font = unrealsdk.FindObject("Font", "ui_fonts.font_willowbody_18pt")
-        tempw = 0
-        temph = 0
-        canvas.TextSize(text, tempw, temph)
-        if tempw >= self.currentWidth:
-            self.currentWidth = tempw
+        w, h = canvas.TextSize(text, 0, 0)
+        if w > self.currentWidth.CurrentValue:
+            self.currentWidth.CurrentValue = w + 25
         canvas.SetPos(x, y + self.NumDisplayedCounters * self.yinc, 50)
         canvas.SetDrawColorStruct(color) #b, g, r, a
         canvas.DrawText(text, 1, scalex, scaley, (1, 1, (1, self.blackcolor, self.glowin, self.glowout)))
@@ -245,6 +263,7 @@ class Main(ModMenu.SDKMod):
             self.trackedItems = farmdata["trackeditem"]
             self.trackedItemCounts = farmdata["trackeditemcounts"]
             file.close()
+        self.needsupdate = True
 
     def saveFarm(self, filename) -> None:
         if ModMenu.Game.GetCurrent() == ModMenu.Game.BL2:
@@ -325,7 +344,6 @@ class Main(ModMenu.SDKMod):
             file = open(self.basepath + "defaultfarminfo.json")
             farmdata = json.loads(file.read())
             self.lastFarm = farmdata["farmname"]
-            #self.trackmode = farmdata["trackingmode"]
             file.close()
 
     def Enable(self) -> None:
@@ -345,7 +363,10 @@ class Main(ModMenu.SDKMod):
 
                 x = self.x - 15
                 y = self.y - 15
-                self.DrawShader(canvas, x, y, self.currentWidth + 20, float(50 * self.NumDisplayedCounters) + 20, self.whitecolor, self.TextureSlider.CurrentValue)
+                
+                canvas.Font = unrealsdk.FindObject("Font", "ui_fonts.font_willowbody_18pt")
+                
+                self.DrawShader(canvas, x, y, self.currentWidth.CurrentValue, float(50 * self.NumDisplayedCounters) + 20, self.whitecolor, self.TextureSlider.CurrentValue)
 
                 self.NumDisplayedCounters = 0
 
@@ -389,7 +410,7 @@ class Main(ModMenu.SDKMod):
                     self.DrawText(canvas, "Rarity: " + str(self.rarity), self.x, self.y, (0, 255, 0, 255), 1, 1)
                     self.DrawText(canvas, "Item 'readable' name: " + str(self.itemmodel), self.x, self.y, (0, 255, 0, 255), 1, 1)
                     self.DrawText(canvas, "tracking slider cur value: " + self.trackingSlider.CurrentValue, self.x, self.y, (0, 255, 0, 255), 1, 1)
-                    self.DrawText(canvas, "max text width: " + str(self.currentWidth), self.x, self.y, (0, 255, 0, 255), 1, 1)
+                    self.DrawText(canvas, "max text width: " + str(self.currentWidth.CurrentValue), self.x, self.y, (0, 255, 0, 255), 1, 1)
                 
                 return True
 
@@ -497,6 +518,7 @@ class Main(ModMenu.SDKMod):
                         self.saveFarm(splitstring[2])
                         self.ResetFarm(True, True)
                         self.currentFarm = splitstring[2]
+                        self.trackingSlider.CurrentValue = "Rarity"
                         self.SetLastSessionData()
                     elif splitstring[1].lower() == "load":
                         self.loadFarm(splitstring[2])
@@ -532,6 +554,8 @@ class Main(ModMenu.SDKMod):
                         self.y = int(splitstring[2])
                     elif splitstring[1].lower() == "a":
                         self.alpha = int(splitstring[2])
+                    elif splitstring[1].lower() == "w":
+                        self.currentWidth.CurrentValue = int(splitstring[2])
                     elif splitstring[1].lower() == "help":
                         if splitstring[2].lower() == "create":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Create usage: .rc create <farm name>, Makes a new tracked farm", 0)
@@ -540,11 +564,11 @@ class Main(ModMenu.SDKMod):
                         elif splitstring[2].lower() == "reset":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Reset usage: .rc Reset <Runs/Drops>, Will reset either run count or drop count in currently loaded farm", 0)
                         elif splitstring[2].lower() == "toggle":
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle <enemy/chest/r/l/p/s/e/g>, toggles if the current farm tracks enemy or chest drops, or toggles the display of certain counters for current farm", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Toggle usage: .rc toggle <enemy/chest/r/l/p/s/e/g>, toggles item tracking modes, or toggles the display of certain counters for current farm", 0)
                         elif splitstring[2].lower() == "delete":
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Delete usage: .rc delete <farm name>, Removes all saved data for specified farm", 0)
                         elif splitstring[2].lower() == "me": 
-                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y, A, item", 0)
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Run Counter Prefix: .rc, Commands: Create, Load, Reset, Toggle, Delete, X, Y, A, W, Item, Back", 0)
                         elif splitstring[2].lower() == "x": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say X Usage: .rc X <number>, sets the pixel x value for the display, 50 by default", 0)
                         elif splitstring[2].lower() == "y": 
@@ -553,6 +577,10 @@ class Main(ModMenu.SDKMod):
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say A Usage: .rc A <number>, sets the alpha value for the display 20-255, 255 by default", 0)
                         elif splitstring[2].lower() == "item": 
                             unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say item Usage: .rc item <item name>, sets the current item being tracked and switches to item mode", 0)
+                        elif splitstring[2].lower() == "w": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say w Usage: .rc w <shader width>, sets the current background width, yes this is a bad workaround that shouldnt exist", 0)
+                        elif splitstring[2].lower() == "back": 
+                            unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("say Back Usage: .rc back <Texture2D Name>, sets the current background shader", 0)
                     elif splitstring[1].lower() == "back":
                         self.TextureSlider.CurrentValue = splitstring[2]
                     elif splitstring[1].lower() == "item":
