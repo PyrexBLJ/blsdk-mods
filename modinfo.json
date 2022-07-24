@@ -49,6 +49,17 @@
           "1.0.8": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/RunCounter/RunCounter1.0.8.rar"
         },
         "requirements": {}
+      },
+      {
+        "name": "Audio Control",
+        "description": ["Stop certain sounds from playing, more sounds will be added in the future"],
+        "tagline": ["Stop the bee shield sound"],
+        "types": ["Utility"],
+        "latest": "1.0.0",
+        "versions": {
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl/AudioControl1_0_0.rar"
+        },
+        "requirements": {}
       }
     ]
   }
