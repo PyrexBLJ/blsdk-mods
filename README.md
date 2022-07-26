@@ -15,3 +15,6 @@ Respec skills from anywhere with a hotkey, still costs cash. Supports BL2 + TPS.
 
 ![RunCounter](https://github.com/PyrexBLJ/blsdk-mods/tree/main/RunCounter)
 Counts farming runs per save quit. also tracks all weapon/item drops above legendary rarity. Supports BL2 + TPS.
+
+![Audio Control](https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl)
+Allows sounds to be toggled on or off, atm only the bee shield impact sound but more will be added in the future. Supports BL2
