@@ -61,6 +61,18 @@
           "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl/AudioControl1_0_0.rar"
         },
         "requirements": {}
+      },
+      {
+        "name": "All Or Nothing Companion",
+        "description": ["Joltz idea for a deception modifier in his AON run"],
+        "tagline": ["All Or Nothing Companion"],
+        "types": ["Utility"],
+        "latest": "1.0.1",
+        "supports":  [ "BL2" ],
+        "versions": {
+          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AllOrNothingCompanion/AllOrNothingCompanion.rar"
+        },
+        "requirements": {}
       }
     ]
   }

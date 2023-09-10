@@ -7,7 +7,7 @@ class Main(ModMenu.SDKMod):
     Description: str = "<font size='20' color='#00ffe8'>All Or Nothing Companion</font>\n\n" \
     "Joltz idea for a deception modifier in his AON run"
     Author: str = "Pyrex"
-    Version: str = "1.0.0"
+    Version: str = "1.0.1"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -46,7 +46,7 @@ class Main(ModMenu.SDKMod):
     def Enable(self) -> None:
 
         def StartAC(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
-            if self.IsOn == True:
+            if self.IsOn == True and str(unrealsdk.GetEngine().GamePlayers[0].Actor.PlayerClass.SkillTreePath) == "GD_Assassin_Streaming.SkillTree.SkillTree_Assassin":
                 unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(self.SpeedModifier / 100)
             return True
 
