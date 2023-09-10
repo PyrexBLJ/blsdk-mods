@@ -18,3 +18,6 @@ Counts farming runs per save quit. also tracks all weapon/item drops above legen
 
 ![Audio Control](https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl)
 Allows sounds to be toggled on or off, atm only the bee shield impact sound but more will be added in the future. Supports BL2
+
+![All Or Nothing Companion](https://github.com/PyrexBLJ/blsdk-mods/tree/main/AllOrNothingCompanion)
+Joltz idea for a deception modifier in his AON run. Supports BL2
