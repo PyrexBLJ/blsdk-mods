@@ -16,6 +16,10 @@ class Main(ModMenu.SDKMod):
     SpeedModifier: int = 50
     IsOn: bool = True
 
+    ResetTimescaleBind = ModMenu.Keybind("Reset Timescale", "F13")
+
+    Keybinds = [ ResetTimescaleBind ]
+
     def __init__(self) -> None:
         self.Enabled = ModMenu.Options.Boolean(
             Caption="Enabled",
@@ -42,6 +46,10 @@ class Main(ModMenu.SDKMod):
             self.SpeedModifier = new_value
         if option == self.Enabled:
             self.IsOn = new_value
+
+    def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
+        if bind == self.ResetTimescaleBind and event == ModMenu.InputEvent.Pressed:
+            unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(1.0)
 
     def Enable(self) -> None:
 
