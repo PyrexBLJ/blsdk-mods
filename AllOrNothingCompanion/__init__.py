@@ -7,7 +7,7 @@ class Main(ModMenu.SDKMod):
     Description: str = "<font size='20' color='#00ffe8'>All Or Nothing Companion</font>\n\n" \
     "Joltz idea for a deception modifier in his AON run"
     Author: str = "Pyrex"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -15,6 +15,7 @@ class Main(ModMenu.SDKMod):
 
     SpeedModifier: int = 50
     IsOn: bool = True
+    AllChars: bool = False
 
     ResetTimescaleBind = ModMenu.Keybind("Reset Timescale", "F13")
 
@@ -27,6 +28,12 @@ class Main(ModMenu.SDKMod):
             StartingValue=True,
             Choices=["No", "Yes"]
         )
+        self.AC = ModMenu.Options.Boolean(
+            Caption="All Characters Mode",
+            Description="Enables/Disables The Mod For All Characters",
+            StartingValue=False,
+            Choices=["No", "Yes"]
+        )
         self.GameSpeedSlider = ModMenu.Options.Slider(
             Caption="Deception Game Speed",
             Description="How much game speed should be slowed down by as a percentage",
@@ -37,6 +44,7 @@ class Main(ModMenu.SDKMod):
         )
         self.Options = [
             self.Enabled,
+            self.AC,
             self.GameSpeedSlider
         ]
         super().__init__()
@@ -46,6 +54,8 @@ class Main(ModMenu.SDKMod):
             self.SpeedModifier = new_value
         if option == self.Enabled:
             self.IsOn = new_value
+        if option == self.AC:
+            self.AllChars = new_value
 
     def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
         if bind == self.ResetTimescaleBind and event == ModMenu.InputEvent.Pressed:
@@ -54,8 +64,11 @@ class Main(ModMenu.SDKMod):
     def Enable(self) -> None:
 
         def StartAC(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
-            if self.IsOn == True and str(unrealsdk.GetEngine().GamePlayers[0].Actor.PlayerClass.SkillTreePath) == "GD_Assassin_Streaming.SkillTree.SkillTree_Assassin":
-                unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(self.SpeedModifier / 100)
+            if self.IsOn == True:
+                if self.AllChars == False and str(unrealsdk.GetEngine().GamePlayers[0].Actor.PlayerClass.SkillTreePath) == "GD_Assassin_Streaming.SkillTree.SkillTree_Assassin":
+                    unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(self.SpeedModifier / 100)
+                elif self.AllChars == True:
+                    unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(self.SpeedModifier / 100)
             return True
 
         def EndAC(caller: unrealsdk.UObject, function: unrealsdk.UFunction, params: unrealsdk.FStruct) -> None:
@@ -63,12 +76,14 @@ class Main(ModMenu.SDKMod):
                 unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(1.0)
             return True
 
-        unrealsdk.RegisterHook("WillowGame.WillowPlayerController.StartActionSkill", "ACS", StartAC)
+        #unrealsdk.RegisterHook("WillowGame.WillowPlayerController.StartActionSkill", "ACS", StartAC)
+        unrealsdk.RegisterHook("WillowGame.ActionSkill.OnActionSkillActivated", "ACS", StartAC)
         unrealsdk.RegisterHook("WillowGame.ActionSkill.OnActionSkillEnded", "ACE", EndAC)
         super().Enable()
 
     def Disable(self) -> None:
-        unrealsdk.RemoveHook("WillowGame.WillowPlayerController.StartActionSkill", "ACS")
+        #unrealsdk.RemoveHook("WillowGame.WillowPlayerController.StartActionSkill", "ACS")
+        unrealsdk.RemoveHook("WillowGame.ActionSkill.OnActionSkillActivated", "ACS")
         unrealsdk.RemoveHook("WillowGame.ActionSkill.OnActionSkillEnded", "ACE")
         super().Disable()
 
