@@ -5,9 +5,10 @@ from Mods import ModMenu
 class Main(ModMenu.SDKMod):
     Name: str = "AONCompanion"
     Description: str = "<font size='20' color='#00ffe8'>All Or Nothing Companion</font>\n\n" \
-    "Joltz idea for a deception modifier in his AON run"
+    "Joltz idea for a deception modifier in his AON run\n\n"\
+        "Slow Motion Action Skills\nReset Timescale Hotkey\nFast Forward Hotkey"
     Author: str = "Pyrex"
-    Version: str = "1.0.2"
+    Version: str = "1.0.3"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadWithSettings
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -18,8 +19,9 @@ class Main(ModMenu.SDKMod):
     AllChars: bool = False
 
     ResetTimescaleBind = ModMenu.Keybind("Reset Timescale", "F13")
+    FastForwardBind = ModMenu.Keybind("Hold to Fast Forward", "F14")
 
-    Keybinds = [ ResetTimescaleBind ]
+    Keybinds = [ ResetTimescaleBind, FastForwardBind ]
 
     def __init__(self) -> None:
         self.Enabled = ModMenu.Options.Boolean(
@@ -59,6 +61,10 @@ class Main(ModMenu.SDKMod):
 
     def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
         if bind == self.ResetTimescaleBind and event == ModMenu.InputEvent.Pressed:
+            unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(1.0)
+        if bind == self.FastForwardBind and event == ModMenu.InputEvent.Pressed:
+            unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(16.0)
+        if bind == self.FastForwardBind and event == ModMenu.InputEvent.Released:
             unrealsdk.GetEngine().GetCurrentWorldInfo().TimeDilation = float(1.0)
 
     def Enable(self) -> None:
