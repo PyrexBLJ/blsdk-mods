@@ -40,7 +40,7 @@ class Main(ModMenu.SDKMod):
             Caption="Deception Game Speed",
             Description="How much game speed should be slowed down by as a percentage",
             StartingValue = 50,
-            MinValue = 0,
+            MinValue = 1,
             MaxValue = 100,
             Increment = 1,
         )
