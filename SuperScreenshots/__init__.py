@@ -17,7 +17,7 @@ class Main(ModMenu.SDKMod):
 
     canvas = None
 
-    ScreenshotSizes: str = [ "1440 - 2K", "2160 - 4K", "4320 - 8K", "8640 - 16K", "17280 - 32k"]
+    ScreenshotSizes: str = [ "1440 - 2K", "2160 - 4K", "4320 - 8K", "8640 - 16K"]
 
     Keybinds = [ ScreenshotBind ]
 
