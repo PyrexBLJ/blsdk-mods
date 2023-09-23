@@ -75,14 +75,14 @@
         "requirements": {}
       },
       {
-        "name": "Super Screenshot",
+        "name": "Super Screenshots",
         "description": ["High resolution screenshots independent of game resolution, 1440p - 16k"],
         "tagline": ["High res screenshots"],
         "types": ["Utility"],
         "latest": "1.0.0",
         "supports":  [ "BL2", "TPS" ],
         "versions": {
-          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/SuperScreenshot/SuperScreenshot.rar"
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/SuperScreenshots/SuperScreenshots.rar"
         },
         "requirements": {}
       }

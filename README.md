@@ -22,5 +22,5 @@ Allows sounds to be toggled on or off, atm only the bee shield impact sound but 
 ![All Or Nothing Companion](https://github.com/PyrexBLJ/blsdk-mods/tree/main/AllOrNothingCompanion)
 Joltz idea for a deception modifier in his AON run. Supports BL2.
 
-![Super Screenshot](https://github.com/PyrexBLJ/blsdk-mods/tree/main/SuperScreenshot)
+![Super Screenshots](https://github.com/PyrexBLJ/blsdk-mods/tree/main/SuperScreenshots)
 High resolution screenshots independent of game resolution, 1440p - 16k. Supports BL2 + TPS.
