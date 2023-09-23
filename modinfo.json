@@ -67,10 +67,22 @@
         "description": ["Joltz idea for a deception modifier in his AON run"],
         "tagline": ["All Or Nothing Companion"],
         "types": ["Utility"],
-        "latest": "1.0.1",
+        "latest": "1.0.3",
         "supports":  [ "BL2" ],
         "versions": {
-          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AllOrNothingCompanion/AllOrNothingCompanion.rar"
+          "1.0.3": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AllOrNothingCompanion/AllOrNothingCompanion.rar"
+        },
+        "requirements": {}
+      },
+      {
+        "name": "Super Screenshot",
+        "description": ["High resolution screenshots independent of game resolution, 1440p - 16k"],
+        "tagline": ["High res screenshots"],
+        "types": ["Utility"],
+        "latest": "1.0.0",
+        "supports":  [ "BL2", "TPS" ],
+        "versions": {
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/SuperScreenshot/SuperScreenshot.rar"
         },
         "requirements": {}
       }
