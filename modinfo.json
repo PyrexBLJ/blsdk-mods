@@ -1,6 +1,6 @@
 {
     "defaults": {
-        "authors": "PyrexBLJ",
+        "authors": "Pyrex",
         "source": "https://github.com/PyrexBLJ/blsdk-mods",
         "issues": "https://github.com/PyrexBLJ/blsdk-mods/issues",
         "supports":  [ "BL2", "TPS" ],
