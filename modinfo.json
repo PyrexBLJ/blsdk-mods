@@ -52,13 +52,14 @@
       },
       {
         "name": "Audio Control",
-        "description": ["Stop certain sounds from playing, more sounds will be added in the future ![yt](https://youtu.be/qcjTTJC3OeU)"],
-        "tagline": ["Stop the bee shield sound"],
+        "description": ["Stop certain sounds from playing, more sounds can be added in the future ![yt](https://youtu.be/qcjTTJC3OeU)"],
+        "tagline": ["Stop the bee shield & bore sounds"],
         "types": ["Utility"],
-        "latest": "1.0.0",
+        "latest": "1.0.1",
         "supports":  [ "BL2" ],
         "versions": {
-          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl/AudioControl1_0_0.rar"
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl/AudioControl1_0_0.rar",
+          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AudioControl/AudioControl1_0_1.rar"
         },
         "requirements": {}
       },
