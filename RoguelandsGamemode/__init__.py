@@ -95,7 +95,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.0"
+    Version: str = "1.0.1"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -646,7 +646,7 @@ class Main(ModMenu.SDKMod):
 
     def Enable(self) -> None:
         pc: unrealsdk.UObject = unrealsdk.GetEngine().GamePlayers[0].Actor
-        pc.ConsoleCommand("exec Win32\\Mods\\Roguelands\\assets\\rlc.txt")
+        pc.ConsoleCommand("exec Win32\\Mods\\RoguelandsGamemode\\assets\\rlc.txt")
         unrealsdk.Log("Ran Text Mods")
 
         sdkversion = unrealsdk.GetVersion()
@@ -792,6 +792,9 @@ class Main(ModMenu.SDKMod):
             hud_movie.WPRI.GeneralSkillPoints = (
                 hud_movie.WPRI.Currency[7].CurrentAmount - pc.PlayerSkillTree.GetSkillPointsSpentInTree()
             )
+            if GameState.current_map.map_file == "D1 Pete Raid Boss.json":
+                if hud_movie.WPRI.Currency[1].CurrentAmount < 8:
+                    hud_movie.WPRI.Currency[1].CurrentAmount = 8
 
             if loaded_map != GameState.current_map.package:
                 util.travel_to_destination(GameState.current_map.travel_object_name)
