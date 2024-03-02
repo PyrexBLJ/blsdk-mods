@@ -1,0 +1,471 @@
+{
+    "hypinterlude_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35162.23828125,
+                            35787.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35162.23828125,
+                            37127.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35162.23828125,
+                            39797.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35162.23828125,
+                            38468.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35053.23828125,
+                            41379.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36274.23828125,
+                            41379.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36274.23828125,
+                            42719.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36274.23828125,
+                            43985.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34948.23828125,
+                            43985.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30442.23828125,
+                            36117.5546875,
+                            1338.1400146484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.HyperionCrateSet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32042.810546875,
+                            39966.9140625,
+                            442.3160095214844
+                        ],
+                        "Rotation": [
+                            0,
+                            -1400,
+                            0
+                        ],
+                        "Scale": 1.2000000476837158,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.1799999475479126
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            31972.046875,
+                            39859.75,
+                            474
+                        ],
+                        "Rotation": [
+                            300,
+                            -5000,
+                            400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            31936.484375,
+                            39864.421875,
+                            473.9159851074219
+                        ],
+                        "Rotation": [
+                            500,
+                            -15700,
+                            16300
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_HyperionChest": {
+                        "Rename": "",
+                        "Location": [
+                            30897.62890625,
+                            36367.76171875,
+                            770.2249755859375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "HypInterlude_P.TheWorld:PersistentLevel.WillowInteractiveObject_358.SkeletalMeshComponent_1137.MaterialInstanceConstant_1191"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_HyperionChest": {
+                        "Rename": "",
+                        "Location": [
+                            34826.234375,
+                            38980.65625,
+                            317.3819885253906
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -23400,
+                            2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "HypInterlude_P.TheWorld:PersistentLevel.WillowInteractiveObject_359.SkeletalMeshComponent_1138.MaterialInstanceConstant_1192"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_HyperionChest": {
+                        "Rename": "",
+                        "Location": [
+                            32810.109375,
+                            41202.91015625,
+                            504
+                        ],
+                        "Rotation": [
+                            1300,
+                            13000,
+                            -400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "HypInterlude_P.TheWorld:PersistentLevel.WillowInteractiveObject_360.SkeletalMeshComponent_1139.MaterialInstanceConstant_1193"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_HyperionChest": {
+                        "Rename": "",
+                        "Location": [
+                            35234.28125,
+                            43671.82421875,
+                            743.8790283203125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "HypInterlude_P.TheWorld:PersistentLevel.WillowInteractiveObject_361.SkeletalMeshComponent_1140.MaterialInstanceConstant_1194"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_HyperionChest": {
+                        "Rename": "",
+                        "Location": [
+                            31963.71875,
+                            39138.8125,
+                            468.43701171875
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -16400,
+                            500
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "HypInterlude_P.TheWorld:PersistentLevel.WillowInteractiveObject_362.SkeletalMeshComponent_1141.MaterialInstanceConstant_1195"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            34761.71484375,
+                            35699.33984375,
+                            977.9559936523438
+                        ],
+                        "Rotation": [
+                            3000,
+                            4000,
+                            -4000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "ice_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Panels.MetalPanel_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24221.513671875,
+                            28186.8359375,
+                            1396.551025390625
+                        ],
+                        "Rotation": [
+                            0,
+                            -7200,
+                            0
+                        ],
+                        "Scale": 3.140000104904175,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Panels.MetalPanel_06": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -29890.990234375,
+                            25858.015625,
+                            749.302978515625
+                        ],
+                        "Rotation": [
+                            0,
+                            12300,
+                            0
+                        ],
+                        "Scale": 1.1699999570846558,
+                        "Scale3D": [
+                            0.44999998807907104,
+                            0.10000000149011612,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -24672.533203125,
+                            19622.23828125,
+                            399
+                        ],
+                        "Rotation": [
+                            -100,
+                            0,
+                            1000
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24715.3203125,
+                            19613.6953125,
+                            401
+                        ],
+                        "Rotation": [
+                            -1000,
+                            17900,
+                            -16600
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -24602.78515625,
+                            26459.388671875,
+                            628
+                        ],
+                        "Rotation": [
+                            3500,
+                            4000,
+                            -2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_298.SkeletalMeshComponent_1424.MaterialInstanceConstant_1329"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -29778.671875,
+                            23981.517578125,
+                            492.10101318359375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_299.SkeletalMeshComponent_1425.MaterialInstanceConstant_1330"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -28514.048828125,
+                            21899.982421875,
+                            931
+                        ],
+                        "Rotation": [
+                            -200,
+                            -8200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_300.SkeletalMeshComponent_1426.MaterialInstanceConstant_1331"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -25536.294921875,
+                            20903.552734375,
+                            1452
+                        ],
+                        "Rotation": [
+                            600,
+                            -30200,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_301.SkeletalMeshComponent_1427.MaterialInstanceConstant_1332"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -23306.20703125,
+                            23328.04296875,
+                            1743.79296875
+                        ],
+                        "Rotation": [
+                            0,
+                            -22300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_302.SkeletalMeshComponent_1428.MaterialInstanceConstant_1333"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -22720.51953125,
+                            22042.759765625,
+                            341.47198486328125
+                        ],
+                        "Rotation": [
+                            500,
+                            0,
+                            -1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Ice_P.TheWorld:PersistentLevel.WillowInteractiveObject_303.SkeletalMeshComponent_1429.MaterialInstanceConstant_1334"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -24710.921875,
+                            20761.32421875,
+                            1088
+                        ],
+                        "Rotation": [
+                            -4000,
+                            6150,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,425 @@
+{
+    "icecanyon_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Walkways.CatwalkDouble": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1835.3160400390625,
+                            8313.283203125,
+                            -1338.5140380859375
+                        ],
+                        "Rotation": [
+                            1400,
+                            -15700,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Walkways.CatwalkDouble": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1909.3160400390625,
+                            9335.283203125,
+                            -1478.5140380859375
+                        ],
+                        "Rotation": [
+                            1400,
+                            -15700,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Walkways.CatwalkDouble": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2599.31591796875,
+                            9944.283203125,
+                            -1534.5140380859375
+                        ],
+                        "Rotation": [
+                            0,
+                            -4900,
+                            -14300
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Walkways.CatwalkDouble": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3484.31591796875,
+                            10389.283203125,
+                            -1381.5140380859375
+                        ],
+                        "Rotation": [
+                            -2100,
+                            -6000,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.BanditCover_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9318.0908203125,
+                            3601.882080078125,
+                            1013.780029296875
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1.2000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Buildings_02.Meshes.BanditColumn_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8630.2783203125,
+                            3377.18505859375,
+                            811.3150024414062
+                        ],
+                        "Rotation": [
+                            0,
+                            -4500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4797.462890625,
+                            10896.1533203125,
+                            -928.5830078125
+                        ],
+                        "Rotation": [
+                            0,
+                            9100,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.23999999463558197,
+                            3.1600000858306885,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Panels.MetalPanel": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7827.06494140625,
+                            9036.62109375,
+                            -683.2587890625
+                        ],
+                        "Rotation": [
+                            -15800,
+                            12200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.2699999809265137,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -7963.05078125,
+                            9117.6435546875,
+                            -849.4829711914062
+                        ],
+                        "Rotation": [
+                            -2100,
+                            0,
+                            -100
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8000.31884765625,
+                            9102.0859375,
+                            -840
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -11000,
+                            18400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -2764.889892578125,
+                            8181.3271484375,
+                            -1460.300048828125
+                        ],
+                        "Rotation": [
+                            1700,
+                            -19600,
+                            700
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_208.SkeletalMeshComponent_786.MaterialInstanceConstant_1040"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -5808.7490234375,
+                            11464.7080078125,
+                            -1215.1510009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            -32700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_209.SkeletalMeshComponent_787.MaterialInstanceConstant_1041"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -4735.3837890625,
+                            8303.712890625,
+                            -1086.7919921875
+                        ],
+                        "Rotation": [
+                            -600,
+                            -2400,
+                            700
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_210.SkeletalMeshComponent_788.MaterialInstanceConstant_1042"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -8375.068359375,
+                            6539.0908203125,
+                            -246.69400024414062
+                        ],
+                        "Rotation": [
+                            0,
+                            -3600,
+                            200
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_211.SkeletalMeshComponent_789.MaterialInstanceConstant_1043"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -8776.671875,
+                            3750.465087890625,
+                            937.0399780273438
+                        ],
+                        "Rotation": [
+                            0,
+                            -4600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_212.SkeletalMeshComponent_790.MaterialInstanceConstant_1044"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -11462.962890625,
+                            5608.2919921875,
+                            44.678001403808594
+                        ],
+                        "Rotation": [
+                            600,
+                            -16600,
+                            1500
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "icecanyon_p.TheWorld:PersistentLevel.WillowInteractiveObject_213.SkeletalMeshComponent_791.MaterialInstanceConstant_1045"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -11034.3076171875,
+                            6371.1767578125,
+                            83.98400115966797
+                        ],
+                        "Rotation": [
+                            5000,
+                            19000,
+                            -2000
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,523 @@
+{
+    "fridge_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2632.616943359375,
+                            15602.103515625,
+                            9961.0908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            11300,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2008.616943359375,
+                            14718.103515625,
+                            9994.0908203125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            8300,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1383.616943359375,
+                            13901.103515625,
+                            10117.0908203125
+                        ],
+                        "Rotation": [
+                            -600,
+                            11000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            755.6170043945312,
+                            13018.103515625,
+                            10231.0908203125
+                        ],
+                        "Rotation": [
+                            -1100,
+                            9100,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            78.61699676513672,
+                            12225.103515625,
+                            10456.0908203125
+                        ],
+                        "Rotation": [
+                            -2100,
+                            9100,
+                            900
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -588.3829956054688,
+                            11442.103515625,
+                            10638.0908203125
+                        ],
+                        "Rotation": [
+                            -900,
+                            9100,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceLocked": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1455.383056640625,
+                            10954.103515625,
+                            10745.0908203125
+                        ],
+                        "Rotation": [
+                            -1200,
+                            3000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.DuctTop": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2981.507080078125,
+                            16264.54296875,
+                            10449.3017578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -8200,
+                            18800
+                        ],
+                        "Scale": 5.019999980926514,
+                        "Scale3D": [
+                            0.029999999329447746,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_vehicles_02.Materials.WreckedCar01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3452.429931640625,
+                            16810.146484375,
+                            10539.5478515625
+                        ],
+                        "Rotation": [
+                            -2600,
+                            8500,
+                            0
+                        ],
+                        "Scale": 1.309999942779541,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Fridge.Materials.Mati_WreckedCar01Blue"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Walkways.Meshes.CatWalkSingle_02_x2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8690.35546875,
+                            12831.58203125,
+                            10091.5810546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -20000,
+                            -16400
+                        ],
+                        "Scale": 4.300000190734863,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Walkways.Meshes.CatWalkSingle_02_x2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7940.35498046875,
+                            10761.58203125,
+                            10091.5810546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -20000,
+                            -16400
+                        ],
+                        "Scale": 4.300000190734863,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Caverns.Meshes.Dahl_ConcWalk": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6544.6650390625,
+                            17246.958984375,
+                            11332.4873046875
+                        ],
+                        "Rotation": [
+                            0,
+                            -4100,
+                            -16400
+                        ],
+                        "Scale": 0.7200000286102295,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Env_Fridge.Materials.Mati_Dahl04_Fridge"
+                        ]
+                    }
+                },
+                {
+                    "Prop_LynchWood.Mesh.LynchWoodTechWallDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4183.5517578125,
+                            10287.216796875,
+                            10074.837890625
+                        ],
+                        "Rotation": [
+                            3000,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 1.4500000476837158,
+                        "Scale3D": [
+                            2.2100000381469727,
+                            0.30000001192092896,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            3452.556884765625,
+                            10100.189453125,
+                            10330
+                        ],
+                        "Rotation": [
+                            -1000,
+                            0,
+                            2000
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3486.27587890625,
+                            10092.017578125,
+                            10329
+                        ],
+                        "Rotation": [
+                            -2000,
+                            16000,
+                            15000
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            6265.708984375,
+                            15127.22265625,
+                            9915.16796875
+                        ],
+                        "Rotation": [
+                            0,
+                            20300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Fridge_P.TheWorld:PersistentLevel.WillowInteractiveObject_924.SkeletalMeshComponent_3724.MaterialInstanceConstant_4082"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            3933.5048828125,
+                            13155.1728515625,
+                            9991.958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            9800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Fridge_P.TheWorld:PersistentLevel.WillowInteractiveObject_925.SkeletalMeshComponent_3725.MaterialInstanceConstant_4083"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            3018.860107421875,
+                            11025.703125,
+                            10893.5859375
+                        ],
+                        "Rotation": [
+                            0,
+                            29200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Fridge_P.TheWorld:PersistentLevel.WillowInteractiveObject_926.SkeletalMeshComponent_3726.MaterialInstanceConstant_4084"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            7601.70703125,
+                            11005.9462890625,
+                            9960.095703125
+                        ],
+                        "Rotation": [
+                            0,
+                            28200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Fridge_P.TheWorld:PersistentLevel.WillowInteractiveObject_927.SkeletalMeshComponent_3727.MaterialInstanceConstant_4085"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            7256.14697265625,
+                            14471.4990234375,
+                            10242.974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            30500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Fridge_P.TheWorld:PersistentLevel.WillowInteractiveObject_928.SkeletalMeshComponent_3728.MaterialInstanceConstant_4086"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -449.5159912109375,
+                            10335.720703125,
+                            10919.595703125
+                        ],
+                        "Rotation": [
+                            -1700,
+                            8400,
+                            -300
+                        ],
+                        "Scale": 0.8899999856948853,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

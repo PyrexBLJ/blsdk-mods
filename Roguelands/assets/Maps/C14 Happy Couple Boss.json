@@ -1,0 +1,62 @@
+{
+    "distillery_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -29090.650390625,
+                            -9970.49609375,
+                            3471.0439453125
+                        ],
+                        "Rotation": [
+                            -800,
+                            -24900,
+                            16400
+                        ],
+                        "Scale": 0.44999998807907104,
+                        "Scale3D": [
+                            2,
+                            1.8799999952316284,
+                            2
+                        ],
+                        "Materials": [
+                            "None"
+                        ]
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -34227.95703125,
+                            -7738.10205078125,
+                            -6825
+                        ],
+                        "Rotation": [
+                            0,
+                            -6900,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

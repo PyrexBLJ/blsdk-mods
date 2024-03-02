@@ -1,0 +1,327 @@
+{
+    "dam_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Env_Interlude.Mesh.GarageDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2381.718017578125,
+                            -798.8790283203125,
+                            60.53799819946289
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.CoveredCrate_01a": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2069.574951171875,
+                            -720.8159790039062,
+                            5.414000034332275
+                        ],
+                        "Rotation": [
+                            0,
+                            6100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.BanditCrate01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2077.60009765625,
+                            -713.9019775390625,
+                            114.93699645996094
+                        ],
+                        "Rotation": [
+                            0,
+                            4500,
+                            0
+                        ],
+                        "Scale": 1.25,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.BanditCrate01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2077.60009765625,
+                            -713.9019775390625,
+                            244.93699645996094
+                        ],
+                        "Rotation": [
+                            0,
+                            6400,
+                            0
+                        ],
+                        "Scale": 1.25,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Interlude.Mesh.GarageDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5770.994140625,
+                            -349.8087158203125,
+                            343.9750061035156
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            1392.2154541015625,
+                            -61.805416107177734,
+                            476.8500061035156
+                        ],
+                        "Rotation": [
+                            500,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1392.4078369140625,
+                            -99.81999969482422,
+                            478
+                        ],
+                        "Rotation": [
+                            500,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            1533.5040283203125,
+                            -1088.06396484375,
+                            5
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "dam_p.TheWorld:PersistentLevel.WillowInteractiveObject_166.SkeletalMeshComponent_550.MaterialInstanceConstant_609"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            -426.9590148925781,
+                            -1369.35205078125,
+                            -137
+                        ],
+                        "Rotation": [
+                            0,
+                            -4000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "dam_p.TheWorld:PersistentLevel.WillowInteractiveObject_167.SkeletalMeshComponent_551.MaterialInstanceConstant_610"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            -2437.635009765625,
+                            -472.8299865722656,
+                            -54
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "dam_p.TheWorld:PersistentLevel.WillowInteractiveObject_168.SkeletalMeshComponent_552.MaterialInstanceConstant_611"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            -5693.505859375,
+                            -365.0780029296875,
+                            283
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "dam_p.TheWorld:PersistentLevel.WillowInteractiveObject_169.SkeletalMeshComponent_553.MaterialInstanceConstant_612"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_DahlEpic": {
+                        "Rename": "",
+                        "Location": [
+                            -2939.48291015625,
+                            -1044.771484375,
+                            283
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "dam_p.TheWorld:PersistentLevel.WillowInteractiveObject_170.SkeletalMeshComponent_554.MaterialInstanceConstant_613"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -1216.4029541015625,
+                            110.23200225830078,
+                            81.30204772949219
+                        ],
+                        "Rotation": [
+                            -2900,
+                            7600,
+                            0
+                        ],
+                        "Scale": 0.5299999713897705,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

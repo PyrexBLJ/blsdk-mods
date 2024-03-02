@@ -1,0 +1,864 @@
+{
+    "testingzone_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37087.17578125,
+                            48560.62890625,
+                            5324.52197265625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37087.17578125,
+                            47777.62890625,
+                            5377.52197265625
+                        ],
+                        "Rotation": [
+                            0,
+                            -5700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37959.17578125,
+                            47866.62890625,
+                            5318.52197265625
+                        ],
+                        "Rotation": [
+                            0,
+                            46100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.InterludeDeadGrass": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37660.25390625,
+                            47453.81640625,
+                            6110.578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.RockShard_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38375.95703125,
+                            47850.359375,
+                            6059.01806640625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.FlatRock_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37195.9609375,
+                            48676.48828125,
+                            6134.673828125
+                        ],
+                        "Rotation": [
+                            0,
+                            -33300,
+                            1700
+                        ],
+                        "Scale": 1.6100000143051147,
+                        "Scale3D": [
+                            0.6000000238418579,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37726.30859375,
+                            49258.1953125,
+                            6393.595703125
+                        ],
+                        "Rotation": [
+                            0,
+                            -34700,
+                            400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36582.30859375,
+                            49123.1953125,
+                            6278.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            4800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35890.30859375,
+                            48285.1953125,
+                            6426.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -14600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36744.30859375,
+                            47159.1953125,
+                            6430.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -1800,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.9800000190734863,
+                            0.550000011920929,
+                            0.8899999856948853
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37866.30859375,
+                            46670.1953125,
+                            6296.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -29700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38846.30859375,
+                            47397.1953125,
+                            6296.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            12700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockSpire_02_Round": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38943.30859375,
+                            48589.1953125,
+                            6402.59619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -14100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.090000033378601,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.CaveRock_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37331.9609375,
+                            46484.6328125,
+                            7265.9248046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.CaveRock_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37331.9609375,
+                            49774.6328125,
+                            7585.9248046875
+                        ],
+                        "Rotation": [
+                            0,
+                            -15000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.CaveRock_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35441.9609375,
+                            48314.6328125,
+                            7125.9248046875
+                        ],
+                        "Rotation": [
+                            0,
+                            -32000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.FlatRock_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38020.4921875,
+                            47499.4609375,
+                            6069.828125
+                        ],
+                        "Rotation": [
+                            0,
+                            18000,
+                            0
+                        ],
+                        "Scale": 1.600000023841858,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.CaveRock_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36608.890625,
+                            47892.625,
+                            6213.48486328125
+                        ],
+                        "Rotation": [
+                            0,
+                            -36000,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36681.5625,
+                            47918.515625,
+                            6755
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Sanctuary.Meshes.SancBuildingCube01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37887.9609375,
+                            48518.3828125,
+                            5836.30810546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -12000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Sanctuary.Meshes.SancBuildingCube01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37597.9609375,
+                            47988.3828125,
+                            5836.30810546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Sanctuary.Meshes.SancBuildingCube01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37967.9609375,
+                            47528.3828125,
+                            5906.30810546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.InterludeDeadGrass": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37230.25390625,
+                            48733.81640625,
+                            6190.578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.InterludeDeadGrass": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37790.25390625,
+                            48103.81640625,
+                            6000.578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -9000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TestingZone.Meshes.RockPile_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37539.76171875,
+                            48581.11328125,
+                            6058.81103515625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Plot_Mission020.Meshes.Props.Brain": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37889.25390625,
+                            48520.6484375,
+                            6100
+                        ],
+                        "Rotation": [
+                            0,
+                            13000,
+                            16400
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Trivia Plate 1",
+                        "Tags": [
+                            "Trivia Plate 1"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            37881.5546875,
+                            48522.63671875,
+                            6099
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Trivia Plate 2",
+                        "Tags": [
+                            "Trivia Plate 2"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            37605.30078125,
+                            47985.74609375,
+                            6099
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "GD_Anemone_Plot_Mission020.Meshes.Props.Brain": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37609.25390625,
+                            47987.6484375,
+                            6100
+                        ],
+                        "Rotation": [
+                            0,
+                            17200,
+                            16400
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Trivia Plate 3",
+                        "Tags": [
+                            "Trivia Plate 3"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            37973.02734375,
+                            47530.9140625,
+                            6169
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "GD_Anemone_Plot_Mission020.Meshes.Props.Brain": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37970.10546875,
+                            47533.0859375,
+                            6170
+                        ],
+                        "Rotation": [
+                            0,
+                            30200,
+                            16400
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.DecoCactusClumpNoBulbs": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            36948.79296875,
+                            47692.43359375,
+                            5947.97216796875
+                        ],
+                        "Rotation": [
+                            0,
+                            -5500,
+                            0
+                        ],
+                        "Scale": 1.2999999523162842,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.0700000524520874
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_trains.Meshes.PassengerCar_Low": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34518.79296875,
+                            46258.28125,
+                            7108.5791015625
+                        ],
+                        "Rotation": [
+                            -500,
+                            5900,
+                            900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_VaughnPart2.Meshes.SM_BrokenTusk_SandWorm": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38369.74609375,
+                            48012.2421875,
+                            6253.298828125
+                        ],
+                        "Rotation": [
+                            2100,
+                            -37500,
+                            1500
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.2300000190734863
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Wall_Angled": {
+                        "Rename": "Bridge 1",
+                        "Tags": [
+                            "Bridge 1"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            37396.0234375,
+                            47865.27734375,
+                            -3865
+                        ],
+                        "Rotation": [
+                            0,
+                            -32100,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1.4500000476837158,
+                            1.9800000190734863,
+                            1.5099999904632568
+                        ],
+                        "Materials": [
+                            "FX_IO_Digistruct.Materials.Mati_DigiPane_BackPane1"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

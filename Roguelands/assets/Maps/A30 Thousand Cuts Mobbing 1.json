@@ -1,0 +1,266 @@
+{
+    "grass_cliffs_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_HyperionArchitecture.Mesh.DropzoneWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -149.28599548339844,
+                            2238.27099609375,
+                            2372.114013671875
+                        ],
+                        "Rotation": [
+                            -32800,
+                            -15000,
+                            0
+                        ],
+                        "Scale": 1.159999966621399,
+                        "Scale3D": [
+                            0.8299999833106995,
+                            0.05000000074505806,
+                            1.0199999809265137
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionWall02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            11627.3447265625,
+                            2250.2509765625,
+                            3581.27392578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.190000057220459,
+                        "Scale3D": [
+                            1,
+                            0.09000000357627869,
+                            1.2400000095367432
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            8024.1171875,
+                            8065.7939453125,
+                            3145.819091796875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.30000001192092896,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8048.31396484375,
+                            8065.77294921875,
+                            3146.094970703125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            -16400
+                        ],
+                        "Scale": 0.30000001192092896,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1845.16796875,
+                            2429.2041015625,
+                            1781
+                        ],
+                        "Rotation": [
+                            300,
+                            19000,
+                            2500
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_Cliffs_P.TheWorld:PersistentLevel.WillowInteractiveObject_327.SkeletalMeshComponent_2055.MaterialInstanceConstant_2512"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4582.0068359375,
+                            3705.071044921875,
+                            2414
+                        ],
+                        "Rotation": [
+                            2400,
+                            0,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_Cliffs_P.TheWorld:PersistentLevel.WillowInteractiveObject_328.SkeletalMeshComponent_2056.MaterialInstanceConstant_2513"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7195.091796875,
+                            7721.833984375,
+                            3141
+                        ],
+                        "Rotation": [
+                            0,
+                            -15400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_Cliffs_P.TheWorld:PersistentLevel.WillowInteractiveObject_329.SkeletalMeshComponent_2057.MaterialInstanceConstant_2514"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            13391.20703125,
+                            3453.157958984375,
+                            3583
+                        ],
+                        "Rotation": [
+                            0,
+                            15100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_Cliffs_P.TheWorld:PersistentLevel.WillowInteractiveObject_330.SkeletalMeshComponent_2058.MaterialInstanceConstant_2515"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            12810.875,
+                            6967.9248046875,
+                            3236
+                        ],
+                        "Rotation": [
+                            0,
+                            -33800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_Cliffs_P.TheWorld:PersistentLevel.WillowInteractiveObject_331.SkeletalMeshComponent_2059.MaterialInstanceConstant_2516"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            9652.708984375,
+                            6750.56103515625,
+                            3348.3115234375
+                        ],
+                        "Rotation": [
+                            2200,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 0.7699999809265137,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,311 @@
+{
+    "southernshelf_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            20455.767578125,
+                            -29528.91796875,
+                            549.198974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            -19500,
+                            16400
+                        ],
+                        "Scale": 1.6399999856948853,
+                        "Scale3D": [
+                            1.5,
+                            1.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_BurlesqueStage_Snow"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            20439.767578125,
+                            -27292.91796875,
+                            549.198974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            -13400,
+                            16400
+                        ],
+                        "Scale": 1.6399999856948853,
+                        "Scale3D": [
+                            1.5,
+                            1.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_BurlesqueStage_Snow"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            19391.767578125,
+                            -25260.91796875,
+                            549.198974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            -9600,
+                            16400
+                        ],
+                        "Scale": 1.6399999856948853,
+                        "Scale3D": [
+                            1.5,
+                            1.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_BurlesqueStage_Snow"
+                        ]
+                    }
+                },
+                {
+                    "Prop_PrimalBeastDen.Mesh.PrimalBeastDenBottom": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            10203.205078125,
+                            -27007.07421875,
+                            2275.156982421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            7.5,
+                            7.5,
+                            5
+                        ],
+                        "Materials": [
+                            "Prop_Glacier.Materials.Mati_Glacier2x"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            18454.912109375,
+                            -29758.453125,
+                            515.5800170898438
+                        ],
+                        "Rotation": [
+                            400,
+                            -11000,
+                            4900
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            18489.6796875,
+                            -29759.7421875,
+                            502.52099609375
+                        ],
+                        "Rotation": [
+                            -1900,
+                            18700,
+                            11800
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            11677.1552734375,
+                            -28303.013671875,
+                            949.3330078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            1800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_432.SkeletalMeshComponent_1945.MaterialInstanceConstant_1883"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            15109.1884765625,
+                            -29683.875,
+                            1137.677001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -15600,
+                            2200
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_433.SkeletalMeshComponent_1946.MaterialInstanceConstant_1884"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            17583.671875,
+                            -28738.22265625,
+                            412.9169921875
+                        ],
+                        "Rotation": [
+                            -2400,
+                            14700,
+                            -1600
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_434.SkeletalMeshComponent_1947.MaterialInstanceConstant_1885"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            18510.900390625,
+                            -25060.18359375,
+                            652.6849975585938
+                        ],
+                        "Rotation": [
+                            0,
+                            -34100,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_435.SkeletalMeshComponent_1948.MaterialInstanceConstant_1886"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            19620.41015625,
+                            -27144.7578125,
+                            82.36199951171875
+                        ],
+                        "Rotation": [
+                            300,
+                            -14700,
+                            2400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_436.SkeletalMeshComponent_1949.MaterialInstanceConstant_1887"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            18538.66796875,
+                            -24962.3046875,
+                            472
+                        ],
+                        "Rotation": [
+                            2000,
+                            36,
+                            800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

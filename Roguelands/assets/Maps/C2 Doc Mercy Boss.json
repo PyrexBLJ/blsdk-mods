@@ -1,0 +1,384 @@
+{
+    "frost_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3082.537109375,
+                            4229.2421875,
+                            3243.51904296875
+                        ],
+                        "Rotation": [
+                            0,
+                            -13900,
+                            -16400
+                        ],
+                        "Scale": 1.5199999809265137,
+                        "Scale3D": [
+                            1.3200000524520874,
+                            1.2000000476837158,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            11027.8046875,
+                            7131.923828125,
+                            3367.73291015625
+                        ],
+                        "Rotation": [
+                            0,
+                            18000,
+                            -16400
+                        ],
+                        "Scale": 1.5199999809265137,
+                        "Scale3D": [
+                            1.3200000524520874,
+                            1.2000000476837158,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            15681.0546875,
+                            790.208984375,
+                            4150.6328125
+                        ],
+                        "Rotation": [
+                            0,
+                            14000,
+                            -16400
+                        ],
+                        "Scale": 2.5,
+                        "Scale3D": [
+                            1.3200000524520874,
+                            1.2000000476837158,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14641.0546875,
+                            2730.208984375,
+                            4150.6328125
+                        ],
+                        "Rotation": [
+                            0,
+                            30000,
+                            -16400
+                        ],
+                        "Scale": 2.5,
+                        "Scale3D": [
+                            1.3200000524520874,
+                            1.2000000476837158,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            13731.0546875,
+                            -639.791015625,
+                            4150.6328125
+                        ],
+                        "Rotation": [
+                            0,
+                            2000,
+                            -16400
+                        ],
+                        "Scale": 2.5,
+                        "Scale3D": [
+                            1.3200000524520874,
+                            1.2000000476837158,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.ArrowSign_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            15850.19921875,
+                            1655.4000244140625,
+                            4695.294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -19000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.ArrowSign_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14625.19921875,
+                            -424.6000061035156,
+                            4686.294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            2000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            14543.93359375,
+                            971.0570068359375,
+                            -5806
+                        ],
+                        "Rotation": [
+                            -900,
+                            3700,
+                            18100
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.LootableGrades.ObjectGrade_MetalCrate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14991.0634765625,
+                            960.249755859375,
+                            4703.61376953125
+                        ],
+                        "Rotation": [
+                            -2400,
+                            17400,
+                            -900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_BanditChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            15414.0595703125,
+                            2062.375,
+                            3441.69189453125
+                        ],
+                        "Rotation": [
+                            1500,
+                            -29400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Frost_P.TheWorld:PersistentLevel.WillowInteractiveObject_91.SkeletalMeshComponent_466.MaterialInstanceConstant_471"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_BanditChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9881.36328125,
+                            3357.200927734375,
+                            3092.72998046875
+                        ],
+                        "Rotation": [
+                            0,
+                            6400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Frost_P.TheWorld:PersistentLevel.WillowInteractiveObject_92.SkeletalMeshComponent_467.MaterialInstanceConstant_472"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_BanditChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            10754.7021484375,
+                            7165.30419921875,
+                            3144.530029296875
+                        ],
+                        "Rotation": [
+                            -800,
+                            -30900,
+                            -600
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Frost_P.TheWorld:PersistentLevel.WillowInteractiveObject_93.SkeletalMeshComponent_468.MaterialInstanceConstant_473"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_BanditChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5220.38818359375,
+                            4387.39990234375,
+                            3321.79296875
+                        ],
+                        "Rotation": [
+                            0,
+                            25100,
+                            -100
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Frost_P.TheWorld:PersistentLevel.WillowInteractiveObject_94.SkeletalMeshComponent_469.MaterialInstanceConstant_474"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_BanditChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9699.6611328125,
+                            5129.56591796875,
+                            3097.968017578125
+                        ],
+                        "Rotation": [
+                            0,
+                            7900,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Frost_P.TheWorld:PersistentLevel.WillowInteractiveObject_95.SkeletalMeshComponent_470.MaterialInstanceConstant_475"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.LootableGrades.ObjectGrade_MetalCrate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            12402.279296875,
+                            1173.802978515625,
+                            3813.658935546875
+                        ],
+                        "Rotation": [
+                            200,
+                            40800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -8,6 +8,20 @@
       },
     "mods": [
       {
+        "name": "Roguelands Gamemode",
+        "description": ["Roguelike gamemode for Borderlands 2 full of custom content. Installation: ![yt](https://youtu.be/mOd01whwkiY) DISABLE DXVK WHILE USING THIS MOD IF YOU HAVE IT, it will cause a memory leak.\nThese DLCS are required for the mod to function properly: (basically all story, headhunter and level increase dlcs)\n\nCaptain Scarlett and Her Pirate's Booty\nMr. Torgue's Campaign of Carnage\nSir Hammerlock's Big Game Hunt\nTiny Tina's Assault on Dragon Keep\nUltimate Vault Hunter Upgrade Pack\nUltimate Vault Hunter Upgrade Pack Two: Digistruct Peak Challenge\nT.K. Baha's Bloody Harvest\nThe Horrible Hunger of the Ravenous Wattle Gobbler\nHow Marcus Saved Mercenary Day\nMad Moxxi and the Wedding Day Massacre\nSir Hammerlock vs. the Son of Crawmerax\nCommander Lilith & the Fight for Sanctuary"],
+        "types": ["Gameplay"],
+        "latest": "1.0.0",
+        "supports":  [ "BL2" ],
+        "versions": {
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/Roguelands/Roguelands.rar"
+        },
+        "requirements": {
+          "MapLoader": ">=1.4.3",
+          "UserFeedback": ">=1.6"
+        }
+      },
+      {
         "name": "Bank & Stash Anywhere (BASA)",
         "description": ["Use the bank and stash from anywhere with a hotkey. Can cause some visual texture issues"],
         "types": ["Utility"],

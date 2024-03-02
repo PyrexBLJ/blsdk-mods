@@ -1,0 +1,60 @@
+{
+    "mines_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_fence_tallx2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9007.474609375,
+                            21683.298828125,
+                            -6746.58984375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -15060.4814453125,
+                            29103.140625,
+                            -17066
+                        ],
+                        "Rotation": [
+                            0,
+                            -8200,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

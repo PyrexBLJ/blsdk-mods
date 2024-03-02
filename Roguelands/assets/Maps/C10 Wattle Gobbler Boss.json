@@ -1,0 +1,182 @@
+{
+    "hunger_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1138.2091064453125,
+                            -5622.83154296875,
+                            -8954
+                        ],
+                        "Rotation": [
+                            0,
+                            10240,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.5,
+                            1,
+                            1.5
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_LynchWood.Mesh.LynchWoodSepTank": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9215.59765625,
+                            -7095.46484375,
+                            -3892.697998046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.2100000381469727,
+                        "Scale3D": [
+                            1.5,
+                            1.5,
+                            0.28999999165534973
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.Meshes.WormsquidSign_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9700.0791015625,
+                            -7260.55517578125,
+                            -3657.158935546875
+                        ],
+                        "Rotation": [
+                            -1000,
+                            7800,
+                            -4000
+                        ],
+                        "Scale": 2.799999952316284,
+                        "Scale3D": [
+                            1,
+                            0.5,
+                            1
+                        ],
+                        "Materials": [
+                            "prop_signs.Materials.Mati_SkagSigns"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Weapons.Meshes.RolandKnife": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9730.16015625,
+                            -7196.25634765625,
+                            -3655.980712890625
+                        ],
+                        "Rotation": [
+                            8000,
+                            -22000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Weapons.Meshes.RolandKnife": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9700.16015625,
+                            -7266.255859375,
+                            -3585.98095703125
+                        ],
+                        "Rotation": [
+                            -12000,
+                            -22000,
+                            -6000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Weapons.Meshes.RolandKnife": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9580.16015625,
+                            -7316.255859375,
+                            -3695.98095703125
+                        ],
+                        "Rotation": [
+                            -35000,
+                            -19000,
+                            -2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            1244,
+                            -6285,
+                            -14083
+                        ],
+                        "Rotation": [
+                            0,
+                            24800,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
