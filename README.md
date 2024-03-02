@@ -5,7 +5,7 @@ feel free to use/edit em
 # List of mods
 
 ![Roguelands](https://github.com/PyrexBLJ/blsdk-mods/tree/main/Roguelands)
-Roguelike game mode for borderlands 2. Requires Most DLCS.
+Roguelike game mode for borderlands 2. Requires Most DLCS, MapLoader Mod & UserFeedback Mod.
 
 ![Bank & Stash Anywhere](https://github.com/PyrexBLJ/blsdk-mods/tree/main/BASA)
 Use the bank and stash with hotkeys on any map. Supports BL2 + TPS.
