@@ -15,7 +15,7 @@
         "latest": "1.0.1",
         "supports":  [ "BL2" ],
         "versions": {
-          "1.0.1": "http://github.com/PyrexBLJ/blsdk-mods/raw/main/RoguelandsGamemode/RoguelandsGamemode.rar"
+          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/RoguelandsGamemode/RoguelandsGamemode.rar"
         },
         "requirements": {
           "MapLoader": ">=1.4.3",
