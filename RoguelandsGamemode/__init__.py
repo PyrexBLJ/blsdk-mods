@@ -95,7 +95,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -477,6 +477,18 @@ class Main(ModMenu.SDKMod):
             # self.currentMap = temp
             # break
 
+    def do_save_quit(self) -> None:
+            unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
+            self.isinffyl = False
+            self.isdead = False
+            self.in_game = False
+            self.reset_mod(False, True, True)
+            unrealsdk.GetEngine().GamePlayers[0].Actor.ClientReturnToTitleScreen()
+            return True
+        
+    def dont_save_quit(self) -> None:
+        return True
+
     def reward(self, name: str, item: str) -> None:
         pcon = unrealsdk.GetEngine().GamePlayers[0].Actor
         mission = unrealsdk.FindObject("MissionDefinition", "GD_Episode01.M_Ep1_Champion")
@@ -532,6 +544,8 @@ class Main(ModMenu.SDKMod):
             return
 
         GameState.mission_complete_sound_played = True
+        if self.round_counter == 13:
+            unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
         mission_display.update_mission_display()
         # unrealsdk.Log("Set missionCompleteSoundPlayed True")
         if GameState.map_type not in (MapType.MiniGame, MapType.Special, MapType.FinalBoss):
@@ -883,12 +897,29 @@ class Main(ModMenu.SDKMod):
             return False
 
         def savequit(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
+            menu: uFeed.OptionBox = uFeed.OptionBox(
+                Title="Save Quit:",
+                Caption="Are you really sure u wanna do this?\nThis will end your current run.",
+                PreventCanceling = True,
+                Buttons=[
+                    uFeed.OptionBoxButton(Name="No", Tip=""),
+                    uFeed.OptionBoxButton(Name="Yes", Tip=""),
+                ],
+            )
+            menu.OnPress = lambda button: {
+                "No": self.dont_save_quit,
+                "Yes": self.do_save_quit,
+            }.get(button.Name, lambda _: None)()
+            menu.Show()
+            return False
+        '''
             unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
             self.isinffyl = False
             self.isdead = False
             self.in_game = False
             self.reset_mod(False, True, True)
             return True
+        '''
 
         def spawn(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
             # unrealsdk.Log(
