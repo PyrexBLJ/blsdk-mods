@@ -1,0 +1,332 @@
+{
+    "dungeon_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Aster_Prop_Dungeon.Mesh.DunFloorVariant01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            408.69000244140625,
+                            -17319.87109375,
+                            3977.715087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Dungeon.Mesh.DunFloorVariant01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1028.0379638671875,
+                            -27479.416015625,
+                            3989.10205078125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1.4700000286102295,
+                        "Scale3D": [
+                            2,
+                            2.7799999713897705,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Details.Meshes.Statue": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -31.676000595092773,
+                            -27255.68359375,
+                            3993.509033203125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.5099999904632568,
+                        "Scale3D": [
+                            13,
+                            13,
+                            13
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.PukeBone04": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -12.119999885559082,
+                            -27172.34765625,
+                            5065.55517578125
+                        ],
+                        "Rotation": [
+                            -14300,
+                            30400,
+                            0
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1.100000023841858,
+                            1.100000023841858,
+                            0.8899999856948853
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -254.5679931640625,
+                            -27264.626953125,
+                            4827.68798828125
+                        ],
+                        "Rotation": [
+                            8200,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.2799999713897705,
+                        "Scale3D": [
+                            6,
+                            6,
+                            6
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -71.56800079345703,
+                            -27264.626953125,
+                            4827.68798828125
+                        ],
+                        "Rotation": [
+                            -6700,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.2799999713897705,
+                        "Scale3D": [
+                            6,
+                            6,
+                            6
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            103.43199920654297,
+                            -27264.626953125,
+                            4327.68798828125
+                        ],
+                        "Rotation": [
+                            -11600,
+                            1400,
+                            0
+                        ],
+                        "Scale": 1.2799999713897705,
+                        "Scale3D": [
+                            6,
+                            6,
+                            6
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -68.56800079345703,
+                            -27264.626953125,
+                            4538.68798828125
+                        ],
+                        "Rotation": [
+                            -23000,
+                            -39500,
+                            0
+                        ],
+                        "Scale": 1.2799999713897705,
+                        "Scale3D": [
+                            6,
+                            6,
+                            6
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            65.43199920654297,
+                            -27182.626953125,
+                            4296.68798828125
+                        ],
+                        "Rotation": [
+                            -23000,
+                            -54000,
+                            0
+                        ],
+                        "Scale": 1.2799999713897705,
+                        "Scale3D": [
+                            6,
+                            6,
+                            6
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            102.99099731445312,
+                            -22425.955078125,
+                            -6006
+                        ],
+                        "Rotation": [
+                            0,
+                            -8200,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            15.751999855041504,
+                            -26711.498046875,
+                            4021.843017578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dungeon_P.TheWorld:PersistentLevel.WillowInteractiveObject_561.SkeletalMeshComponent_2246.MaterialInstanceConstant_2541"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -581.8820190429688,
+                            -25281.986328125,
+                            3995.177978515625
+                        ],
+                        "Rotation": [
+                            0,
+                            3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dungeon_P.TheWorld:PersistentLevel.WillowInteractiveObject_562.SkeletalMeshComponent_2247.MaterialInstanceConstant_2542"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            758.1179809570312,
+                            -25171.986328125,
+                            4005.177978515625
+                        ],
+                        "Rotation": [
+                            0,
+                            35000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dungeon_P.TheWorld:PersistentLevel.WillowInteractiveObject_563.SkeletalMeshComponent_2248.MaterialInstanceConstant_2543"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,712 @@
+{
+    "dead_forest_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Aster_Prop_Ruins.Meshes.Brick_Wall_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -16606.52734375,
+                            -19546.177734375,
+                            -8957.3369140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -12600,
+                            0
+                        ],
+                        "Scale": 1.159999966621399,
+                        "Scale3D": [
+                            2.190000057220459,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Large_Mauselum_Modified_Large_Mauselum_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -13063.0791015625,
+                            -23173.01171875,
+                            -9739.908203125
+                        ],
+                        "Rotation": [
+                            500,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.0700000524520874,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Long_Pillar_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -13234.9677734375,
+                            -23165.609375,
+                            -9791.8369140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -700
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.159999966621399,
+                            0.6100000143051147
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -15043.546875,
+                            -24809.53515625,
+                            -9502.7314453125
+                        ],
+                        "Rotation": [
+                            -1600,
+                            8100,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -15050.0390625,
+                            -24815.484375,
+                            -9543.4287109375
+                        ],
+                        "Rotation": [
+                            0,
+                            8100,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -15190.603515625,
+                            -21923.638671875,
+                            -9582.1376953125
+                        ],
+                        "Rotation": [
+                            -800,
+                            -3100,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -17758.896484375,
+                            -25498.8125,
+                            -9428.080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            900,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -17740.990234375,
+                            -25495.025390625,
+                            -9404.0029296875
+                        ],
+                        "Rotation": [
+                            300,
+                            1000,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -16920.896484375,
+                            -25407.8125,
+                            -9410.080078125
+                        ],
+                        "Rotation": [
+                            500,
+                            2400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -16893.990234375,
+                            -25400.025390625,
+                            -9372.0029296875
+                        ],
+                        "Rotation": [
+                            1500,
+                            1300,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -16095.896484375,
+                            -25281.8125,
+                            -9302.080078125
+                        ],
+                        "Rotation": [
+                            600,
+                            2400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.Round_Rock_Full_Multiprimitive": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -15526.9853515625,
+                            -25232.369140625,
+                            -9216.8583984375
+                        ],
+                        "Rotation": [
+                            0,
+                            -7100,
+                            0
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Dark_Forest.Materials.Mat_Mossy_Rock_HalfSize"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.Round_Rock_Full_Multiprimitive": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -23316.720703125,
+                            -19735.91015625,
+                            -9318.1142578125
+                        ],
+                        "Rotation": [
+                            0,
+                            5500,
+                            0
+                        ],
+                        "Scale": 0.38999998569488525,
+                        "Scale3D": [
+                            2.4800000190734863,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Dark_Forest.Materials.Mat_Mossy_Rock_HalfSize"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.Round_Rock_Full_Multiprimitive": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -22220.720703125,
+                            -19301.91015625,
+                            -9345.1142578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -11100,
+                            300
+                        ],
+                        "Scale": 0.38999998569488525,
+                        "Scale3D": [
+                            1,
+                            1.9700000286102295,
+                            1.1200000047683716
+                        ],
+                        "Materials": [
+                            "Env_Dark_Forest.Materials.Mat_Mossy_Rock_HalfSize"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.AridRock_Cliff_05": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -23877.494140625,
+                            -20119.59765625,
+                            -9521.443359375
+                        ],
+                        "Rotation": [
+                            2700,
+                            -14700,
+                            -1200
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            0.9200000166893005,
+                            1.2000000476837158,
+                            1
+                        ],
+                        "Materials": [
+                            "None"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -13299.451171875,
+                            -23624.470703125,
+                            -9647.9423828125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.5800000429153442,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            1.25,
+                            1.159999966621399
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -13299.451171875,
+                            -22758.470703125,
+                            -9647.9423828125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.5800000429153442,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            1.25,
+                            1.159999966621399
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -17815.513671875,
+                            -19186.15625,
+                            -8988.7255859375
+                        ],
+                        "Rotation": [
+                            0,
+                            16300,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.0010000000474974513,
+                            1.899999976158142,
+                            1.2999999523162842
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -24406.791015625,
+                            -22283.44921875,
+                            -9238
+                        ],
+                        "Rotation": [
+                            -7000,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24386.275390625,
+                            -22279.18359375,
+                            -9254
+                        ],
+                        "Rotation": [
+                            -500,
+                            -15700,
+                            -9300
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Shields.Mesh.Melee_ShieldRound_Metal": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -23312.720703125,
+                            -15511.7314453125,
+                            -8694.001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -28400,
+                            0
+                        ],
+                        "Scale": 2.890000104904175,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar_Broken_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -22514.095703125,
+                            -15659.908203125,
+                            -8859.6591796875
+                        ],
+                        "Rotation": [
+                            700,
+                            -3400,
+                            0
+                        ],
+                        "Scale": 1.9299999475479126,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -15694.4384765625,
+                            -23883.7421875,
+                            -9547.4111328125
+                        ],
+                        "Rotation": [
+                            -1800,
+                            9600,
+                            -200
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dead_Forest_P.TheWorld:PersistentLevel.WillowInteractiveObject_746.SkeletalMeshComponent_3408.MaterialInstanceConstant_4445"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19415.435546875,
+                            -22208.51171875,
+                            -9659.169921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -14700,
+                            -200
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dead_Forest_P.TheWorld:PersistentLevel.WillowInteractiveObject_747.SkeletalMeshComponent_3409.MaterialInstanceConstant_4446"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24112.40625,
+                            -25661.208984375,
+                            -9315.7646484375
+                        ],
+                        "Rotation": [
+                            -1900,
+                            8700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dead_Forest_P.TheWorld:PersistentLevel.WillowInteractiveObject_748.SkeletalMeshComponent_3410.MaterialInstanceConstant_4447"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -21123.224609375,
+                            -22396.392578125,
+                            -9626.3759765625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dead_Forest_P.TheWorld:PersistentLevel.WillowInteractiveObject_749.SkeletalMeshComponent_3411.MaterialInstanceConstant_4448"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -16941.927734375,
+                            -19648.296875,
+                            -8929.7109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -30600,
+                            -400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Dead_Forest_P.TheWorld:PersistentLevel.WillowInteractiveObject_750.SkeletalMeshComponent_3412.MaterialInstanceConstant_4449"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -19403.052734375,
+                            -20736,
+                            -9348.4375
+                        ],
+                        "Rotation": [
+                            -2000,
+                            5000,
+                            -1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

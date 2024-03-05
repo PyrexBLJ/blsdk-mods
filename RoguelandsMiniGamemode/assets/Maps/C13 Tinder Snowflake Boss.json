@@ -1,0 +1,590 @@
+{
+    "xmas_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Char_Flax_Snowman.Meshes.SnowBall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4712.2109375,
+                            2210.43603515625,
+                            33.3120002746582
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Flax_Snowman.Meshes.SnowBall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4711.2109375,
+                            2225.43603515625,
+                            90.31199645996094
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.1299999952316284,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Flax_Snowman.Meshes.SnowBossHappy": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4699.81005859375,
+                            2226.887939453125,
+                            115.947998046875
+                        ],
+                        "Rotation": [
+                            -7900,
+                            -17700,
+                            0
+                        ],
+                        "Scale": 0.8600000143051147,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4734.1318359375,
+                            2228.035888671875,
+                            114.5250015258789
+                        ],
+                        "Rotation": [
+                            -11100,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4667.1318359375,
+                            2149.035888671875,
+                            119.5250015258789
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -3500,
+                            19100
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.7200000286102295
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4665.1318359375,
+                            2151.035888671875,
+                            117.5250015258789
+                        ],
+                        "Rotation": [
+                            -12300,
+                            0,
+                            -1800
+                        ],
+                        "Scale": 0.36000001430511475,
+                        "Scale3D": [
+                            0.6399999856948853,
+                            1.0800000429153442,
+                            0.6899999976158142
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Flax_Snowman.Meshes.SnowBall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4816.13916015625,
+                            2229.875,
+                            163.8990020751953
+                        ],
+                        "Rotation": [
+                            -11400,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4699999988079071,
+                        "Scale3D": [
+                            0.8100000023841858,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Flax_Snowman.Meshes.SnowBall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4731.13916015625,
+                            2145.875,
+                            146.8990020751953
+                        ],
+                        "Rotation": [
+                            -12300,
+                            2700,
+                            0
+                        ],
+                        "Scale": 0.4699999988079071,
+                        "Scale3D": [
+                            0.800000011920929,
+                            0.8299999833106995,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4819.1318359375,
+                            2228.035888671875,
+                            164.52499389648438
+                        ],
+                        "Rotation": [
+                            -11100,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4820.1318359375,
+                            2223.035888671875,
+                            164.52499389648438
+                        ],
+                        "Rotation": [
+                            -11100,
+                            0,
+                            -2900
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4813.1318359375,
+                            2237.035888671875,
+                            164.52499389648438
+                        ],
+                        "Rotation": [
+                            -11100,
+                            0,
+                            2900
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4820.1318359375,
+                            2221.035888671875,
+                            167.52499389648438
+                        ],
+                        "Rotation": [
+                            -42300,
+                            -34100,
+                            6900
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.14000000059604645
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4732.97021484375,
+                            2166.486083984375,
+                            140.64599609375
+                        ],
+                        "Rotation": [
+                            -31200,
+                            -34800,
+                            16100
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.14000000059604645
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4734.59521484375,
+                            2147.60791015625,
+                            149.10899353027344
+                        ],
+                        "Rotation": [
+                            -11100,
+                            2100,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4729.59521484375,
+                            2149.60791015625,
+                            147.10899353027344
+                        ],
+                        "Rotation": [
+                            -11100,
+                            2100,
+                            4400
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Trees.SwampBranchLarge_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4729.59521484375,
+                            2142.60791015625,
+                            144.10899353027344
+                        ],
+                        "Rotation": [
+                            -11100,
+                            2100,
+                            -4400
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.27000001072883606
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.RockPile_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4688.244140625,
+                            2231.156005859375,
+                            -9.75100040435791
+                        ],
+                        "Rotation": [
+                            0,
+                            6200,
+                            0
+                        ],
+                        "Scale": 0.25999999046325684,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.FX_Rock03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4712.6748046875,
+                            2173.81689453125,
+                            54.525001525878906
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4099999964237213,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.FX_Rock03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4713.6748046875,
+                            2169.81689453125,
+                            33.525001525878906
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4099999964237213,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.FX_Rock03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4720.6748046875,
+                            2196.81689453125,
+                            86.5250015258789
+                        ],
+                        "Rotation": [
+                            0,
+                            19400,
+                            0
+                        ],
+                        "Scale": 0.4099999964237213,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.FX_Rock03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4720.6748046875,
+                            2198.81689453125,
+                            100.5250015258789
+                        ],
+                        "Rotation": [
+                            0,
+                            19400,
+                            0
+                        ],
+                        "Scale": 0.4099999964237213,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            9496.220703125,
+                            539.3729858398438,
+                            -10010
+                        ],
+                        "Rotation": [
+                            0,
+                            -16500,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Allium_Lootables.Balance.Balance_LootCar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2210.3369140625,
+                            -3356.69189453125,
+                            20.731000900268555
+                        ],
+                        "Rotation": [
+                            0,
+                            -25352,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Snowman.IO.MagicHat": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2052.597900390625,
+                            -3283.05908203125,
+                            546.9520263671875
+                        ],
+                        "Rotation": [
+                            -1600,
+                            5000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

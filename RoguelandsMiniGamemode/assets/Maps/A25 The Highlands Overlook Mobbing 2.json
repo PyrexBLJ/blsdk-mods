@@ -1,0 +1,1010 @@
+{
+    "grass_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38096.875,
+                            29416.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.0199999809265137,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38096.875,
+                            28437.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38096.875,
+                            27458.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38096.875,
+                            26478.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38637.875,
+                            26207.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            39616.875,
+                            26207.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            40595.875,
+                            26207.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41799.875,
+                            26207.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.5,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42474.875,
+                            25781.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42474.875,
+                            24802.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42474.875,
+                            23823.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38648.875,
+                            29977.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            39629.875,
+                            29977.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            40610.875,
+                            29977.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41589.875,
+                            29953.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -33200,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41809.875,
+                            29404.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41809.875,
+                            28373.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.1100000143051147,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42241.875,
+                            27881.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43279.875,
+                            27881.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.1200000047683716,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43882.875,
+                            27332.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43882.875,
+                            26353.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43800.875,
+                            26210.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43373.875,
+                            25779.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43379.875,
+                            24900.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.800000011920929,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43379.875,
+                            24107.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.8299999833106995,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43808.875,
+                            23755.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44787.875,
+                            23755.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42360.875,
+                            21577.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43302.875,
+                            21834.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            5500,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44295.875,
+                            23207.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44015.875,
+                            22379.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            8600,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.8199999928474426,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41384.875,
+                            21577.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.BurlesqueStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41131.875,
+                            22124.82421875,
+                            4951.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            43656.7890625,
+                            27637.837890625,
+                            5104.6689453125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43630.06640625,
+                            27614.3359375,
+                            5105
+                        ],
+                        "Rotation": [
+                            0,
+                            -7000,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            39008.13671875,
+                            26816.005859375,
+                            4719.85986328125
+                        ],
+                        "Rotation": [
+                            0,
+                            24500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1134.SkeletalMeshComponent_6903.MaterialInstanceConstant_6618"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38441.84375,
+                            29789.330078125,
+                            4718
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1135.SkeletalMeshComponent_6904.MaterialInstanceConstant_6619"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            41605.16015625,
+                            28246.337890625,
+                            4719
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1136.SkeletalMeshComponent_6905.MaterialInstanceConstant_6620"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43228.15234375,
+                            26336.197265625,
+                            4719
+                        ],
+                        "Rotation": [
+                            0,
+                            9000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1137.SkeletalMeshComponent_6906.MaterialInstanceConstant_6621"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42994.54296875,
+                            21927.775390625,
+                            4646
+                        ],
+                        "Rotation": [
+                            300,
+                            2000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1138.SkeletalMeshComponent_6907.MaterialInstanceConstant_6622"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            41350.37109375,
+                            22309.990234375,
+                            4876.8818359375
+                        ],
+                        "Rotation": [
+                            2700,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

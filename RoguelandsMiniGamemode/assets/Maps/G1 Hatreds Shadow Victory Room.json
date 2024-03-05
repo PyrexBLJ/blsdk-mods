@@ -1,0 +1,3580 @@
+{
+    "castleexterior_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Floor",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            31175.359375,
+                            1981.573974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_Aster_WizardSpells.Materials.Mati_ArcaneShield"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            31175.359375,
+                            1981.573974609375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            31175.359375,
+                            1981.573974609375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            16400
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            36071.359375,
+                            1981.573974609375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            16400
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35264.21484375,
+                            31175.359375,
+                            1981.573974609375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33889.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33449.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            33645.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            34085.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            34525.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            34965.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            35405.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32999.03515625,
+                            35845.7578125,
+                            2038.4010009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            33905.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            33905.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33889.03515625,
+                            33905.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33449.03515625,
+                            33905.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            33905.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            34605.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            35045.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            35485.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            35925.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009.03515625,
+                            36365.7578125,
+                            2218.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            34165.7578125,
+                            2398.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            34165.7578125,
+                            2398.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33889.03515625,
+                            34165.7578125,
+                            2398.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33449.03515625,
+                            34165.7578125,
+                            2398.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33525.03515625,
+                            34165.7578125,
+                            2399
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33525.03515625,
+                            34605.7578125,
+                            2399
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33525.03515625,
+                            35046.7578125,
+                            2399
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33525.03515625,
+                            35487.7578125,
+                            2399
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33525.03515625,
+                            35927.7578125,
+                            2399
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            34428.7578125,
+                            2576.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34330.03515625,
+                            34428.7578125,
+                            2576.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33891.03515625,
+                            34428.7578125,
+                            2576.40087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            34428.80078125,
+                            2576.5
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            35122.80078125,
+                            2576.5
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            35561.80078125,
+                            2576.5
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            36245.80078125,
+                            2576.5
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Pyramid Ramp",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            35556.80078125,
+                            2576.5
+                        ],
+                        "Rotation": [
+                            -8000,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            3.0799999237060547,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "GD_Anemone_Side_Claptocurrency.Materials.Mati_Crystal_BechoWaffer"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            34690,
+                            2754
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            34690,
+                            2754
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33889.03515625,
+                            34690,
+                            2754
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34045,
+                            34690.5,
+                            2754.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34045,
+                            35130.5,
+                            2754.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34045,
+                            35570.5,
+                            2754.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34045,
+                            36010.5,
+                            2754.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            34950,
+                            2932
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            34950,
+                            2932
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34324,
+                            34950,
+                            2932
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1.0750000476837158,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34324,
+                            35390,
+                            2932
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1.0750000476837158,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34324,
+                            35830,
+                            2932
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1.0750000476837158,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            35210,
+                            3110
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            35210.5,
+                            3110.5
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            35907,
+                            3110.5
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.03515625,
+                            36347,
+                            3110.5
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34769.03515625,
+                            35470,
+                            3288
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34845,
+                            35470.5,
+                            3288.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34845,
+                            35910.5,
+                            3288.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35105,
+                            35730.5,
+                            3288.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35365,
+                            35730.5,
+                            3288.5
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34850,
+                            36170.5,
+                            3288.5
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34893.41015625,
+                            35771.19921875,
+                            3468
+                        ],
+                        "Rotation": [
+                            0,
+                            -27000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33070.78125,
+                            33812.81640625,
+                            2179.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            28000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34930.78125,
+                            33752.81640625,
+                            2229.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            9000,
+                            0
+                        ],
+                        "Scale": 2.299999952316284,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33220.78125,
+                            34562.81640625,
+                            2369.4609375
+                        ],
+                        "Rotation": [
+                            4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.4000000953674316,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33430.78125,
+                            35442.81640625,
+                            2549.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            16000,
+                            1000
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Gold Cube",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528.03515625,
+                            35806,
+                            2730
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.9300000071525574,
+                            1,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34200.78125,
+                            34592.81640625,
+                            2729.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            27000,
+                            1000
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34760.78125,
+                            34822.81640625,
+                            2919.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            7000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34200.78125,
+                            35402.81640625,
+                            3089.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            -19000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34570.78125,
+                            35312.81640625,
+                            3269.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            -28000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32860.78125,
+                            35012.81640625,
+                            2179.4609375
+                        ],
+                        "Rotation": [
+                            0,
+                            47000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Floor 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            31175.359375,
+                            1955
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 26.899999618530273,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Trails_Alien.Materials.Mati_Orb_Core_Desat"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Floor 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30144.21484375,
+                            31175.359375,
+                            1970
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Ceiling",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            30130.21484375,
+                            31175.359375,
+                            7040
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Floor 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32774.21484375,
+                            33655.359375,
+                            2000
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 12.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 5",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528,
+                            36061.796875,
+                            2732.055908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 9.890000343322754,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 6",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35209.8828125,
+                            37413.796875,
+                            1405.0560302734375
+                        ],
+                        "Rotation": [
+                            9900,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 9.890000343322754,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Ceiling 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33784.21484375,
+                            34450.359375,
+                            2730
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 6.360000133514404,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 7",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33783.21484375,
+                            34895.359375,
+                            2730
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 6.360000133514404,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 8",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33269.69921875,
+                            34905.359375,
+                            2398
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 2.9600000381469727,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 9",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009,
+                            34905.359375,
+                            2218
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 2.9600000381469727,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 10",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33528,
+                            34905.359375,
+                            2578
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 2.9600000381469727,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 11",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33269,
+                            36061.796875,
+                            2402.055908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 9.890000343322754,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 12",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33009,
+                            36061.796875,
+                            2222.055908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 9.890000343322754,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Wall 13",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33519,
+                            34901.796875,
+                            2412.055908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 9.890000343322754,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Misc.Jeffery_Throne": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35093.1875,
+                            35688.64453125,
+                            2030.89501953125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Sage_Prop_SeraphVendor.Material.Mati_SeraphCrystal"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Furniture.RedCarpet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34523.5078125,
+                            35683.51953125,
+                            2032
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.2999999523162842,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Bloodwing.Meshes.Bloodwing": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35048.46484375,
+                            35690.41015625,
+                            2104
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Details.Meshes.Crown": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35054,
+                            35690.3984375,
+                            2219.839111328125
+                        ],
+                        "Rotation": [
+                            6100,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.5
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.Meshes.HangingCage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35045.68359375,
+                            35067.41015625,
+                            2118.402099609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35040.28125,
+                            35067,
+                            2725.532958984375
+                        ],
+                        "Rotation": [
+                            32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.2000000476837158,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_skullpile": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34836.96875,
+                            35747.08984375,
+                            2031.5511474609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_skullpile2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34486.7734375,
+                            35359.4765625,
+                            2032.2962646484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -11000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35205.41015625,
+                            36061.453125,
+                            2679.113037109375
+                        ],
+                        "Rotation": [
+                            22000,
+                            11000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33663.80078125,
+                            34989.7890625,
+                            2008.9659423828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.CrystalCluster": {
+                        "Rename": "Pink Crystals",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34241.1953125,
+                            35981.0703125,
+                            2018.053955078125
+                        ],
+                        "Rotation": [
+                            0,
+                            31000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Iris_Pickups.Materials.Mati_CrystaliskPink"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Corpses_02.DeadSettler": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34604.02734375,
+                            35913.87890625,
+                            2054.322998046875
+                        ],
+                        "Rotation": [
+                            16400,
+                            9000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.GenericSign_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35032.875,
+                            35057.296875,
+                            2632.90234375
+                        ],
+                        "Rotation": [
+                            2000,
+                            -20000,
+                            0
+                        ],
+                        "Scale": 1.600000023841858,
+                        "Scale3D": [
+                            1.2000000476837158,
+                            0.10000000149011612,
+                            0.800000011920929
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Orchid_Prop_Pickups.Mesh.Crystalisk_Crystal_Main_Pink": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34654.34765625,
+                            35440.98046875,
+                            2046.3399658203125
+                        ],
+                        "Rotation": [
+                            0,
+                            -21000,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Orchid_Prop_Pickups.Mesh.Crystalisk_Crystal_Main_Pink": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33714.34765625,
+                            35180.98046875,
+                            2046.3399658203125
+                        ],
+                        "Rotation": [
+                            0,
+                            -7000,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Aster_Knight.Mesh.MaleHeadProp_Collision": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35140.13671875,
+                            35636,
+                            2352
+                        ],
+                        "Rotation": [
+                            0,
+                            29000,
+                            3000
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Aster_Knight.Mesh.MaleHeadProp_Collision": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35136,
+                            35775.59765625,
+                            2334.12109375
+                        ],
+                        "Rotation": [
+                            7000,
+                            -18000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_GenericFemale.Mesh.GenericFemaleHairstyle_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35134,
+                            35808,
+                            2335.8798828125
+                        ],
+                        "Rotation": [
+                            15000,
+                            -2000,
+                            4000
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Pickups.Mesh.Pendant": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35055,
+                            35691,
+                            2196
+                        ],
+                        "Rotation": [
+                            1000,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_TunnelRat.Mesh.TunnelRat_Head2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35039.21484375,
+                            35107.01953125,
+                            2146.919921875
+                        ],
+                        "Rotation": [
+                            4000,
+                            -27000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Misc.Trim_Misc_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35223.10546875,
+                            35055.609375,
+                            2004.842041015625
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1.2999999523162842,
+                        "Scale3D": [
+                            1.2000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Corpses.Meshes.DeadBandit_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34132.05078125,
+                            35276.68359375,
+                            2037
+                        ],
+                        "Rotation": [
+                            0,
+                            -23000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.GibMeat01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34692.296875,
+                            35203.94921875,
+                            2037.988037109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -10000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.GibMeat02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35053.1328125,
+                            35259.22265625,
+                            2070.052978515625
+                        ],
+                        "Rotation": [
+                            0,
+                            4000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_HandsomeJack.Meshes.HandsomeJackMask": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33823.37890625,
+                            34940,
+                            2064
+                        ],
+                        "Rotation": [
+                            5000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Humanoid.GoliathGibHead": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34866.0546875,
+                            34970.04296875,
+                            2077
+                        ],
+                        "Rotation": [
+                            1000,
+                            -25000,
+                            16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Humanoid.NomadGibArm": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33994.45703125,
+                            35973.94140625,
+                            2042
+                        ],
+                        "Rotation": [
+                            0,
+                            -25000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Humanoid.PsychoBanditGibLeg": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34877.01171875,
+                            35477.03125,
+                            2038
+                        ],
+                        "Rotation": [
+                            0,
+                            21000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Humanoid.PsychoBanditGibTorso": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35090.578125,
+                            35965.78515625,
+                            2047
+                        ],
+                        "Rotation": [
+                            16400,
+                            22000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Weapons.Meshes.Melee_HandleAxe": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35208.9375,
+                            35692.57421875,
+                            2516.840087890625
+                        ],
+                        "Rotation": [
+                            8000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Weapons.Meshes.Melee_HandleAxe": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35208.9375,
+                            35692.57421875,
+                            2516.840087890625
+                        ],
+                        "Rotation": [
+                            8000,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Weapons.Meshes.Melee_HandleMace": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34782.86328125,
+                            36011.6171875,
+                            2205.626953125
+                        ],
+                        "Rotation": [
+                            -29000,
+                            -16000,
+                            0
+                        ],
+                        "Scale": 2.299999952316284,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Metal_Brazier": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34330.23828125,
+                            35054.21875,
+                            2030.18994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_ENV_Fire.Meshes.Fire_Crossed": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34329.62109375,
+                            35046.0078125,
+                            2253.777099609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Farm.Meshes.OilLamp": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34206.9140625,
+                            35381.01953125,
+                            2043
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -17900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullBundle_Anim": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            33647.36328125,
+                            35168.36328125,
+                            2481.26220703125
+                        ],
+                        "Rotation": [
+                            0,
+                            27000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Weapon_Pile": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35077.81640625,
+                            35488.66015625,
+                            2030.616943359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Weapons.Meshes.Sword_Excalibur": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34977.84765625,
+                            35046.09375,
+                            2366.5029296875
+                        ],
+                        "Rotation": [
+                            -31000,
+                            7000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_MoxxiNude.Meshes.Iris_MoxxiNude01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34376.625,
+                            36055.27734375,
+                            2476.0380859375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 5.599999904632568,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_GaiusSanctuary.Meshes.SM_Eridium_Pile": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            35018.23046875,
+                            35828.66796875,
+                            2033
+                        ],
+                        "Rotation": [
+                            0,
+                            14000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_WEP_Shared.Meshes.Mesh_RL_Projectile_Light_Cone_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34880.140625,
+                            35760.3203125,
+                            7044.68798828125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 30,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Aster_WizardSpells.Mesh.SummonSwirl": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            32633.1796875,
+                            33606.69140625,
+                            2334.756103515625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 30.579999923706055,
+                        "Scale3D": [
+                            1,
+                            1,
+                            8.699999809265137
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Lights.Meshes.Chandelier02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34373.48828125,
+                            35488.28515625,
+                            2501.489990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.ChainLinkLong": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34373.28125,
+                            35488,
+                            2725.532958984375
+                        ],
+                        "Rotation": [
+                            32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.6499999761581421,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.CollisionCube": {
+                        "Rename": "Animated Cube 1",
+                        "Tags": [
+                            "Animated Cube 1"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            31254.931640625,
+                            34707.953125,
+                            3532.196044921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Canister"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.CollisionCube": {
+                        "Rename": "Animated Cube 2",
+                        "Tags": [
+                            "Animated Cube 2"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            33437.9296875,
+                            32354.953125,
+                            3532.196044921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Canister"
+                        ]
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Location": [
+                            35139.27734375,
+                            35902.18359375,
+                            2030.2979736328125
+                        ],
+                        "Rotation": [
+                            0,
+                            -5000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Location": [
+                            33711.42578125,
+                            35955.015625,
+                            2037.2979736328125
+                        ],
+                        "Rotation": [
+                            0,
+                            -48000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Location": [
+                            33611.90234375,
+                            35839.93359375,
+                            2031.699951171875
+                        ],
+                        "Rotation": [
+                            0,
+                            -42000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "",
+                        "Location": [
+                            34069.375,
+                            34916,
+                            2378.6640625
+                        ],
+                        "Rotation": [
+                            4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest": {
+                        "Rename": "",
+                        "Location": [
+                            33628.79296875,
+                            35401.31640625,
+                            2033.0479736328125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "CastleExterior_P.TheWorld:PersistentLevel.WillowInteractiveObject_107.SkeletalMeshComponent_474.MaterialInstanceConstant_554"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

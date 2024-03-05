@@ -1,0 +1,390 @@
+{
+    "mines_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_fence_tallx2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24592.158203125,
+                            -14467.498046875,
+                            -2946.133056640625
+                        ],
+                        "Rotation": [
+                            0,
+                            20700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            3.200000047683716,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_fence_tallx2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24772.158203125,
+                            -14944.498046875,
+                            -2946.133056640625
+                        ],
+                        "Rotation": [
+                            0,
+                            12200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            2.9700000286102295,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Davery_DLC4_Tests.Davery_Mine_fence_tallx2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -25366.158203125,
+                            -14907.498046875,
+                            -2901.133056640625
+                        ],
+                        "Rotation": [
+                            -700,
+                            -400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            3.240000009536743,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_DwarfMines.Mesh.DwarfMines_Building1": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -37279.5859375,
+                            -9796.68359375,
+                            -2403.674072265625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.5,
+                            1,
+                            1.7999999523162842
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_DwarfMines.Mesh.DwarfMines_StoneBlock": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -27030.890625,
+                            -9992.7607421875,
+                            -1690.0889892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            2000
+                        ],
+                        "Scale": 0.10000000149011612,
+                        "Scale3D": [
+                            1.100000023841858,
+                            1.5,
+                            2.9000000953674316
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -26263.685546875,
+                            -9821.0830078125,
+                            -1402.2049560546875
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.0010000000474974513,
+                            1.3600000143051147,
+                            0.5899999737739563
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -26263.685546875,
+                            -9821.0830078125,
+                            -1402.2049560546875
+                        ],
+                        "Rotation": [
+                            0,
+                            35200,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.0010000000474974513,
+                            0.6800000071525574,
+                            0.5899999737739563
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -26663.921875,
+                            -10698.4150390625,
+                            -1407.3919677734375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -26705.44140625,
+                            -10708.810546875,
+                            -1407
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            -16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -26100.458984375,
+                            -13233.927734375,
+                            -2814
+                        ],
+                        "Rotation": [
+                            -4000,
+                            -13000,
+                            -1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Mines_P.TheWorld:PersistentLevel.WillowInteractiveObject_801.SkeletalMeshComponent_3808.MaterialInstanceConstant_5112"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -30249.65625,
+                            -12088.2822265625,
+                            -2695
+                        ],
+                        "Rotation": [
+                            0,
+                            -12000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Mines_P.TheWorld:PersistentLevel.WillowInteractiveObject_802.SkeletalMeshComponent_3809.MaterialInstanceConstant_5113"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -27226.841796875,
+                            -10608.2734375,
+                            -1917
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Mines_P.TheWorld:PersistentLevel.WillowInteractiveObject_803.SkeletalMeshComponent_3810.MaterialInstanceConstant_5114"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -31912.779296875,
+                            -10198.0859375,
+                            -1710
+                        ],
+                        "Rotation": [
+                            0,
+                            -6000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Mines_P.TheWorld:PersistentLevel.WillowInteractiveObject_804.SkeletalMeshComponent_3811.MaterialInstanceConstant_5115"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -36482.53515625,
+                            -11210.8134765625,
+                            -2196
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Mines_P.TheWorld:PersistentLevel.WillowInteractiveObject_805.SkeletalMeshComponent_3812.MaterialInstanceConstant_5116"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -28164.888671875,
+                            -11455.330078125,
+                            -1536.8924560546875
+                        ],
+                        "Rotation": [
+                            5184,
+                            -16352,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

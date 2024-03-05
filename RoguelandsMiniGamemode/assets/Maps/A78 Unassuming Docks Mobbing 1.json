@@ -1,0 +1,612 @@
+{
+    "docks_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7858.671875,
+                            -12531.3388671875,
+                            -9967.1435546875
+                        ],
+                        "Rotation": [
+                            -4000,
+                            -9000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7896.59912109375,
+                            -12647.662109375,
+                            -9916.69921875
+                        ],
+                        "Rotation": [
+                            -4000,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9768.671875,
+                            -14191.3388671875,
+                            -10847.1435546875
+                        ],
+                        "Rotation": [
+                            -4000,
+                            -6000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            10126.599609375,
+                            -14387.662109375,
+                            -10816.69921875
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            12128.671875,
+                            -15981.3388671875,
+                            -11067.1435546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -6000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            12196.599609375,
+                            -15957.662109375,
+                            -10996.69921875
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14428.671875,
+                            -17721.33984375,
+                            -11407.1435546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -6000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Wall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14456.599609375,
+                            -17797.662109375,
+                            -11316.69921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Ruin_Pillar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            16418.671875,
+                            -19411.33984375,
+                            -11407.1435546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9871.6826171875,
+                            -13973.564453125,
+                            -10100.6669921875
+                        ],
+                        "Rotation": [
+                            0,
+                            9400,
+                            0
+                        ],
+                        "Scale": 0.25999999046325684,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            19674.251953125,
+                            -7894.55712890625,
+                            -10804
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            19639.10546875,
+                            -7899.64404296875,
+                            -10803.7666015625
+                        ],
+                        "Rotation": [
+                            0,
+                            16100,
+                            -16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Target 1",
+                        "Tags": [
+                            "Target 1"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            9879.791015625,
+                            2004.5770263671875,
+                            -1323.5032958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            2600
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": [
+                            "Common_GunMaterials.MasterMaterials.Tediore.MasterMati_TedioreEpic"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Target 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9879.791015625,
+                            2003.5770263671875,
+                            -1323.5032958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            2600
+                        ],
+                        "Scale": 0.800000011920929,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_IO_Digistruct.Materials.Mati_DigiPaneSolidBar"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Target 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9879.791015625,
+                            2002.5770263671875,
+                            -1323.5032958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            2600
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": [
+                            "Common_GunMaterials.MasterMaterials.Tediore.MasterMati_TedioreEpic"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Target 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9879.791015625,
+                            2001.5770263671875,
+                            -1323.5032958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            2600
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_IO_Digistruct.Materials.Mati_DigiPaneSolidBar"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Target 5",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9879.791015625,
+                            2000.5770263671875,
+                            -1323.5032958984375
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            2600
+                        ],
+                        "Scale": 0.20000000298023224,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": [
+                            "Common_GunMaterials.MasterMaterials.Tediore.MasterMati_TedioreEpic"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_Airship.Meshes.WoodenBoat": {
+                        "Rename": "",
+                        "Tags": ["EE Boat"],
+                        "Metadata": "",
+                        "Location": [
+                            43032,
+                            -23464.400390625,
+                            -12855
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": ["EE Buttstallion"],
+                        "Metadata": "",
+                        "Location": [
+                            43252.3671875,
+                            -23474.212890625,
+                            -12835.7392578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 9,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            14515.24609375,
+                            -10786.69921875,
+                            -11087.232421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -6200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Docks_P.TheWorld:PersistentLevel.WillowInteractiveObject_56.SkeletalMeshComponent_405.MaterialInstanceConstant_477"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            10098.8896484375,
+                            -13725.9091796875,
+                            -10372.6494140625
+                        ],
+                        "Rotation": [
+                            0,
+                            7400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Docks_P.TheWorld:PersistentLevel.WillowInteractiveObject_57.SkeletalMeshComponent_406.MaterialInstanceConstant_478"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            12771.3330078125,
+                            -6087.78466796875,
+                            -10624
+                        ],
+                        "Rotation": [
+                            -2000,
+                            -15600,
+                            700
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Docks_P.TheWorld:PersistentLevel.WillowInteractiveObject_58.SkeletalMeshComponent_407.MaterialInstanceConstant_479"
+                        ]
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_MimicChest_NoMimic": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            16691.427734375,
+                            -8407.0859375,
+                            -11142
+                        ],
+                        "Rotation": [
+                            -300,
+                            -26600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Docks_P.TheWorld:PersistentLevel.WillowInteractiveObject_59.SkeletalMeshComponent_408.MaterialInstanceConstant_480"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            11049.974609375,
+                            -8634,
+                            -10536.0126953125
+                        ],
+                        "Rotation": [
+                            -2015,
+                            -5637,
+                            51
+                        ],
+                        "Scale": 0.6499999761581421,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

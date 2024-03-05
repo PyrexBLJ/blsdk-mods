@@ -1,0 +1,1854 @@
+{
+    "interlude_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8332.265625,
+                            -89399.2265625,
+                            -3772.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -89051.2265625,
+                            -2571.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -90065.2265625,
+                            -3811.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -92323.2265625,
+                            -3809.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -94579.2265625,
+                            -3811.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -95575.2265625,
+                            -2571.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -90065.2265625,
+                            -1348.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -92323.2265625,
+                            -1349.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -9237.265625,
+                            -94579.2265625,
+                            -1350.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -7997.26611328125,
+                            -90066.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -10478.265625,
+                            -90066.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8000.26611328125,
+                            -92325.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -7997.26611328125,
+                            -94368.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -10473.265625,
+                            -92312.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -10478.265625,
+                            -94556.2265625,
+                            -2553.18798828125
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 20,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.009999999776482582
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9250.103515625,
+                            -89937.015625,
+                            -2625.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9500.103515625,
+                            -90587.015625,
+                            -2625.7060546875
+                        ],
+                        "Rotation": [
+                            -4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -8918.103515625,
+                            -91195.015625,
+                            -2625.7060546875
+                        ],
+                        "Rotation": [
+                            4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9250.103515625,
+                            -91907.015625,
+                            -2625.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -10264.103515625,
+                            -91908.015625,
+                            -3097.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9253.3115234375,
+                            -92391.1171875,
+                            -2787.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 5.059999942779541,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9250.103515625,
+                            -92932.015625,
+                            -2625.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -10264.103515625,
+                            -92928.015625,
+                            -3097.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Interlude.Mesh.Lentil": {
+                        "Rename": "",
+                        "Location": [
+                            -10265,
+                            -92832.8125,
+                            -3052.22607421875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            0.10000000149011612
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9958.103515625,
+                            -92930.015625,
+                            -2914.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9688.103515625,
+                            -92936.015625,
+                            -2753.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -8213.103515625,
+                            -93122.015625,
+                            -2596.7060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9236.3115234375,
+                            -93448.1171875,
+                            -3930.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 5.059999942779541,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9945.3115234375,
+                            -93448.1171875,
+                            -2796.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 5.059999942779541,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -8213.103515625,
+                            -94122.015625,
+                            -2220
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Interlude.Mesh.Lentil": {
+                        "Rename": "",
+                        "Location": [
+                            -8213,
+                            -93992.8125,
+                            -2170
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            5250
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            0.10000000149011612
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9252.3115234375,
+                            -94493.1171875,
+                            -2787.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 5.059999942779541,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9010.103515625,
+                            -93645.015625,
+                            -2220
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -4000
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9655.103515625,
+                            -94302.015625,
+                            -2220
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            4000
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -10253.103515625,
+                            -93702.015625,
+                            -3190
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9012.3115234375,
+                            -94193.1171875,
+                            -2747.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.1600000858306885,
+                        "Scale3D": [
+                            0.5,
+                            1,
+                            2.259999990463257
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkFenceShortNoWire": {
+                        "Rename": "",
+                        "Location": [
+                            -9655.3115234375,
+                            -93738.1171875,
+                            -2792.864990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.1600000858306885,
+                        "Scale3D": [
+                            0.5,
+                            1,
+                            2.319999933242798
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -10251.103515625,
+                            -95406.015625,
+                            -3190
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Interlude.Mesh.Lentil": {
+                        "Rename": "",
+                        "Location": [
+                            -10253,
+                            -95294.8125,
+                            -3153.22607421875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            2.240000009536743,
+                            0.10000000149011612
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9811.103515625,
+                            -95406.015625,
+                            -3016
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9444.103515625,
+                            -95398.015625,
+                            -2877
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -9069.103515625,
+                            -95398.015625,
+                            -2740
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -8669.103515625,
+                            -95398.015625,
+                            -2580
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionFountain": {
+                        "Rename": "",
+                        "Location": [
+                            -8249.103515625,
+                            -95158.015625,
+                            -2440
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.574999988079071,
+                            0.574999988079071,
+                            0.574999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.ArrowSign": {
+                        "Rename": "",
+                        "Location": [
+                            -9265.685546875,
+                            -95585.1484375,
+                            -2014.93505859375
+                        ],
+                        "Rotation": [
+                            -4000,
+                            0,
+                            -32800
+                        ],
+                        "Scale": 1.8899999856948853,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8137.26611328125,
+                            -89841.2265625,
+                            -3772.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8413.265625,
+                            -89854.2265625,
+                            -3772.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            1600,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8413.265625,
+                            -89854.2265625,
+                            -3523.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8097.26611328125,
+                            -90061.2265625,
+                            -3772.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            -2000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8213.265625,
+                            -89764.2265625,
+                            -3523.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            2000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Location": [
+                            -8520.265625,
+                            -89531.2265625,
+                            -3162.18798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            -11300,
+                            0
+                        ],
+                        "Scale": 1.2100000381469727,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Crate.Materials.Mati_AmmoCrate"
+                        ]
+                    }
+                },
+                {
+                    "Env_Interlude.Mesh.Lentil": {
+                        "Rename": "",
+                        "Location": [
+                            -9146,
+                            -89877.8125,
+                            -2576.22607421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -11000,
+                            5300
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            2,
+                            0.10000000149011612
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9288.279296875,
+                            -89888.5546875,
+                            -3790.751953125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -10022.279296875,
+                            -90534.5546875,
+                            -3793.751953125
+                        ],
+                        "Rotation": [
+                            -4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            10.145000457763672
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -8476.279296875,
+                            -91143.5546875,
+                            -3816.751953125
+                        ],
+                        "Rotation": [
+                            4000,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            10.345000267028809
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9210.279296875,
+                            -91858.5546875,
+                            -2622.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -10230.279296875,
+                            -91858.5546875,
+                            -3090.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -10230.279296875,
+                            -92876.5546875,
+                            -3090.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9919.279296875,
+                            -92876.5546875,
+                            -2911.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9649.279296875,
+                            -92881.5546875,
+                            -2751.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9216.279296875,
+                            -92881.5546875,
+                            -2623.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -8179.27880859375,
+                            -93071.5546875,
+                            -2594.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            9.494999885559082
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -8178.27880859375,
+                            -94072.5546875,
+                            -2215.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.Chains": {
+                        "Rename": "",
+                        "Location": [
+                            -9009.6630859375,
+                            -93662.484375,
+                            -1350.4560546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.869999885559082,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2.2100000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.Chains": {
+                        "Rename": "",
+                        "Location": [
+                            -9652.6630859375,
+                            -94286.484375,
+                            -1350.4560546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.869999885559082,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2.2100000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -10218.279296875,
+                            -93648.5546875,
+                            -3185.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -10215.279296875,
+                            -95356.5546875,
+                            -3185.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9773.279296875,
+                            -95354.5546875,
+                            -3016.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9407.279296875,
+                            -95347.5546875,
+                            -2874.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -9034.279296875,
+                            -95347.5546875,
+                            -2734.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -8637.279296875,
+                            -95347.5546875,
+                            -2578.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionPillar01B": {
+                        "Rename": "",
+                        "Location": [
+                            -8216.279296875,
+                            -95106.5546875,
+                            -2438.751953125
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.33000001311302185,
+                        "Scale3D": [
+                            3.828843116760254,
+                            4.886685371398926,
+                            12.475000381469727
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Location": [
+                            -8228.83984375,
+                            -95147.0078125,
+                            -2381.306884765625
+                        ],
+                        "Rotation": [
+                            0,
+                            -29500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -9365.1435546875,
+                            -94644.6484375,
+                            -3859.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -2000,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.7400000095367432,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -9389.1435546875,
+                            -92267.6484375,
+                            -3857.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -41600,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.9300000071525574,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -9156.1435546875,
+                            -91598.6484375,
+                            -3857.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -10300,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.9300000071525574,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -9990.1435546875,
+                            -90685.6484375,
+                            -3857.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            -16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1.0700000524520874,
+                            1.0499999523162842,
+                            0.7200000286102295
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -8430.1435546875,
+                            -90492.6484375,
+                            -3857.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            -42900,
+                            -16400
+                        ],
+                        "Scale": 1.4600000381469727,
+                        "Scale3D": [
+                            0.7900000214576721,
+                            1.0499999523162842,
+                            0.7200000286102295
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -8683.1435546875,
+                            -93510.6484375,
+                            -3859.302001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            7200,
+                            -16400
+                        ],
+                        "Scale": 1.649999976158142,
+                        "Scale3D": [
+                            0.7400000095367432,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -10516.1435546875,
+                            -90484.6484375,
+                            -2189.302001953125
+                        ],
+                        "Rotation": [
+                            1900,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.4000000953674316,
+                        "Scale3D": [
+                            0.7400000095367432,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -10660.1435546875,
+                            -92852.6484375,
+                            -1957.302001953125
+                        ],
+                        "Rotation": [
+                            -16800,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.2300000190734863,
+                        "Scale3D": [
+                            0.4699999988079071,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_TentacleDoor.Mesh.SM_Infection_Wall": {
+                        "Rename": "",
+                        "Location": [
+                            -10536.1435546875,
+                            -94374.6484375,
+                            -2489.302001953125
+                        ],
+                        "Rotation": [
+                            35900,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.4000000953674316,
+                        "Scale3D": [
+                            0.7400000095367432,
+                            1.0499999523162842,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

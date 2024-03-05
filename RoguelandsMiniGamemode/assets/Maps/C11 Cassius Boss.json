@@ -1,0 +1,60 @@
+{
+    "researchcenter_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Env_Interlude.Mesh.GarageDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5781.1982421875,
+                            106.77400207519531,
+                            4328.7890625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.090000033378601,
+                        "Scale3D": [
+                            1.4299999475479126,
+                            0.6499999761581421,
+                            0.6499999761581421
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -4992.87060546875,
+                            124.32099914550781,
+                            -5714
+                        ],
+                        "Rotation": [
+                            0,
+                            -8200,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

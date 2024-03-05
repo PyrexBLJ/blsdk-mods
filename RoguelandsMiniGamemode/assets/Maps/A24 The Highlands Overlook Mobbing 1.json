@@ -1,0 +1,338 @@
+{
+    "grass_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            31777.888671875,
+                            25058.173828125,
+                            2596.89404296875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.1100000143051147,
+                            0.6600000262260437
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44512.6484375,
+                            24142.0390625,
+                            2799.592041015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44512.6484375,
+                            25170.0390625,
+                            2799.592041015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_dams.Mesh.HyperionDamWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44512.6484375,
+                            26192.0390625,
+                            2799.592041015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.DeadFish": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            38475.85546875,
+                            19522.603515625,
+                            -1946.530029296875
+                        ],
+                        "Rotation": [
+                            -10100,
+                            -4200,
+                            0
+                        ],
+                        "Scale": 100,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            44119,
+                            23735,
+                            3453
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.30000001192092896,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            44118,
+                            23760,
+                            3454
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.30000001192092896,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            34893.58984375,
+                            25384.609375,
+                            3179.910888671875
+                        ],
+                        "Rotation": [
+                            -900,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1079.SkeletalMeshComponent_6664.MaterialInstanceConstant_6354"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37675.1015625,
+                            26323.943359375,
+                            3204.669921875
+                        ],
+                        "Rotation": [
+                            -1300,
+                            21600,
+                            900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1080.SkeletalMeshComponent_6665.MaterialInstanceConstant_6355"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            39387.1328125,
+                            22319.515625,
+                            3216.37109375
+                        ],
+                        "Rotation": [
+                            1000,
+                            2600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1081.SkeletalMeshComponent_6666.MaterialInstanceConstant_6356"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            42884.5078125,
+                            22947.306640625,
+                            3193.6201171875
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1082.SkeletalMeshComponent_6667.MaterialInstanceConstant_6357"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            43298.5078125,
+                            22947.306640625,
+                            3193.6201171875
+                        ],
+                        "Rotation": [
+                            0,
+                            3100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Grass_P.TheWorld:PersistentLevel.WillowInteractiveObject_1083.SkeletalMeshComponent_6668.MaterialInstanceConstant_6358"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            36603,
+                            28773.9375,
+                            3543.91796875
+                        ],
+                        "Rotation": [
+                            -3000,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

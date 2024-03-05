@@ -1,4 +1,5 @@
 import json
+from os import path
 import random
 import threading
 import time
@@ -95,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.2"
+    Version: str = "1.0.3"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -544,8 +545,8 @@ class Main(ModMenu.SDKMod):
             return
 
         GameState.mission_complete_sound_played = True
-        if self.round_counter == 13:
-            unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
+        #if self.round_counter == 13:
+            #unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
         mission_display.update_mission_display()
         # unrealsdk.Log("Set missionCompleteSoundPlayed True")
         if GameState.map_type not in (MapType.MiniGame, MapType.Special, MapType.FinalBoss):
@@ -556,7 +557,7 @@ class Main(ModMenu.SDKMod):
         if GameState.map_type != MapType.MiniGame:
             unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 25
 
-        if GameState.map_type in (MapType.RaidBoss, MapType.FinalBoss):
+        if GameState.map_type == MapType.RaidBoss:
             self.reward("Roguelands", REWARD_POOLS[MapType.RaidBoss][0])
         elif GameState.map_type == MapType.MiniGame:
             if GameState.current_map.should_show_timer:
@@ -660,7 +661,8 @@ class Main(ModMenu.SDKMod):
 
     def Enable(self) -> None:
         pc: unrealsdk.UObject = unrealsdk.GetEngine().GamePlayers[0].Actor
-        pc.ConsoleCommand("exec Win32\\Mods\\RoguelandsGamemode\\assets\\rlc.txt")
+        dir_path = path.dirname(path.realpath(__file__))
+        pc.ConsoleCommand(f'exec "{dir_path}\\assets\\rlc.txt"')
         unrealsdk.Log("Ran Text Mods")
 
         sdkversion = unrealsdk.GetVersion()
@@ -806,7 +808,7 @@ class Main(ModMenu.SDKMod):
             hud_movie.WPRI.GeneralSkillPoints = (
                 hud_movie.WPRI.Currency[7].CurrentAmount - pc.PlayerSkillTree.GetSkillPointsSpentInTree()
             )
-            if GameState.current_map.map_file == "D1 Pete Raid Boss.json":
+            if GameState.current_map.map_file == "D1 Pete Raid Boss.json" or GameState.current_map.map_file == "H1 Ancient Dragons Raid Boss.json":
                 if hud_movie.WPRI.Currency[1].CurrentAmount < 8:
                     hud_movie.WPRI.Currency[1].CurrentAmount = 8
 

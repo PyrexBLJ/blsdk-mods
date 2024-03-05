@@ -1,0 +1,444 @@
+{
+    "castlekeep_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            139463.6875,
+                            -20129.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -8200,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.2999999523162842,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            138051.6875,
+                            -21540.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.30000001192092896,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            138052.6875,
+                            -21999.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -8200,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.5400000214576721,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            137470.6875,
+                            -22584.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.5400000214576721,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            136640.6875,
+                            -22583.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -24600,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.5600000023841858,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            136033.6875,
+                            -21972.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.25999999046325684,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            135991.6875,
+                            -21574.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.1799999475479126,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            134175.6875,
+                            -21574.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -24600,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.0399999618530273,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            133103.6875,
+                            -20499.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -32700,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            2.2300000190734863,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            133082.6875,
+                            -17077.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -40800,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.0099999904632568,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            134164.6875,
+                            -15962.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.25,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            136084.6875,
+                            -15959.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.27000001072883606,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            136083.6875,
+                            -15545.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            24600,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.5299999713897705,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            136656.6875,
+                            -14969.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.5249999761581421,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            137463.6875,
+                            -14968.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            8200,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.550000011920929,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            138062.6875,
+                            -15566.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            0.25,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Castle.Mesh_Walkways.Walkway_1024x1024": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            138063.6875,
+                            -15946.51953125,
+                            137351.171875
+                        ],
+                        "Rotation": [
+                            16400,
+                            8200,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1.4199999570846558,
+                            0.11999999731779099
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            138583.53125,
+                            -18744.58203125,
+                            127725
+                        ],
+                        "Rotation": [
+                            0,
+                            24900,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

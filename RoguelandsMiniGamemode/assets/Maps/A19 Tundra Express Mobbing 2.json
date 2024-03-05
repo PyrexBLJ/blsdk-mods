@@ -1,0 +1,825 @@
+{
+    "tundraexpress_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Supports.GirdersTop": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -22761.17578125,
+                            6475.32177734375,
+                            845.156982421875
+                        ],
+                        "Rotation": [
+                            0,
+                            16600,
+                            0
+                        ],
+                        "Scale": 7,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.AridRockCliff_05a": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19805.609375,
+                            5578.64697265625,
+                            1413.68798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            25000,
+                            1500
+                        ],
+                        "Scale": 0.41999998688697815,
+                        "Scale3D": [
+                            0.8600000143051147,
+                            0.7200000286102295,
+                            0.9300000071525574
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19774.009765625,
+                            6442.869140625,
+                            994.7440185546875
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.5,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19774.009765625,
+                            6442.869140625,
+                            1244.7440185546875
+                        ],
+                        "Rotation": [
+                            0,
+                            23400,
+                            0
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.5,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -18850.53125,
+                            3474.69189453125,
+                            1826.093017578125
+                        ],
+                        "Rotation": [
+                            0,
+                            -12000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -18580.53125,
+                            2134.69189453125,
+                            1816.093017578125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -17000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19310.53125,
+                            1374.6920166015625,
+                            1816.093017578125
+                        ],
+                        "Rotation": [
+                            1000,
+                            -33000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Panels.CorrugatePanel_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19282.375,
+                            4061.717041015625,
+                            1907.3499755859375
+                        ],
+                        "Rotation": [
+                            0,
+                            5100,
+                            -15600
+                        ],
+                        "Scale": 1.3200000524520874,
+                        "Scale3D": [
+                            1.6799999475479126,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19906.46484375,
+                            1755.8719482421875,
+                            1993.5069580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            -7300,
+                            0
+                        ],
+                        "Scale": 1.159999966621399,
+                        "Scale3D": [
+                            1,
+                            1.2699999809265137,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -19916.94140625,
+                            1837.9840087890625,
+                            1999
+                        ],
+                        "Rotation": [
+                            0,
+                            9000,
+                            0
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            2.9000000953674316,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -22002.5234375,
+                            -2072.347900390625,
+                            715.8489990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            -27600,
+                            0
+                        ],
+                        "Scale": 0.6899999976158142,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGateMed": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -23732.1640625,
+                            -2023.803955078125,
+                            805.7839965820312
+                        ],
+                        "Rotation": [
+                            600,
+                            -27900,
+                            0
+                        ],
+                        "Scale": 0.8999999761581421,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24869.71484375,
+                            -1444.6390380859375,
+                            1191.3719482421875
+                        ],
+                        "Rotation": [
+                            0,
+                            10100,
+                            0
+                        ],
+                        "Scale": 1.3799999952316284,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.5999999046325684,
+                            2.9700000286102295
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -25995.7421875,
+                            1122.1209716796875,
+                            1685.06396484375
+                        ],
+                        "Rotation": [
+                            900,
+                            18000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.1100000143051147
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 5",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -25869.5546875,
+                            423.04400634765625,
+                            1536.0240478515625
+                        ],
+                        "Rotation": [
+                            0,
+                            32400,
+                            0
+                        ],
+                        "Scale": 1.3799999952316284,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.5999999046325684,
+                            1.9900000095367432
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -25574.357421875,
+                            3768.260986328125,
+                            1624.2979736328125
+                        ],
+                        "Rotation": [
+                            0,
+                            10300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24829.357421875,
+                            4933.26123046875,
+                            1624.2979736328125
+                        ],
+                        "Rotation": [
+                            700,
+                            11300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.BarrensRoundRock": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -24847.5,
+                            5987.85400390625,
+                            1169.4439697265625
+                        ],
+                        "Rotation": [
+                            0,
+                            -8400,
+                            700
+                        ],
+                        "Scale": 0.699999988079071,
+                        "Scale3D": [
+                            1,
+                            1.1299999952316284,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 6",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -20093.97265625,
+                            1364.3160400390625,
+                            1951.4930419921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -16200,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.0999999046325684,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 7",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -18653.97265625,
+                            1364.3160400390625,
+                            1951.4930419921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -1000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.0999999046325684,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 8",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -18483.97265625,
+                            2764.31591796875,
+                            1951.4930419921875
+                        ],
+                        "Rotation": [
+                            0,
+                            4600,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            3.0999999046325684,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 9",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -20093.97265625,
+                            1364.3160400390625,
+                            1951.4930419921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -6500,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Supports.GantryCraneTop": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -22570.234375,
+                            2133.510009765625,
+                            1315.9969482421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -6000,
+                            0
+                        ],
+                        "Scale": 0.20999999344348907,
+                        "Scale3D": [
+                            1.5800000429153442,
+                            1,
+                            0.8399999737739563
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -23452.8046875,
+                            4359.9921875,
+                            706
+                        ],
+                        "Rotation": [
+                            -2000,
+                            -21000,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -23429.240234375,
+                            4322.55810546875,
+                            702
+                        ],
+                        "Rotation": [
+                            1500,
+                            6000,
+                            15000
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -23394.45703125,
+                            5508.62109375,
+                            633.031982421875
+                        ],
+                        "Rotation": [
+                            300,
+                            -12400,
+                            400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_550.SkeletalMeshComponent_2338.MaterialInstanceConstant_2526"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -22815.376953125,
+                            3379.376953125,
+                            668.4110107421875
+                        ],
+                        "Rotation": [
+                            -1300,
+                            -6400,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_551.SkeletalMeshComponent_2339.MaterialInstanceConstant_2527"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -19145.890625,
+                            2283.363037109375,
+                            1758.4139404296875
+                        ],
+                        "Rotation": [
+                            0,
+                            9700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_552.SkeletalMeshComponent_2340.MaterialInstanceConstant_2528"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -21340.177734375,
+                            -1486.1810302734375,
+                            527.8209838867188
+                        ],
+                        "Rotation": [
+                            500,
+                            5800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_553.SkeletalMeshComponent_2341.MaterialInstanceConstant_2529"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -25754.1171875,
+                            1023.3814697265625,
+                            1400.781982421875
+                        ],
+                        "Rotation": [
+                            -1400,
+                            -15500,
+                            3400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_554.SkeletalMeshComponent_2342.MaterialInstanceConstant_2530"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -23498.24609375,
+                            2894.43603515625,
+                            1413
+                        ],
+                        "Rotation": [
+                            0,
+                            18000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_555.SkeletalMeshComponent_2343.MaterialInstanceConstant_2531"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -22748.146484375,
+                            1295.8360595703125,
+                            1320
+                        ],
+                        "Rotation": [
+                            0,
+                            -23000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_556.SkeletalMeshComponent_2344.MaterialInstanceConstant_2532"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -20947.50390625,
+                            -1148.9820556640625,
+                            779.2030029296875
+                        ],
+                        "Rotation": [
+                            2300,
+                            22200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,674 @@
+{
+    "southernshelf_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Buildings_02.Meshes.BanditHouseExt_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            70265.6015625,
+                            -42317.91796875,
+                            6981.76708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            8000,
+                            0
+                        ],
+                        "Scale": 0.8999999761581421,
+                        "Scale3D": [
+                            0.800000011920929,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            74249.03125,
+                            -38311.8984375,
+                            6439.10986328125
+                        ],
+                        "Rotation": [
+                            0,
+                            -11000,
+                            3000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            73999.03125,
+                            -36961.8984375,
+                            6428
+                        ],
+                        "Rotation": [
+                            0,
+                            -18000,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            74699.03125,
+                            -35871.8984375,
+                            6278
+                        ],
+                        "Rotation": [
+                            1300,
+                            -26000,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75989.03125,
+                            -35501.8984375,
+                            6108
+                        ],
+                        "Rotation": [
+                            500,
+                            -33000,
+                            -1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGateMed": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            77505.1484375,
+                            -35512.88671875,
+                            6052.4580078125
+                        ],
+                        "Rotation": [
+                            1000,
+                            -23000,
+                            3000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.CorrugatedFenceSmall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            76955.34375,
+                            -35640.4375,
+                            6061.93505859375
+                        ],
+                        "Rotation": [
+                            0,
+                            -35000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.2000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            68004.5703125,
+                            -40251.79296875,
+                            7221.26171875
+                        ],
+                        "Rotation": [
+                            0,
+                            8600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            69015.5703125,
+                            -39077.79296875,
+                            7194.26220703125
+                        ],
+                        "Rotation": [
+                            -300,
+                            8600,
+                            2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.1699999570846558,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            71254.8515625,
+                            -36520.0546875,
+                            6942.27490234375
+                        ],
+                        "Rotation": [
+                            -900,
+                            8700,
+                            2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            72199.8515625,
+                            -35465.0546875,
+                            6828.27490234375
+                        ],
+                        "Rotation": [
+                            -900,
+                            8800,
+                            2000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            73167.8515625,
+                            -34420.0546875,
+                            6714.27490234375
+                        ],
+                        "Rotation": [
+                            -900,
+                            8800,
+                            600
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            74133.8515625,
+                            -33375.0546875,
+                            6585.27490234375
+                        ],
+                        "Rotation": [
+                            -900,
+                            8800,
+                            -900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGateMed": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            74868.859375,
+                            -32474.138671875,
+                            6451.89892578125
+                        ],
+                        "Rotation": [
+                            -1600,
+                            9300,
+                            400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.9800000190734863,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Env_Glacial.Materials.Mati_MetalBeamsPlates_Snow"
+                        ]
+                    }
+                },
+                {
+                    "prop_doors.Meshes.GenericDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            76528.734375,
+                            -32307.53515625,
+                            5845.35595703125
+                        ],
+                        "Rotation": [
+                            -1300,
+                            -7300,
+                            1400
+                        ],
+                        "Scale": 1.0399999618530273,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Corpses_02.DeadSettler": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75396.4609375,
+                            -33337.7578125,
+                            7071.130859375
+                        ],
+                        "Rotation": [
+                            16400,
+                            -19000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.DeadFish": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75449,
+                            -33238.140625,
+                            7079.41015625
+                        ],
+                        "Rotation": [
+                            -4000,
+                            -10000,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.DeadFish": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75379,
+                            -33308.140625,
+                            7069.41015625
+                        ],
+                        "Rotation": [
+                            6000,
+                            2000,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.DeadFish": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75409,
+                            -33268.140625,
+                            7087
+                        ],
+                        "Rotation": [
+                            1000,
+                            -29000,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.DeadFish": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75389,
+                            -33198.140625,
+                            7057
+                        ],
+                        "Rotation": [
+                            1000,
+                            10000,
+                            16400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            74807.5,
+                            -34073.06640625,
+                            -3852
+                        ],
+                        "Rotation": [
+                            -1300,
+                            0,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            67639.7578125,
+                            -43526.89453125,
+                            6712.80712890625
+                        ],
+                        "Rotation": [
+                            800,
+                            24500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_163.SkeletalMeshComponent_444.MaterialInstanceConstant_398"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            68028.65625,
+                            -40878.41015625,
+                            6819.5849609375
+                        ],
+                        "Rotation": [
+                            600,
+                            29900,
+                            900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_164.SkeletalMeshComponent_445.MaterialInstanceConstant_399"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            73024.1640625,
+                            -39830.07421875,
+                            6394.5927734375
+                        ],
+                        "Rotation": [
+                            -800,
+                            9200,
+                            -1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_165.SkeletalMeshComponent_446.MaterialInstanceConstant_400"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            72898.9296875,
+                            -35322.453125,
+                            6393.54296875
+                        ],
+                        "Rotation": [
+                            -900,
+                            -7600,
+                            800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_166.SkeletalMeshComponent_447.MaterialInstanceConstant_401"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            75625.015625,
+                            -33330.96484375,
+                            7050
+                        ],
+                        "Rotation": [
+                            0,
+                            24400,
+                            -200
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SouthernShelf_P.TheWorld:PersistentLevel.WillowInteractiveObject_167.SkeletalMeshComponent_448.MaterialInstanceConstant_402"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

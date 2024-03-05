@@ -1,0 +1,2095 @@
+{
+    "tundraexpress_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -12505.5302734375,
+                            5539.73583984375,
+                            872.1580200195312
+                        ],
+                        "Rotation": [
+                            0,
+                            10000,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            1,
+                            0.8700000047683716
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5689.76318359375,
+                            6746.46484375,
+                            922.4860229492188
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            1.100000023841858,
+                            0.8700000047683716
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6043.076171875,
+                            8865.564453125,
+                            1088
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_gates.Meshes.CorrugatedGate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -12756.38671875,
+                            8170.31591796875,
+                            1131.89599609375
+                        ],
+                        "Rotation": [
+                            0,
+                            10000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks.Meshes.SlateBoulder": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -12870.720703125,
+                            7926.2568359375,
+                            1080.1390380859375
+                        ],
+                        "Rotation": [
+                            0,
+                            13000,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1.2000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks.Meshes.SlateBoulder": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -12666.958984375,
+                            9030.7177734375,
+                            985.4990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            19500,
+                            0
+                        ],
+                        "Scale": 0.44999998807907104,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks.Meshes.SlateBoulder": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9976.333984375,
+                            5832.15380859375,
+                            1028.9739990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.2199999988079071,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_doors.TunnelDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7856.4072265625,
+                            11187.8046875,
+                            579.3179931640625
+                        ],
+                        "Rotation": [
+                            0,
+                            14300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1.0700000524520874
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Bottom",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9634.52734375,
+                            11290.9130859375,
+                            610.5999755859375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.5199999809265137,
+                        "Scale3D": [
+                            0.28999999165534973,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Top",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9620.52734375,
+                            11290.9130859375,
+                            710.5999755859375
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.700000047683716,
+                        "Scale3D": [
+                            0.029999999329447746,
+                            1.100000023841858,
+                            1.100000023841858
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9706.529296875,
+                            11285.970703125,
+                            713.10400390625
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9696.529296875,
+                            11285.970703125,
+                            713.10498046875
+                        ],
+                        "Rotation": [
+                            16400,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "prop_signs.ArrowSign": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9601.1171875,
+                            11347.1435546875,
+                            926.677001953125
+                        ],
+                        "Rotation": [
+                            -13800,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 0.23000000417232513,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_TundraExpress.BSP.FarmHouse03": {
+                        "Rename": "Warp Pipe Underground",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9881.5771484375,
+                            11413.98828125,
+                            -85.09100341796875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            32800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Rock Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8642.458984375,
+                            8988.259765625,
+                            -1016.1430053710938
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.3499999046325684,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Env_TundraExpress.BSP.FarmHouse03": {
+                        "Rename": "Warp Pipe Underground 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9881.5771484375,
+                            10097.2001953125,
+                            -3283
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Rock Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -9882.458984375,
+                            9365.259765625,
+                            -1362.1429443359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 4.880000114440918,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Rock Wall 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7969.458984375,
+                            10355.259765625,
+                            -1016.1430053710938
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.4600000381469727,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Bottom",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7468.5859375,
+                            9262.2138671875,
+                            -550.8250122070312
+                        ],
+                        "Rotation": [
+                            16400,
+                            17100,
+                            0
+                        ],
+                        "Scale": 2.5199999809265137,
+                        "Scale3D": [
+                            0.28999999165534973,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Top",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7371.76611328125,
+                            9188.5595703125,
+                            -637.5349731445312
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.700000047683716,
+                        "Scale3D": [
+                            0.029999999329447746,
+                            1.100000023841858,
+                            1.100000023841858
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7460.47412109375,
+                            9182.07421875,
+                            -646.218994140625
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7460.47412109375,
+                            9182.07421875,
+                            -646.2999877929688
+                        ],
+                        "Rotation": [
+                            -16200,
+                            44000,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Coin",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7497.40576171875,
+                            10149.666015625,
+                            -736.7239990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Coin",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7667.40576171875,
+                            10149.666015625,
+                            -736.7239990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Coin",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7857.40576171875,
+                            10149.666015625,
+                            -736.7239990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1.7000000476837158,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Rock Wall 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8639.458984375,
+                            10355.259765625,
+                            -1016.1430053710938
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.4600000381469727,
+                        "Scale3D": [
+                            1.0640000104904175,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Rocks_03.Materials.Mati_AridRock"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8511.1943359375,
+                            9684.1748046875,
+                            -709.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9709,
+                            -609.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.6000000238418579,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9709,
+                            -609.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9709,
+                            -649.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9739,
+                            -636.7000122070312
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.30000001192092896,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9739,
+                            -680
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9773,
+                            -596.7000122070312
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.20000000298023224,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9686,
+                            -695
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9686,
+                            -584
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9797,
+                            -584
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8384.400390625,
+                            9797,
+                            -695
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8486.400390625,
+                            9812.2998046875,
+                            -609.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.6000000238418579,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8422.400390625,
+                            9812.2998046875,
+                            -609.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.2800000011920929,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8422.400390625,
+                            9812.2998046875,
+                            -632.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            32800
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.25699999928474426,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8455.400390625,
+                            9812.2998046875,
+                            -644.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.23000000417232513,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8486.400390625,
+                            9812.2998046875,
+                            -598.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.2070000022649765,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8455.400390625,
+                            9812.2998046875,
+                            -679.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.09000000357627869,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8398.400390625,
+                            9812.2998046875,
+                            -695.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.09000000357627869,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8398.400390625,
+                            9812.2998046875,
+                            -584.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.09000000357627869,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8509.400390625,
+                            9812.2998046875,
+                            -695.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.09000000357627869,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Question Block Marks",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8509.400390625,
+                            9812.2998046875,
+                            -584.468994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.009999999776482582,
+                            0.09000000357627869,
+                            0.10000000149011612
+                        ],
+                        "Materials": [
+                            "Orchid_GunMaterials.Materials.AssaultRifle.Mati_VladofUncommonAR_Rapier"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Bottom",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8440.5087890625,
+                            10218.2744140625,
+                            -905.5050048828125
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.5199999809265137,
+                        "Scale3D": [
+                            0.28999999165534973,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Pipes.GroundPipe": {
+                        "Rename": "Warp Pipe Top",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8430,
+                            10220,
+                            -814.301025390625
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.700000047683716,
+                        "Scale3D": [
+                            0.029999999329447746,
+                            1.100000023841858,
+                            1.100000023841858
+                        ],
+                        "Materials": [
+                            "Anemone_Prop_Infection.Materials.Mati_Anemone_FleshyBark"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8516.1259765625,
+                            10220.076171875,
+                            -810
+                        ],
+                        "Rotation": [
+                            16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Warp Pipe Cap 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8516.1259765625,
+                            10220.076171875,
+                            -810.010009765625
+                        ],
+                        "Rotation": [
+                            16500,
+                            31000,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            0.00009999999747378752,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "FX_WEP_Shared.Materials.Mati_RL_Ball_Cannon"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.BarrensRoundRock": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7953.2001953125,
+                            9196.7998046875,
+                            -923.2869873046875
+                        ],
+                        "Rotation": [
+                            0,
+                            30300,
+                            0
+                        ],
+                        "Scale": 0.36000001430511475,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.AridRockCliff_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7919.6953125,
+                            9837.80859375,
+                            -488
+                        ],
+                        "Rotation": [
+                            32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            0.8999999761581421,
+                            0.8999999761581421,
+                            0.10000000149011612
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_signs.ArrowSign": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8620.35546875,
+                            10183.2353515625,
+                            -657.0189819335938
+                        ],
+                        "Rotation": [
+                            -11400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.20000000298023224,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crystal.Meshes.CrystalBase": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7390.2890625,
+                            10311.869140625,
+                            -559.364013671875
+                        ],
+                        "Rotation": [
+                            23000,
+                            13000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crystal.Meshes.CrystalBase": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8089.96435546875,
+                            10352.0458984375,
+                            -980.135986328125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crystal.Meshes.CrystalBase": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8624.501953125,
+                            9614.3974609375,
+                            -978.6519775390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crystal.Meshes.CrystalBase": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7837.10009765625,
+                            9350.9482421875,
+                            -594.3560180664062
+                        ],
+                        "Rotation": [
+                            5000,
+                            1000,
+                            14000
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.FlowerPinkPetal": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7406.93505859375,
+                            10037.669921875,
+                            -941.052001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            36000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Garbage.Meshes.JunkPile_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7780.27392578125,
+                            9727.310546875,
+                            -944
+                        ],
+                        "Rotation": [
+                            0,
+                            8000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.Meshes.PickAxe": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8139.52294921875,
+                            10185.8642578125,
+                            -899.505859375
+                        ],
+                        "Rotation": [
+                            -5000,
+                            15000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullBundle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8594.7041015625,
+                            10320.0048828125,
+                            -525.0440063476562
+                        ],
+                        "Rotation": [
+                            0,
+                            25000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.PukeBone04": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7761.06396484375,
+                            9471.9248046875,
+                            -940
+                        ],
+                        "Rotation": [
+                            0,
+                            9000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.PukeBone01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7771.966796875,
+                            9506.4189453125,
+                            -942
+                        ],
+                        "Rotation": [
+                            0,
+                            -5000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.RockPile_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7986.72412109375,
+                            10235.265625,
+                            -939.89501953125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.20000000298023224,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.Meshes.Shovel_Collision": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7773.23388671875,
+                            10332.599609375,
+                            -944
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bones.Meshes.SkagBone_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7431.69482421875,
+                            9497.8720703125,
+                            -943
+                        ],
+                        "Rotation": [
+                            0,
+                            9000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8616.01171875,
+                            9946.443359375,
+                            -1012.1110229492188
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7657.537109375,
+                            10345.5634765625,
+                            -975.5490112304688
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8317.537109375,
+                            10345.5634765625,
+                            -975.5490112304688
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8387.537109375,
+                            9605.5634765625,
+                            -975.5490112304688
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7597.537109375,
+                            9085.5634765625,
+                            -975.5490112304688
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Supports.SupportStrutTruss": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7367.537109375,
+                            9525.5634765625,
+                            -975.5490112304688
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "Pressure Plate",
+                        "Tags": [
+                            "Pressure Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -10930.478515625,
+                            8755.837890625,
+                            1354
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Anemone_GunMaterials.Materials.SMG.Mati_Tediore_6_Infection_Cleaner"
+                        ]
+                    }
+                },
+                {
+                    "Char_Anem_ButtStallion.Mesh.ButtStallion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -10965.2138671875,
+                            8737.150390625,
+                            1355
+                        ],
+                        "Rotation": [
+                            0,
+                            20400,
+                            -16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -7906.35400390625,
+                            10116.60546875,
+                            579.8569946289062
+                        ],
+                        "Rotation": [
+                            0,
+                            5000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_690.SkeletalMeshComponent_2795.MaterialInstanceConstant_3061"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -8458.0810546875,
+                            6902.1162109375,
+                            452
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_691.SkeletalMeshComponent_2796.MaterialInstanceConstant_3062"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -12209.251953125,
+                            9799.9013671875,
+                            588
+                        ],
+                        "Rotation": [
+                            300,
+                            -22000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_692.SkeletalMeshComponent_2797.MaterialInstanceConstant_3063"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -11913.4990234375,
+                            6219.85986328125,
+                            925
+                        ],
+                        "Rotation": [
+                            200,
+                            9000,
+                            -800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_693.SkeletalMeshComponent_2798.MaterialInstanceConstant_3064"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -8865.166015625,
+                            6840.3271484375,
+                            1040
+                        ],
+                        "Rotation": [
+                            0,
+                            32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_694.SkeletalMeshComponent_2799.MaterialInstanceConstant_3065"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -7450.27001953125,
+                            9795.5791015625,
+                            -946.1519775390625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_695.SkeletalMeshComponent_2800.MaterialInstanceConstant_3066"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "",
+                        "Location": [
+                            -8184.27001953125,
+                            9671.5791015625,
+                            -946.1519775390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "tundraexpress_p.TheWorld:PersistentLevel.WillowInteractiveObject_696.SkeletalMeshComponent_2801.MaterialInstanceConstant_3067"
+                        ]
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Vault Symbol Reward",
+                        "Tags": [
+                            "Vault Symbol Reward"
+                        ],
+                        "Location": [
+                            -5609.8408203125,
+                            8280.291015625,
+                            1011.9190063476562
+                        ],
+                        "Rotation": [
+                            -2700,
+                            13700,
+                            -900
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

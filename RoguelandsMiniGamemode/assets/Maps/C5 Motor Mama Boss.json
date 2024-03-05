@@ -1,0 +1,60 @@
+{
+    "iris_hub2_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Fences.Meshes.CorrugatedFenceSmall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -42853.7578125,
+                            43188.6171875,
+                            -4503.14892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            12400,
+                            0
+                        ],
+                        "Scale": 1.100000023841858,
+                        "Scale3D": [
+                            1.1299999952316284,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -36198.05078125,
+                            40515.6796875,
+                            -14707
+                        ],
+                        "Rotation": [
+                            0,
+                            6000,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

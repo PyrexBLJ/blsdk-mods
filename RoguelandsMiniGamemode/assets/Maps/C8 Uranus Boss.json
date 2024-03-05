@@ -1,0 +1,84 @@
+{
+    "helios_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37245.734375,
+                            -106334.2421875,
+                            17719.275390625
+                        ],
+                        "Rotation": [
+                            0,
+                            10200,
+                            0
+                        ],
+                        "Scale": 1.7999999523162842,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_HyperionArchitecture.Mesh.HyperionDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            37245.734375,
+                            -106334.2421875,
+                            17719.275390625
+                        ],
+                        "Rotation": [
+                            0,
+                            -22800,
+                            0
+                        ],
+                        "Scale": 1.7999999523162842,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Anemone_Side_EyeSnipers.Meshes.SM_Mordecai_Gift": {
+                        "Rename": "Gift Box",
+                        "Tags": [
+                            "Gift Box"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            40529.421875,
+                            -108052.6484375,
+                            7641
+                        ],
+                        "Rotation": [
+                            0,
+                            18000,
+                            16400
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_Pickups.Materials.Eridium_Pickups_Bar"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

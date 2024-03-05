@@ -1,0 +1,2506 @@
+{
+    "sanctuaryair_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_Bank.BankCeiling": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5413.70263671875,
+                            -16803,
+                            3390.514892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.949999988079071,
+                            1.899999976158142,
+                            2.2799999713897705
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankCeiling": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6112.703125,
+                            -16803,
+                            3390.514892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            -0.949999988079071,
+                            1.899999976158142,
+                            2.2799999713897705
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankCeiling": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5413.70263671875,
+                            -16195,
+                            3390.514892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.949999988079071,
+                            -1.899999976158142,
+                            2.2799999713897705
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankCeiling": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6112.703125,
+                            -16195,
+                            3390.514892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            -0.949999988079071,
+                            -1.899999976158142,
+                            2.2799999713897705
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5761.52685546875,
+                            -17065.517578125,
+                            2595.080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.3200000524520874,
+                        "Scale3D": [
+                            1.5299999713897705,
+                            0.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5761.52685546875,
+                            -15934.517578125,
+                            2595.080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.3200000524520874,
+                        "Scale3D": [
+                            1.5299999713897705,
+                            0.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4976.52685546875,
+                            -16959.517578125,
+                            2595.080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.3200000524520874,
+                        "Scale3D": [
+                            2.0299999713897705,
+                            0.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankWall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6544.52685546875,
+                            -16959.517578125,
+                            2595.080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.3200000524520874,
+                        "Scale3D": [
+                            2.0299999713897705,
+                            0.5,
+                            1.2000000476837158
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.BankPillar_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4287.94482421875,
+                            -16494.212890625,
+                            2580.125
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            16400
+                        ],
+                        "Scale": 5,
+                        "Scale3D": [
+                            1.7699999809265137,
+                            0.11999999731779099,
+                            1.2999999523162842
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.GlowingBit": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5425.56103515625,
+                            -16705.923828125,
+                            3427.26904296875
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.GlowingBit": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6110.56103515625,
+                            -16705.923828125,
+                            3427.26904296875
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.GlowingBit": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5425.56103515625,
+                            -16257.923828125,
+                            3427.26904296875
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.GlowingBit": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6110.56103515625,
+                            -16255.923828125,
+                            3427.26904296875
+                        ],
+                        "Rotation": [
+                            -32800,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6106.06884765625,
+                            -15977.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.5400000214576721,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5415.06884765625,
+                            -15977.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.5400000214576721,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5415.06884765625,
+                            -17021.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.5400000214576721,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6106.06884765625,
+                            -17021.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.5400000214576721,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6500.06884765625,
+                            -16509.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.6499999761581421,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.ItsFullofStars": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5020.06884765625,
+                            -16507.125,
+                            3239.0458984375
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.6499999761581421,
+                            0.6000000238418579,
+                            0.6000000238418579
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.LightStrip_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5782.240234375,
+                            -15938.171875,
+                            2671.77294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.690000057220459,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.LightStrip_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5782.240234375,
+                            -17060.171875,
+                            2671.77294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.690000057220459,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.LightStrip_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6544.240234375,
+                            -16746.171875,
+                            2671.77294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.690000057220459,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.LightStrip_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4984.240234375,
+                            -16736.171875,
+                            2671.77294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1.690000057220459,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Signs_02.Meshes.RedLight": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6381.9931640625,
+                            -16907.333984375,
+                            3191.360107421875
+                        ],
+                        "Rotation": [
+                            0,
+                            4700,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Signs_02.Meshes.RedLight": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6381.9931640625,
+                            -16091.333984375,
+                            3191.360107421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -4700,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.5,
+                            0.5,
+                            0.5
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.Meshes.Tapestry_01": {
+                        "Rename": "Curtain EE",
+                        "Tags": [
+                            "Curtain EE"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5013.89404296875,
+                            -16498.826171875,
+                            2786
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 2.0399999618530273,
+                        "Scale3D": [
+                            0.4699999988079071,
+                            0.3499999940395355,
+                            0.30000001192092896
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Furniture.RedCarpet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5519.955078125,
+                            -16513.22265625,
+                            2603.43994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.5299999713897705,
+                        "Scale3D": [
+                            1,
+                            1.5,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Stairs": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6154.44482421875,
+                            -16518.71875,
+                            2593.257080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Cabinets.MedicalCabinet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6543.11376953125,
+                            -16518.119140625,
+                            2670.81396484375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            0,
+                            0
+                        ],
+                        "Scale": 2.4700000286102295,
+                        "Scale3D": [
+                            1.2699999809265137,
+                            2.509999990463257,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6265.23779296875,
+                            -16299.09765625,
+                            2809
+                        ],
+                        "Rotation": [
+                            0,
+                            7400,
+                            5000
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkPole": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6380.01611328125,
+                            -16905.875,
+                            3251.191650390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.949999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Fences.Meshes.ChainLinkPole": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6381.01611328125,
+                            -16092.875,
+                            3251.191650390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.949999988079071
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Railing_Angled": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6008.7841796875,
+                            -16835.27734375,
+                            2549.43310546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1.6799999475479126,
+                        "Scale3D": [
+                            0.6399999856948853,
+                            0.800000011920929,
+                            0.48000001907348633
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Railing_Angled": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6008.7841796875,
+                            -16267.27734375,
+                            2549.43310546875
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1.6799999475479126,
+                        "Scale3D": [
+                            0.6399999856948853,
+                            0.800000011920929,
+                            0.48000001907348633
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Railing_Triple": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6488.06396484375,
+                            -16770.1640625,
+                            2641.830078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.1799999475479126,
+                        "Scale3D": [
+                            1.149999976158142,
+                            1.149999976158142,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Stairs.Meshes.Sanc_Railing_Triple": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6488.06396484375,
+                            -16202.1640625,
+                            2641.830078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.1799999475479126,
+                        "Scale3D": [
+                            1.149999976158142,
+                            1.149999976158142,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Furniture.RedCarpet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6403.76318359375,
+                            -16520.189453125,
+                            2792.507080078125
+                        ],
+                        "Rotation": [
+                            0,
+                            17500,
+                            0
+                        ],
+                        "Scale": 0.5600000023841858,
+                        "Scale3D": [
+                            1,
+                            1.9299999475479126,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Electronics.Speaker": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6370.9521484375,
+                            -16089.55859375,
+                            2711.360107421875
+                        ],
+                        "Rotation": [
+                            0,
+                            -37000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.44999998807907104,
+                            0.44999998807907104,
+                            0.44999998807907104
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Electronics.Speaker": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6370.9521484375,
+                            -16938.55859375,
+                            2711.360107421875
+                        ],
+                        "Rotation": [
+                            0,
+                            37000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            0.44999998807907104,
+                            0.44999998807907104,
+                            0.44999998807907104
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Carnival.StageTrim_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6538.3681640625,
+                            -16121.736328125,
+                            2983.527099609375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            2,
+                            2,
+                            1.5
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.VelvetRope_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5956.10986328125,
+                            -16807.794921875,
+                            2599.1640625
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Bank.VelvetRope_03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5808.10986328125,
+                            -16246.794921875,
+                            2639.1640625
+                        ],
+                        "Rotation": [
+                            -18300,
+                            16600,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            -1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Electronics.Television": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5401.69091796875,
+                            -17074,
+                            2743.51806640625
+                        ],
+                        "Rotation": [
+                            0,
+                            -32800,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.659999966621399,
+                            0.6399999856948853,
+                            0.5799999833106995
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_lightfixtures.Meshes.LightSpot": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5424,
+                            -17057.3515625,
+                            2762
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.00009999999747378752
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Tech.StaticMeshes.LightCone": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5427.34521484375,
+                            -17057.80078125,
+                            2762
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.10000000149011612,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_lightfixtures.Meshes.WallLight_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5418.203125,
+                            -17055,
+                            2867
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_lightfixtures.Meshes.LightSpot": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5408,
+                            -17057.3515625,
+                            2762
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.00009999999747378752
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Tech.StaticMeshes.LightCone": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5411.2001953125,
+                            -17057.80078125,
+                            2762
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.10000000149011612,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16659.142578125,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16639.142578125,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16699.142578125,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.4000000059604645
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16616,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16576,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16556,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16556,
+                            3096.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16476,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16536,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16413,
+                            3096.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16456,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16323,
+                            3096.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16323,
+                            3016.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16391,
+                            3026.989990234375
+                        ],
+                        "Rotation": [
+                            -6000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16569.142578125,
+                            2906.989990234375
+                        ],
+                        "Rotation": [
+                            -4000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16499.142578125,
+                            2896.989990234375
+                        ],
+                        "Rotation": [
+                            4000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979.10009765625,
+                            -16499.142578125,
+                            2926.989990234375
+                        ],
+                        "Rotation": [
+                            16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.5
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979.10009765625,
+                            -16609.142578125,
+                            2906.989990234375
+                        ],
+                        "Rotation": [
+                            -4000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16609.142578125,
+                            2896.989990234375
+                        ],
+                        "Rotation": [
+                            2000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979.10009765625,
+                            -16649.142578125,
+                            2906.989990234375
+                        ],
+                        "Rotation": [
+                            -2000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16649.142578125,
+                            2896.989990234375
+                        ],
+                        "Rotation": [
+                            4000,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16469.142578125,
+                            2996.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16449.142578125,
+                            2996.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.5
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16469.142578125,
+                            2966.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16392,
+                            2966.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16469.142578125,
+                            2916.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16602,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16552,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16622,
+                            2836.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16512,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16532,
+                            2836.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16532,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16532,
+                            2796.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16422,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16442,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16442,
+                            2836.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.800000011920929
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16384,
+                            2816.989990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16402,
+                            2836.989990234375
+                        ],
+                        "Rotation": [
+                            -25800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.6000000238418579
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16322,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -32800,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16342,
+                            2836.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16342,
+                            2876.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.BasePlane_256x128_Col": {
+                        "Rename": "Letter Piece",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16342,
+                            2796.989990234375
+                        ],
+                        "Rotation": [
+                            -16400,
+                            16400,
+                            0
+                        ],
+                        "Scale": 0.75,
+                        "Scale3D": [
+                            0.10000000149011612,
+                            1,
+                            0.699999988079071
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16303.73046875,
+                            2947.0830078125
+                        ],
+                        "Rotation": [
+                            2700,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16704.73046875,
+                            2869.0830078125
+                        ],
+                        "Rotation": [
+                            -2600,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 4,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16745.73046875,
+                            2997.0830078125
+                        ],
+                        "Rotation": [
+                            3500,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2.4800000190734863,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4979,
+                            -16271.73046875,
+                            3073.0830078125
+                        ],
+                        "Rotation": [
+                            -1800,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "EngineMeshes.Sphere": {
+                        "Rename": "EE Plate",
+                        "Tags": [
+                            "EE Plate"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -6457.09619140625,
+                            -16050.892578125,
+                            2596.425048828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.20000000298023224,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.0010000000474974513
+                        ],
+                        "Materials": [
+                            "Prop_Radios.Materials.Mat_RadioBig_GLOW"
+                        ]
+                    }
+                },
+                {
+                    "FX_GOR_Mesh.Meshes.Props.SkullSingle": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6457,
+                            -16051,
+                            2596.5
+                        ],
+                        "Rotation": [
+                            0,
+                            12000,
+                            16400
+                        ],
+                        "Scale": 1.399999976158142,
+                        "Scale3D": [
+                            1,
+                            0.0010000000474974513,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "AIPawnBalanceDefinition": [
+                {
+                    "GD_JohnMamaril.Population.BD_JohnMamaril": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5765.5927734375,
+                            -16915.841796875,
+                            2674.9580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest_Golden": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6388.14990234375,
+                            -16516.23828125,
+                            2791
+                        ],
+                        "Rotation": [
+                            0,
+                            -16400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SanctuaryAir_P.TheWorld:PersistentLevel.WillowInteractiveObject_72.SkeletalMeshComponent_421.MaterialInstanceConstant_428"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Shopping.VendingMachineGrades.ObjectGrade_CrazyEarl_BlackMarket": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5416.39404296875,
+                            -17064.060546875,
+                            2594.779052734375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "SanctuaryAir_P.TheWorld:PersistentLevel.WillowVendingMachineBlackMarket_1.SkeletalMeshComponent_422.MaterialInstanceConstant_429"
+                        ]
+                    }
+                },
+                {
+                    "GD_GameSystemMachines.InteractiveObjects.CharacterCustomizationMachine": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5446.2509765625,
+                            -16004.6962890625,
+                            2596.362060546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}
