@@ -96,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.3"
+    Version: str = "1.0.4"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -136,6 +136,10 @@ class Main(ModMenu.SDKMod):
     kill_challenge_complete: bool = False
     boss_challenge_complete: bool = False
 
+    white_knight_list = (
+    "PawnBalance_Shootyface",
+    )
+
     # py unrealsdk.GetEngine().GamePlayers[0].Actor.ServerTeleportPlayerToStation(unrealsdk.FindObject("LevelTravelStationDefinition", "GD_FastTravelStations.Zone1.GoshDam"))
     # py unrealsdk.GetEngine().GamePlayers[0].Actor.ServerTeleportPlayerToStation(unrealsdk.FindObject("FastTravelStationDefinition", "GD_FastTravelStations.Zone1.SouthpawFactory"))
     # py unrealsdk.Log(str(unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn.Location))
@@ -146,6 +150,12 @@ class Main(ModMenu.SDKMod):
             Caption="Disable Claim Reward Message",
             Description="Lets you skip having to claim your reward to travel to the next map",
             StartingValue=False,
+            Choices=("No", "Yes"),  # False, True
+        )
+        self.KillOffExtras = ModMenu.Options.Boolean(
+            Caption="Clear Enemies On Round End",
+            Description="Kills extra enemies when a mission is completed and prevents more from spawning until the next round. Thx Mopi",
+            StartingValue=True,
             Choices=("No", "Yes"),  # False, True
         )
         self.MissionTextX = ModMenu.Options.Slider(
@@ -180,6 +190,7 @@ class Main(ModMenu.SDKMod):
         ]
         self.Options = [
             self.BypassTravelLockout,
+            self.KillOffExtras,
             # self.MissionTextX,
             # self.MissionTextY,
             # self.TravelTextY,
@@ -478,6 +489,24 @@ class Main(ModMenu.SDKMod):
             # self.currentMap = temp
             # break
 
+    def disable_enemies(self) -> None:
+        player: unrealsdk.UObject = unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn
+        pawn: unrealsdk.UObject = unrealsdk.GetEngine().GetCurrentWorldInfo().PawnList
+        while pawn:
+            balance = pawn.BalanceDefinitionState.BalanceDefinition
+            if balance and balance.Name not in self.white_knight_list:
+                if pawn.GetOpinion and pawn.GetOpinion(player) != 2:
+                    if pawn.MyWillowMind:
+                        pawn.MyWillowMind.SpawnParent = None
+                        pawn.MyWillowMind.SpawnChildren = ()
+                    pawn.SpawnParent = None
+                    pawn.Died(None, None, ())
+            pawn = pawn.NextPawn
+
+        for point in unrealsdk.FindAll("WillowPopulationPoint"):
+            if point.Name != "Default__WillowPopulationPoint":
+                point.IsEnabled = False
+
     def do_save_quit(self) -> None:
             unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
             self.isinffyl = False
@@ -545,6 +574,8 @@ class Main(ModMenu.SDKMod):
             return
 
         GameState.mission_complete_sound_played = True
+        if self.KillOffExtras.CurrentValue is True:
+            self.disable_enemies()
         #if self.round_counter == 13:
             #unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
         mission_display.update_mission_display()
@@ -834,7 +865,7 @@ class Main(ModMenu.SDKMod):
             if "WillowPlayerPawn" in str(caller):
                 return True
             aipawn = caller.GetAWillowAIPawn()
-            # unrealsdk.Log("Died: " + str(aipawn.AIClass))
+            #unrealsdk.Log("Died: " + str(aipawn.AIClass))
 
             if caller == self.boss_pawn:
                 self.boss_pawn = None
@@ -1017,61 +1048,61 @@ class Main(ModMenu.SDKMod):
             params: unrealsdk.FStruct,
         ) -> bool:
             splitstring = params.msg.split(" ")
-            # if str(params.PRI.PlayerName) == "PyrexBLJ" or str(params.PRI.PlayerName) == "JoltzDude139":
-            # unrealsdk.Log(str(params.PRI.PlayerName))
-            if splitstring[0].lower() != "rl":
-                return True
+            if str(params.PRI.PlayerName) == "PyrexBLJ" or str(params.PRI.PlayerName) == "JoltzDude139":
+                # unrealsdk.Log(str(params.PRI.PlayerName))
+                if splitstring[0].lower() != "rl":
+                    return True
 
-            cmd: str = splitstring[1].lower()
+                cmd: str = splitstring[1].lower()
 
-            unrealsdk.Log("rl Recieved")
-            if cmd == "goto":
-                GameState.map_is_loaded = False
-                placeablehelper.unload_map()
+                unrealsdk.Log("rl Recieved")
+                if cmd == "goto":
+                    GameState.map_is_loaded = False
+                    placeablehelper.unload_map()
 
-                for item in unrealsdk.FindAll("WillowPickup")[1:]:
-                    item.Behavior_Destroy()
+                    for item in unrealsdk.FindAll("WillowPickup")[1:]:
+                        item.Behavior_Destroy()
 
-                GameState.current_map.bosses_killed = 0
-                GameState.current_map.kill_challenge_count = 0
+                    GameState.current_map.bosses_killed = 0
+                    GameState.current_map.kill_challenge_count = 0
 
-                self.kill_challenge_complete = False
-                self.boss_challenge_complete = False
-                GameState.mission_complete = False
-                GameState.mission_complete_sound_played = False
+                    self.kill_challenge_complete = False
+                    self.boss_challenge_complete = False
+                    GameState.mission_complete = False
+                    GameState.mission_complete_sound_played = False
 
-                GameState.map_type = MapType(int(splitstring[2]))
-                GameState.current_map = MAP_DATA[GameState.map_type][int(splitstring[3])]
+                    GameState.map_type = MapType(int(splitstring[2]))
+                    GameState.current_map = MAP_DATA[GameState.map_type][int(splitstring[3])]
 
-                self.draw_timer = False
-                GameState.travel_timer = 3
-                self.draw_minigame_text = 3
+                    self.draw_timer = False
+                    GameState.travel_timer = 3
+                    self.draw_minigame_text = 3
 
-                unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
-                unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = True
-                util.travel_to_destination(GameState.current_map.travel_object_name)
-            elif cmd == "round":
-                self.round_counter = int(splitstring[2])
-            elif cmd == "tier":
-                GameState.level_offset = int(splitstring[2]) - 1
-            elif cmd == "unloadmap":
-                GameState.map_is_loaded = False
-                placeablehelper.unload_map()
-            elif cmd == "loadmap":
-                loaded_map: str = unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower()
-                map_file_path: Path = Path(__file__).parent.resolve() / "assets/Maps" / GameState.current_map.map_file
-                if loaded_map == GameState.current_map.package:
-                    if map_file_path.is_file():
-                        with open(map_file_path) as mapfile:
-                            maptoload = json.load(mapfile)
-                            loadplease = maptoload.get(
-                                loaded_map,
-                                None,
-                            )
-                        placeablehelper.load_map(loadplease)
-                        GameState.map_is_loaded = True
-                    else:
-                        unrealsdk.Log(str(map_file_path) + " Doesnt Exist")
+                    unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
+                    unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = True
+                    util.travel_to_destination(GameState.current_map.travel_object_name)
+                elif cmd == "round":
+                    self.round_counter = int(splitstring[2])
+                elif cmd == "tier":
+                    GameState.level_offset = int(splitstring[2]) - 1
+                elif cmd == "unloadmap":
+                    GameState.map_is_loaded = False
+                    placeablehelper.unload_map()
+                elif cmd == "loadmap":
+                    loaded_map: str = unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower()
+                    map_file_path: Path = Path(__file__).parent.resolve() / "assets/Maps" / GameState.current_map.map_file
+                    if loaded_map == GameState.current_map.package:
+                        if map_file_path.is_file():
+                            with open(map_file_path) as mapfile:
+                                maptoload = json.load(mapfile)
+                                loadplease = maptoload.get(
+                                    loaded_map,
+                                    None,
+                                )
+                            placeablehelper.load_map(loadplease)
+                            GameState.map_is_loaded = True
+                        else:
+                            unrealsdk.Log(str(map_file_path) + " Doesnt Exist")
             return False
 
         def no(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
@@ -1469,7 +1500,7 @@ class Main(ModMenu.SDKMod):
             "NoMarketingPopups",
             no,
         )
-        #unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", on_chat_command)
+        unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", on_chat_command)
         unrealsdk.RegisterHook("WillowGame.WillowPlayerPawn.SetInjuredState", "SetInjuredState", soundplayed)
         unrealsdk.RegisterHook("Engine.Actor.GetActorEyesViewPoint", "FrontEndLoaded", frontendhook)
         unrealsdk.RegisterHook("WillowGame.FrontendGFxMovie.LaunchNewGame", "NoNewGame", sometimesno)
@@ -1526,7 +1557,7 @@ class Main(ModMenu.SDKMod):
             "WillowGame.StatusMenuExGFxMovie.DisplayMarketingUnlockDialogIfNecessary",
             "NoMarketingPopups",
         )
-        #unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
+        unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
         unrealsdk.RemoveHook("WillowGame.WillowPlayerPawn.SetInjuredState", "SetInjuredState")
         unrealsdk.RemoveHook("Engine.Actor.GetActorEyesViewPoint", "FrontEndLoaded")
         unrealsdk.RemoveHook("WillowGame.FrontendGFxMovie.LaunchNewGame", "NoNewGame")

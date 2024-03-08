@@ -96,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.0"
+    Version: str = "1.0.1"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -136,6 +136,10 @@ class Main(ModMenu.SDKMod):
     kill_challenge_complete: bool = False
     boss_challenge_complete: bool = False
 
+    white_knight_list = (
+    "PawnBalance_Shootyface",
+    )
+
     # py unrealsdk.GetEngine().GamePlayers[0].Actor.ServerTeleportPlayerToStation(unrealsdk.FindObject("LevelTravelStationDefinition", "GD_FastTravelStations.Zone1.GoshDam"))
     # py unrealsdk.GetEngine().GamePlayers[0].Actor.ServerTeleportPlayerToStation(unrealsdk.FindObject("FastTravelStationDefinition", "GD_FastTravelStations.Zone1.SouthpawFactory"))
     # py unrealsdk.Log(str(unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn.Location))
@@ -146,6 +150,12 @@ class Main(ModMenu.SDKMod):
             Caption="Disable Claim Reward Message",
             Description="Lets you skip having to claim your reward to travel to the next map",
             StartingValue=False,
+            Choices=("No", "Yes"),  # False, True
+        )
+        self.KillOffExtras = ModMenu.Options.Boolean(
+            Caption="Clear Enemies On Round End",
+            Description="Kills extra enemies when a mission is completed and prevents more from spawning until the next round. Thx Mopi",
+            StartingValue=True,
             Choices=("No", "Yes"),  # False, True
         )
         self.MissionTextX = ModMenu.Options.Slider(
@@ -180,6 +190,7 @@ class Main(ModMenu.SDKMod):
         ]
         self.Options = [
             self.BypassTravelLockout,
+            self.KillOffExtras,
             # self.MissionTextX,
             # self.MissionTextY,
             # self.TravelTextY,
@@ -478,6 +489,24 @@ class Main(ModMenu.SDKMod):
             # self.currentMap = temp
             # break
 
+    def disable_enemies(self) -> None:
+        player: unrealsdk.UObject = unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn
+        pawn: unrealsdk.UObject = unrealsdk.GetEngine().GetCurrentWorldInfo().PawnList
+        while pawn:
+            balance = pawn.BalanceDefinitionState.BalanceDefinition
+            if balance and balance.Name not in self.white_knight_list:
+                if pawn.GetOpinion and pawn.GetOpinion(player) != 2:
+                    if pawn.MyWillowMind:
+                        pawn.MyWillowMind.SpawnParent = None
+                        pawn.MyWillowMind.SpawnChildren = ()
+                    pawn.SpawnParent = None
+                    pawn.Died(None, None, ())
+            pawn = pawn.NextPawn
+
+        for point in unrealsdk.FindAll("WillowPopulationPoint"):
+            if point.Name != "Default__WillowPopulationPoint":
+                point.IsEnabled = False
+
     def do_save_quit(self) -> None:
             unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
             self.isinffyl = False
@@ -545,6 +574,8 @@ class Main(ModMenu.SDKMod):
             return
 
         GameState.mission_complete_sound_played = True
+        if self.KillOffExtras.CurrentValue is True:
+            self.disable_enemies()
         #if self.round_counter == 13:
             #unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
         mission_display.update_mission_display()
@@ -698,6 +729,10 @@ class Main(ModMenu.SDKMod):
         Looties.AIRollBlacklist.append("CharClass_RolandDeployableTurret")
         Looties.AIRollBlacklist.append("CharClass_Scorpio")
         Looties.AIRollBlacklist.append("CharClass_Assassin_Hologram")
+        Looties.AIRollBlacklist.append("CharClass_DragonBlue_Raid")
+        Looties.AIRollBlacklist.append("CharClass_DragonRed_Raid")
+        Looties.AIRollBlacklist.append("CharClass_DragonPurple_Raid")
+        Looties.AIRollBlacklist.append("CharClass_DragonGreen_Raid")
 
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnteredEasterEggCode
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnabledEasterEggOption
