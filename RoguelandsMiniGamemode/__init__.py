@@ -96,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.5"
+    Version: str = "1.0.6"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -420,6 +420,7 @@ class Main(ModMenu.SDKMod):
                         self.reset_mod(False, True, True)
                     elif self.round_counter == 8:
                         self.print_in_tick = True
+                        GameState.current_map.has_been_visited_in_current_rotation = True
                         self.reset_mod(True, False, False)
                     else:
                         # unrealsdk.Log("Mission Complete, Continuing")
@@ -650,7 +651,7 @@ class Main(ModMenu.SDKMod):
                 uFeed.TrainingBox(
                     Title="Roguelands Complete!",
                     Message="Congratulations on beating Roguelands!\nYour run ends here and you will now be set back to the main menu.\n\nThanks for checking out the mod.",
-                    MinDuration=0,
+                    MinDuration=3,
                     PausesGame=True,
                     MenuHint=0,
                     Priority=255,
@@ -662,7 +663,7 @@ class Main(ModMenu.SDKMod):
                     Message="You've unlocked <font color='#ff0000'>Difficulty Tier "
                     + str(GameState.level_offset + 1)
                     + "</font>!\nEnemies will grow stronger, but your gear will not.\nRefine and perfect your build to overcome the challenges that lie ahead.",
-                    MinDuration=0,
+                    MinDuration=3,
                     PausesGame=True,
                     MenuHint=0,
                     Priority=255,
