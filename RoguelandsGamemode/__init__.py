@@ -96,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.7"
+    Version: str = "1.0.8"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -158,42 +158,21 @@ class Main(ModMenu.SDKMod):
             StartingValue=True,
             Choices=("No", "Yes"),  # False, True
         )
-        self.MissionTextX = ModMenu.Options.Slider(
-            Caption="Mission Text Horizontal Location",
-            Description="Horizontal location of the mission text",
-            StartingValue=93,
-            MinValue=14,
-            MaxValue=99,
-            Increment=1,
-        )
-        self.MissionTextY = ModMenu.Options.Slider(
-            Caption="Mission Text Vertical Location",
-            Description="Vertical location of the mission text",
-            StartingValue=26,
-            MinValue=0,
-            MaxValue=94,
-            Increment=1,
-        )
-        self.TravelTextY = ModMenu.Options.Slider(
-            Caption="Travel Text Vertical Location",
-            Description="Vertical location of the travel prompt",
-            StartingValue=78,
-            MinValue=0,
-            MaxValue=95,
-            Increment=1,
+        self.SetOfflineMode = ModMenu.Options.Boolean(
+            Caption="Set Offline Mode on Mod Enable",
+            Description="Set network mode to offline by default to avoid getting stuck at the main menu in-between difficulty tiers.",
+            StartingValue=True,
+            Choices=("No", "Yes"),  # False, True
         )
         self.Keybinds: List[ModMenu.Keybind] = [
             ResetRunBind,
             ClaimRewardBind,
             RespecBind,
-            # DebugBind,s
         ]
         self.Options = [
             self.BypassTravelLockout,
             self.KillOffExtras,
-            # self.MissionTextX,
-            # self.MissionTextY,
-            # self.TravelTextY,
+            self.SetOfflineMode,
         ]
 
     def load_into_game(self) -> None:
@@ -389,17 +368,16 @@ class Main(ModMenu.SDKMod):
         # unrealsdk.Log("Delayed Spawn Done")
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value: Any) -> None:
-        if option == self.MissionTextX:
-            self.mission_x = new_value / 100
-        if option == self.MissionTextY:
-            self.mission_y = new_value / 100
-        if option == self.TravelTextY:
-            self.travel_y = new_value / 100
         if option == self.BypassTravelLockout:
             if new_value == "No":
                 self.bypass_loot = False
             elif new_value == "Yes":
                 self.bypass_loot = True
+        if option == self.SetOfflineMode:
+            if new_value == False:
+                unrealsdk.GetEngine().GamePlayers[0].Actor.AttemptNetworkTransition(0, 1, True) # Set Online Friends Only
+            elif new_value == True:
+                unrealsdk.GetEngine().GamePlayers[0].Actor.AttemptNetworkTransition(2, 0, True) # Set offline mode
 
     def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
         if bind == ResetRunBind and event == ModMenu.InputEvent.Pressed and self.isdead:
@@ -730,6 +708,10 @@ class Main(ModMenu.SDKMod):
         Looties.AIRollBlacklist.append("CharClass_RolandDeployableTurret")
         Looties.AIRollBlacklist.append("CharClass_Scorpio")
         Looties.AIRollBlacklist.append("CharClass_Assassin_Hologram")
+
+        if self.SetOfflineMode.CurrentValue is True:
+            unrealsdk.GetEngine().GamePlayers[0].Actor.AttemptNetworkTransition(2, 0, True) # Set offline mode
+
 
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnteredEasterEggCode
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnabledEasterEggOption
