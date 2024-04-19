@@ -30,3 +30,6 @@ Joltz idea for a deception modifier in his AON run. Supports BL2.
 
 ![Super Screenshots](https://github.com/PyrexBLJ/blsdk-mods/tree/main/SuperScreenshots)
 High resolution screenshots independent of game resolution, 1440p - 16k. Supports BL2 + TPS.
+
+![Trivia](https://github.com/PyrexBLJ/blsdk-mods/tree/main/Trivia)
+Trivia Minigame for BL2, With easy and hard difficulties. Supports BL2.

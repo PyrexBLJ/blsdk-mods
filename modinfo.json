@@ -116,6 +116,21 @@
           "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/SuperScreenshots/SuperScreenshots.rar"
         },
         "requirements": {}
+      },
+      {
+        "name": "Trivia",
+        "description": ["Trivia minigame for BL2, With easy and hard difficulties. Requires MapLoader and UserFeedback"],
+        "tagline": ["Trivia Minigame for BL2"],
+        "types": ["Gameplay"],
+        "latest": "1.0.0",
+        "supports":  [ "BL2" ],
+        "versions": {
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/Trivia/Trivia.zip"
+        },
+        "requirements": {
+          "MapLoader": ">=1.4.3",
+          "UserFeedback": ">=1.6"
+        }
       }
     ]
   }
