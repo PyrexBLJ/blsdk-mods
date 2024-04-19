@@ -81,7 +81,7 @@ class QuoteLib:
         "Mopioid",
         "Exotek",
         "LilGasmask666",
-        "WholeyMilk",
+        "WholyMilk",
         "bisnap",
         "EpicNNG",
         "ShadowEvil",
