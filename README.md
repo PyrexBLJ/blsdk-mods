@@ -33,3 +33,6 @@ High resolution screenshots independent of game resolution, 1440p - 16k. Support
 
 ![Trivia](https://github.com/PyrexBLJ/blsdk-mods/tree/main/Trivia)
 Trivia Minigame for BL2, With easy and hard difficulties. Supports BL2.
+
+![All My Homies Hate SHiFT](https://github.com/PyrexBLJ/blsdk-mods/tree/main/AllMyHomiesHateSHiFT)
+Sets offline/lan mode on boot to speed up starting the game a lil bit. Supports BL2.

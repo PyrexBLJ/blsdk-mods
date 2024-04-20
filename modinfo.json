@@ -131,6 +131,18 @@
           "MapLoader": ">=1.4.3",
           "UserFeedback": ">=1.6"
         }
+      },
+      {
+        "name": "All My Homies Hate SHiFT",
+        "description": ["Sets offline/lan mode on boot to speed up starting the game a lil bit"],
+        "tagline": ["Boot the game in offline/lan mode"],
+        "types": ["Utility"],
+        "latest": "1.0.0",
+        "supports":  [ "BL2" ],
+        "versions": {
+          "1.0.0": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/AllMyHomiesHateSHiFT/AllMyHomiesHateSHiFT.zip"
+        },
+        "requirements": {}
       }
     ]
   }
