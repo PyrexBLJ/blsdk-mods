@@ -35,7 +35,7 @@ class Main(ModMenu.SDKMod):
         "So you're a Borderlands fan huh?\nName every gun.\n\nTest your knowledge while helping Tiny Tina rescue Buttstallion.\n\nGo to <font color='#079413'>Digistruct Peak</font> to start trivia."
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.0"
+    Version: str = "1.0.1"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -65,6 +65,7 @@ class Main(ModMenu.SDKMod):
         Secrets.candosecret1 = True
         Secrets.candosecret2 = True
         unrealsdk.FindObject("InteractiveObjectDefinition", "GD_Balance_Shopping.VendingMachines.InteractiveObj_VendingMachine_GrenadesAndAmmo").CompassIcon = 4
+        unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("set GD_Itempools.Scheduling.Gamestage_07:ConstantAttributeValueResolver_0 ConstantValue 7", 0)
         if QuestionLib.inTrivia == True:
             placeablehelper.unload_map()
 
@@ -78,6 +79,7 @@ class Main(ModMenu.SDKMod):
                     pcon.Pawn.Location = (29020.78515625, 35473.859375, 7751.482421875)
                     pcon.Pawn.Controller.Rotation = (64923, 15204, 0)
                     QuestionLib.start_run()
+                    pcon.ConsoleCommand("set GD_Itempools.Scheduling.Gamestage_07:ConstantAttributeValueResolver_0 ConstantValue 1", 0)
                 else:
                     uFeed.ShowHUDMessage(
                         Title="Borderlands Trivia",
@@ -141,8 +143,8 @@ class Main(ModMenu.SDKMod):
             return True
         
         def savequit(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
-            if QuestionLib.inTrivia == True:
-                self.reset_vars()
+            self.reset_vars()
+            self.respawnPopped = True
             return True
         
         def use(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
