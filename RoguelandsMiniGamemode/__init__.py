@@ -96,7 +96,7 @@ class Main(ModMenu.SDKMod):
         "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.8"
+    Version: str = "1.0.9"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -365,6 +365,7 @@ class Main(ModMenu.SDKMod):
         unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = False
         # unrealsdk.Log("Enable Hud")
         pcon.DisplayHUD(False)
+        pcon.bGodMode = False
         # unrealsdk.Log("Delayed Spawn Done")
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value: Any) -> None:
@@ -554,6 +555,7 @@ class Main(ModMenu.SDKMod):
 
         GameState.mission_complete_sound_played = True
         if self.KillOffExtras.CurrentValue is True:
+            pcon.bGodMode = True
             self.disable_enemies()
         #if self.round_counter == 13:
             #unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
