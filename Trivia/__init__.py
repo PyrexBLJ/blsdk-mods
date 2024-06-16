@@ -35,7 +35,7 @@ class Main(ModMenu.SDKMod):
         "So you're a Borderlands fan huh?\nName every gun.\n\nTest your knowledge while helping Tiny Tina rescue Buttstallion.\n\nGo to <font color='#079413'>Digistruct Peak</font> to start trivia."
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.1"
+    Version: str = "1.0.2"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -52,6 +52,8 @@ class Main(ModMenu.SDKMod):
         ]
 
     def reset_vars(self) -> None:
+        if QuestionLib.inTrivia == True:
+            placeablehelper.unload_map()
         QuestionLib.inTrivia = False
         QuestionLib.triviaStreak = 1
         QuestionLib.gaveLoot = False
@@ -66,8 +68,6 @@ class Main(ModMenu.SDKMod):
         Secrets.candosecret2 = True
         unrealsdk.FindObject("InteractiveObjectDefinition", "GD_Balance_Shopping.VendingMachines.InteractiveObj_VendingMachine_GrenadesAndAmmo").CompassIcon = 4
         unrealsdk.GetEngine().GamePlayers[0].Actor.ConsoleCommand("set GD_Itempools.Scheduling.Gamestage_07:ConstantAttributeValueResolver_0 ConstantValue 7", 0)
-        if QuestionLib.inTrivia == True:
-            placeablehelper.unload_map()
 
     def GameInputPressed(self, bind: ModMenu.Keybind, event: ModMenu.InputEvent) -> None:
         if bind == self.StartTriviaBind and event == ModMenu.InputEvent.Pressed:
@@ -127,17 +127,23 @@ class Main(ModMenu.SDKMod):
             return True
         
         def died(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
+            #unrealsdk.Log("CausePlayerDeath")
             if unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower() == "testingzone_p" and QuestionLib.inTrivia == True:
+                #unrealsdk.Log("CausePlayerDeath Reset")
                 self.reset_vars()
             return True
         
         def died2(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
+            #unrealsdk.Log("SetInjuredDeadState")
             if unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower() == "testingzone_p" and QuestionLib.inTrivia == True and int(_params.InjuredDeadStateVal) != 0:
+                #unrealsdk.Log("SetInjuredDeadState Reset")
                 self.reset_vars()
             return True
         
         def died3(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
+            #unrealsdk.Log("ShowRespawnDialog")
             if unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower() == "testingzone_p":
+                #unrealsdk.Log("ShowRespawnDialog Reset")
                 self.respawnPopped = True
                 self.reset_vars()
             return True

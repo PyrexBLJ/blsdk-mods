@@ -122,10 +122,10 @@
         "description": ["Trivia minigame for BL2, With easy and hard difficulties. Requires MapLoader and UserFeedback"],
         "tagline": ["Trivia Minigame for BL2"],
         "types": ["Gameplay"],
-        "latest": "1.0.1",
+        "latest": "1.0.2",
         "supports":  [ "BL2" ],
         "versions": {
-          "1.0.1": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/Trivia/Trivia.zip"
+          "1.0.2": "https://github.com/PyrexBLJ/blsdk-mods/blob/main/Trivia/Trivia.zip"
         },
         "requirements": {
           "MapLoader": ">=1.4.3",
