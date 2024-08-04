@@ -59,6 +59,11 @@ REWARD_POOLS = {
     MapType.RaidBoss: ["GD_CustomItemPools_MainGame.Mercenary.TedioreUncommon"],
     MapType.MiniGame: "",
     MapType.Special: "",
+    MapType.Hoard: [
+        "GD_Itempools.ArtifactPools.Pool_Artifacts_03_Rare",
+        "GD_CustomItemPools_MainGame.Soldier.MaliwanCommon",
+        "GD_CustomItemPools_MainGame.Soldier.MaliwanCommon",
+    ],
 }
 
 DIFFICULTY: List[str] = ["Easy", "Normal", "Hard"]
@@ -93,10 +98,10 @@ class Main(ModMenu.SDKMod):
         "As you progress, challenges will get more and more difficult.\n"
         "Gear up, build your character, and take on the challenges that lie ahead.\n\n"
         "Good luck!\n\n"
-        "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417"
+        "Special Thanks: Juso, Mopioid, Abahbob, PilotPlaysGames, ZetaDæmon, Arin, Flare2V, Apple1417, Exotek"
     )
     Author: str = "JoltzDude139 | Pyrex"
-    Version: str = "1.0.9"
+    Version: str = "1.1.0"
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.NotSaved
 
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Utility
@@ -130,6 +135,7 @@ class Main(ModMenu.SDKMod):
     themodisdone: bool = False
     logallcalls: bool = False
     print_in_tick: bool = False
+    dontfuckindothetravelmorethanonceisweartogodurbreakingeverything: bool = False
 
     # challenges
 
@@ -186,6 +192,7 @@ class Main(ModMenu.SDKMod):
         #startloot.start()
 
     def reset_mod(self, forcetravel: bool, rlvloffset: bool, reset_raid_boss: bool) -> None:
+        map_scripts.g1_hatreds_shadow_victory_room.finish_room.crystals_hit = 0
         GameState.map_is_loaded = False
         placeablehelper.unload_map()
         self.round_counter = 0
@@ -203,6 +210,7 @@ class Main(ModMenu.SDKMod):
         self.last_injured_state = 0
 
         GameState.reset(reset_level_offset=rlvloffset)
+        map_scripts.hoard.State.reset()
         maps.reset_visited_maps(reset_raid_boss)
 
     def roll_new_map(self) -> None:
@@ -259,6 +267,31 @@ class Main(ModMenu.SDKMod):
         GameState.current_map.kill_challenge_count = 0
         GameState.current_map.has_been_visited_in_current_rotation = True
 
+        if GameState.current_map.map_file in ("E1A Scyllas Grove Hidden Lever 1.json", "E1B Scyllas Grove Hidden Lever 2.json", "E1C Scyllas Grove Hidden Lever 3.json"):
+            MAP_DATA[MapType.MiniGame][0].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][1].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][2].has_been_visited_in_current_rotation = True
+        elif GameState.current_map.map_file in ("E2A Crater Bar Glass Floor 1.json", "E2B Crater Bar Glass Floor 2.json", "E2C Crater Bar Glass Floor 3.json"):
+            MAP_DATA[MapType.MiniGame][3].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][4].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][5].has_been_visited_in_current_rotation = True
+        elif GameState.current_map.map_file in ("E3A Windshear Maze 1.json", "E3B Windshear Maze 2.json", "E3C Windshear Maze 3.json"):
+            MAP_DATA[MapType.MiniGame][6].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][7].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][8].has_been_visited_in_current_rotation = True
+        elif GameState.current_map.map_file in ("E4A Forest Glitch 1.json", "E4B Forest Glitch 2.json", "E4C Forest Glitch 3.json"):
+            MAP_DATA[MapType.MiniGame][9].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][10].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][11].has_been_visited_in_current_rotation = True
+        elif GameState.current_map.map_file in ("E5A Lair of Infinite Agony Puzzle Rooms 1.json", "E5B Lair of Infinite Agony Puzzle Rooms 2.json", "E5C Lair of Infinite Agony Puzzle Rooms 3.json"):
+            MAP_DATA[MapType.MiniGame][12].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][13].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][14].has_been_visited_in_current_rotation = True
+        elif GameState.current_map.map_file in ("E7A Beatdown Shifting Floors 1.json", "E7B Beatdown Shifting Floors 2.json", "E7C Beatdown Shifting Floors 3.json"):
+            MAP_DATA[MapType.MiniGame][16].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][17].has_been_visited_in_current_rotation = True
+            MAP_DATA[MapType.MiniGame][18].has_been_visited_in_current_rotation = True
+
         self.kill_challenge_complete = False
         self.boss_challenge_complete = False
         GameState.mission_complete = False
@@ -266,31 +299,34 @@ class Main(ModMenu.SDKMod):
 
         self.round_counter += 1
 
-        if self.round_counter % 8 == 0 and GameState.level_offset == 2:
+        if self.round_counter % 9 == 0 and GameState.level_offset == 2:
             # unrealsdk.Log("Picking Finale For Round " + str(self.round_counter))
             GameState.map_type = MapType.Special
             GameState.current_map = MAP_DATA[GameState.map_type][1]
-        elif self.round_counter % 8 == 0:
+        elif self.round_counter % 9 == 0:
             # unrealsdk.Log("Picking Mini Game For Round " + str(self.round_counter))
             GameState.map_type = MapType.MiniGame
             self.roll_new_map()
-        elif self.round_counter % 8 == 7 and GameState.level_offset == 2:
+        elif self.round_counter % 9 == 8 and GameState.level_offset == 2:
             # unrealsdk.Log("Picking Final Boss For Round " + str(self.round_counter))
             GameState.map_type = MapType.FinalBoss
             GameState.current_map = MAP_DATA[GameState.map_type][0]
-        elif self.round_counter % 8 == 7:
+        elif self.round_counter % 9 == 8:
             # unrealsdk.Log("Picking Raid Boss For Round " + str(self.round_counter))
             GameState.map_type = MapType.RaidBoss
             self.roll_new_map()
-        elif self.round_counter % 8 == 6:
+        elif self.round_counter % 9 == 7:
             # unrealsdk.Log("Picking Gold Chest For Round " + str(self.round_counter))
             GameState.map_type = MapType.Special
             GameState.current_map = MAP_DATA[GameState.map_type][0]
-        elif self.round_counter % 8 == 5:
+        elif self.round_counter % 9 == 6:
+            GameState.map_type = MapType.Hoard
+            GameState.current_map = MAP_DATA[GameState.map_type][GameState.level_offset]
+        elif self.round_counter % 9 == 5:
             # unrealsdk.Log("Picking Red Bar Boss For Round " + str(self.round_counter))
             GameState.map_type = MapType.RedBarBoss
             self.roll_new_map()
-        elif self.round_counter % 8 == 4:
+        elif self.round_counter % 9 == 4:
             # unrealsdk.Log("Picking Mini Boss For Round " + str(self.round_counter))
             GameState.map_type = MapType.MiniBoss
             self.roll_new_map()
@@ -314,6 +350,60 @@ class Main(ModMenu.SDKMod):
         pcon.HideHUD()
         # pcon.bGodMode = not pcon.bGodMode
         # time.sleep(3)
+        util.travel_to_destination(GameState.current_map.travel_object_name)
+
+    def secret_travel(self) -> None:
+        # unrealsdk.FindObject("WillowGameInfo", "WillowGame.Default__WillowGameInfo").TravelCountdown()
+        # unrealsdk.GetEngine().GamePlayers[0].Actor.PeerTravelAsHost(GameState.travel_timer, None)
+        while GameState.travel_timer > 0 and not self.isinffyl:
+            uFeed.ShowHUDMessage(
+                Title="Travel",
+                Message=f"Continuing Simulation in... {GameState.travel_timer}",
+                Duration=1,
+                MenuHint=0,
+            )
+            time.sleep(1)
+            GameState.travel_timer -= 1
+            # unrealsdk.GetEngine().GamePlayers[0].Actor.PlayUIAkEvent(
+            # unrealsdk.FindObject("AkEvent", "Ake_UI.UI_Generic.Ak_Play_UI_Generic_Countdown"),
+            # )
+
+        if self.isinffyl:
+            self.draw_timer = False
+            GameState.travel_timer = 3
+            return
+        GameState.map_is_loaded = False
+        placeablehelper.unload_map()
+
+        for item in unrealsdk.FindAll("WillowPickup")[1:]:
+            item.Behavior_Destroy()
+
+        # Reset the current map data, so that when we roll it again it wont stay completed
+        GameState.current_map.bosses_killed = 0
+        GameState.current_map.kill_challenge_count = 0
+        GameState.current_map.has_been_visited_in_current_rotation = True
+
+        self.kill_challenge_complete = False
+        self.boss_challenge_complete = False
+        GameState.mission_complete = False
+        GameState.mission_complete_sound_played = False
+
+        self.round_counter += 1
+
+        GameState.map_type = MapType.FinalBoss
+        GameState.current_map = MAP_DATA[GameState.map_type][1]
+
+        self.draw_timer = False
+        GameState.travel_timer = 3
+        self.draw_minigame_text = 3
+        map_scripts.redbarboss.State.reset()
+
+        pcon = unrealsdk.GetEngine().GamePlayers[0].Actor
+        pcon.UnclaimedRewards = []
+        pcon.ConsoleCommand("camera 1st")
+
+        unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = False
+
         util.travel_to_destination(GameState.current_map.travel_object_name)
 
     def do_minigame_text(self) -> None:
@@ -366,6 +456,9 @@ class Main(ModMenu.SDKMod):
         # unrealsdk.Log("Enable Hud")
         pcon.DisplayHUD(False)
         pcon.bGodMode = False
+        pcon.ConsoleCommand("set willowplayerpawn groundspeed 440")
+        if GameState.map_type == MapType.MiniGame:
+            pcon.bGodMode = True
         # unrealsdk.Log("Delayed Spawn Done")
 
     def ModOptionChanged(self, option: ModMenu.Options.Base, new_value: Any) -> None:
@@ -387,6 +480,8 @@ class Main(ModMenu.SDKMod):
             self.isdead = False
             self.in_game = False
             self.reset_mod(False, True, True)
+            map_scripts.g1_hatreds_shadow_victory_room.finish_room.hitcrystals = []
+            self.dontfuckindothetravelmorethanonceisweartogodurbreakingeverything = False
             unrealsdk.GetEngine().GamePlayers[0].Actor.ClientReturnToTitleScreen()
 
         if bind == ClaimRewardBind and event == ModMenu.InputEvent.Pressed and not self.isinffyl:
@@ -396,8 +491,14 @@ class Main(ModMenu.SDKMod):
             ):  # wtf is this truthey falsey bs i do not understand
                 if GameState.mission_complete and not self.draw_timer:
                     if self.themodisdone:
+                        map_scripts.g1_hatreds_shadow_victory_room.finish_room.hitcrystals = []
+                        self.dontfuckindothetravelmorethanonceisweartogodurbreakingeverything = False
+                        map_scripts.h2_secret_raid_boss.secret_boss.door_is_open = False
                         self.reset_mod(False, True, True)
-                    elif self.round_counter == 8:
+                    elif self.round_counter == 9:
+                        map_scripts.g1_hatreds_shadow_victory_room.finish_room.hitcrystals = []
+                        self.dontfuckindothetravelmorethanonceisweartogodurbreakingeverything = False
+                        map_scripts.h2_secret_raid_boss.secret_boss.door_is_open = False
                         self.print_in_tick = True
                         GameState.current_map.has_been_visited_in_current_rotation = True
                         self.reset_mod(True, False, False)
@@ -537,9 +638,9 @@ class Main(ModMenu.SDKMod):
     def mission_tracker(self) -> None:
         pcon = unrealsdk.GetEngine().GamePlayers[0].Actor
         hud = pcon.GetHUDMovie()
-        if GameState.map_type == MapType.Mobbing:
+        if GameState.map_type == MapType.Mobbing or GameState.map_type == MapType.Hoard:
             self.boss_challenge_complete = True
-        if GameState.map_type not in (MapType.Mobbing, MapType.MiniBoss):
+        if GameState.map_type not in (MapType.Mobbing, MapType.MiniBoss, MapType.Hoard):
             self.kill_challenge_complete = True
         if GameState.map_type == MapType.Special and GameState.current_map.name == "Golden Chest":
             self.boss_challenge_complete = True
@@ -556,6 +657,7 @@ class Main(ModMenu.SDKMod):
         GameState.mission_complete_sound_played = True
         if self.KillOffExtras.CurrentValue is True:
             pcon.bGodMode = True
+            pcon.ConsoleCommand("set willowplayerpawn groundspeed 880")
             self.disable_enemies()
         #if self.round_counter == 13:
             #unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[8].CurrentAmount = GameState.level_offset
@@ -567,14 +669,15 @@ class Main(ModMenu.SDKMod):
             unrealsdk.FindObject("AkEvent", "Ake_UI.UI_BackMenu.Ak_Play_UI_Badass_Rank_Up"),
         )
         if GameState.map_type != MapType.MiniGame:
-            unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 50
+            unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 25
 
         if GameState.map_type == MapType.RaidBoss:
             self.reward("Roguelands", REWARD_POOLS[MapType.RaidBoss][0])
+            map_scripts.raidboss.drop_raid_loot()
         elif GameState.map_type == MapType.MiniGame:
             if GameState.current_map.should_show_timer:
                 if self.countdown_timer > 0:
-                    unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 100
+                    unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 50
                     uFeed.ShowHUDMessage(Title="Reward Earned!", Message="50 Eridium", Duration=3, MenuHint=0)
                     self.countdown_timer = 0
                 else:
@@ -584,9 +687,9 @@ class Main(ModMenu.SDKMod):
                         Duration=3,
                         MenuHint=0,
                     )
-            elif GameState.current_map.map_file == "E10 Digipeak Trivia Mini Game 1.json":
+            elif GameState.current_map.map_file == "E9 Digipeak Trivia Mini Game 1.json":
                 if GameState.current_map.custom_map_data[5] is False:
-                    unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 100
+                    unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 50
                     uFeed.ShowHUDMessage(Title="Reward Earned!", Message="50 Eridium", Duration=3, MenuHint=0)
                     self.countdown_timer = 0
                 else:
@@ -597,7 +700,7 @@ class Main(ModMenu.SDKMod):
                         MenuHint=0,
                     )
             else:
-                unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 100
+                unrealsdk.GetEngine().GamePlayers[0].Actor.GetHUDMovie().WPRI.Currency[1].CurrentAmount += 50
                 uFeed.ShowHUDMessage(Title="Reward Earned!", Message="50 Eridium", Duration=3, MenuHint=0)
                 self.countdown_timer = 0
         elif GameState.map_type == MapType.MiniBoss:
@@ -610,6 +713,8 @@ class Main(ModMenu.SDKMod):
             map_scripts.redbarboss.move_gift_box()
         elif GameState.map_type == MapType.Mobbing:
             self.reward("Roguelands", REWARD_POOLS[MapType.Mobbing][GameState.level_offset])
+        elif GameState.map_type == MapType.Hoard:
+            self.reward("Roguelands", REWARD_POOLS[MapType.Hoard][GameState.level_offset])
 
         if hud.WPRI.Currency[7].CurrentAmount < 76 and GameState.map_type not in (
             MapType.StartRoom,
@@ -625,7 +730,7 @@ class Main(ModMenu.SDKMod):
         if pcon.GetHUDMovie().WPRI.Currency[1].CurrentAmount > 500:
             pcon.GetHUDMovie().WPRI.Currency[1].CurrentAmount = 500
 
-        if self.round_counter == 8:
+        if self.round_counter == 9:
             if GameState.level_offset == 2:
                 self.themodisdone = True
                 uFeed.TrainingBox(
@@ -658,18 +763,15 @@ class Main(ModMenu.SDKMod):
         Increment the boss kill counter for the current map
         if the killed enemy is a boss listed in the current map's custom_map_data
         """
-        if (
-            enemy in GameState.current_map.custom_map_data[0]
-            and not GameState.current_map.bosses_killed + 1 > GameState.current_map.total_bosses_in_map
-        ):
+        if (enemy in GameState.current_map.custom_map_data[0] and not GameState.current_map.bosses_killed + 1 > GameState.current_map.total_bosses_in_map):
             GameState.current_map.bosses_killed += 1
             mission_display.update_mission_display()
 
-        if (
-            GameState.current_map.bosses_killed >= GameState.current_map.total_bosses_in_map
-            and GameState.map_type != MapType.Special
-        ):
+        if (GameState.current_map.bosses_killed >= GameState.current_map.total_bosses_in_map and GameState.map_type != MapType.Special):
             self.boss_challenge_complete = True
+            if GameState.current_map.map_file == "H2 Secret Raid Boss.json":
+                map_scripts.h2_secret_raid_boss.secret_boss.spawn_something_idk()
+                self.themodisdone = True
 
     def Enable(self) -> None:
         pc: unrealsdk.UObject = unrealsdk.GetEngine().GamePlayers[0].Actor
@@ -710,13 +812,10 @@ class Main(ModMenu.SDKMod):
         Looties.AIRollBlacklist.append("CharClass_RolandDeployableTurret")
         Looties.AIRollBlacklist.append("CharClass_Scorpio")
         Looties.AIRollBlacklist.append("CharClass_Assassin_Hologram")
-        Looties.AIRollBlacklist.append("CharClass_DragonBlue_Raid")
-        Looties.AIRollBlacklist.append("CharClass_DragonRed_Raid")
-        Looties.AIRollBlacklist.append("CharClass_DragonPurple_Raid")
-        Looties.AIRollBlacklist.append("CharClass_DragonGreen_Raid")
 
         if self.SetOfflineMode.CurrentValue is True:
             unrealsdk.GetEngine().GamePlayers[0].Actor.AttemptNetworkTransition(2, 0, True) # Set offline mode
+
 
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnteredEasterEggCode
         # unrealsdk.GetEngine().GamePlayers[0].Actor.bEnabledEasterEggOption
@@ -818,6 +917,7 @@ class Main(ModMenu.SDKMod):
                 hud_movie.WPRI.Currency[0].CurrentAmount = 0
                 hud_movie.WPRI.Currency[1].CurrentAmount = 0
                 hud_movie.WPRI.Currency[7].CurrentAmount = 6
+                pc.bGodMode = True
                 self.spawn_start_loot()
                 hud_movie.WPRI.GeneralSkillPoints = (
                     hud_movie.WPRI.Currency[7].CurrentAmount - pc.PlayerSkillTree.GetSkillPointsSpentInTree()
@@ -853,7 +953,7 @@ class Main(ModMenu.SDKMod):
             if "WillowPlayerPawn" in str(caller):
                 return True
             aipawn = caller.GetAWillowAIPawn()
-            # unrealsdk.Log("Died: " + str(aipawn.AIClass))
+            #unrealsdk.Log("Died: " + str(aipawn.AIClass))
 
             if caller == self.boss_pawn:
                 self.boss_pawn = None
@@ -869,6 +969,8 @@ class Main(ModMenu.SDKMod):
             if not GameState.current_map.kill_challenge_count + 1 > GameState.current_map.kill_challenge_goal:
                 GameState.current_map.kill_challenge_count += 1
                 mission_display.update_mission_display()
+                if GameState.current_map.map_file == "H2 Secret Raid Boss.json" and GameState.current_map.kill_challenge_count >= GameState.current_map.kill_challenge_goal and map_scripts.h2_secret_raid_boss.secret_boss.door_is_open == False:
+                    threading.Thread(target=map_scripts.h2_secret_raid_boss.secret_boss.open_door).start()
             if GameState.current_map.kill_challenge_count >= GameState.current_map.kill_challenge_goal:
                 self.kill_challenge_complete = True
 
@@ -896,6 +998,7 @@ class Main(ModMenu.SDKMod):
                 "AIClassDefinition GD_MrMercy.Character.CharClass_MrMercy",
                 "AIClassDefinition GD_LoaderUltimateBadass.Character.CharClass_LoaderUltimateBadass",
                 "AIClassDefinition GD_SpiderantScorch.Character.CharClass_SpiderantScorch",
+                "AIClassDefinition GD_Skagzilla.Character.CharClass_Skagzilla",
             ):
                 self.boss_pawn = caller
                 repinfo: unrealsdk.UObject = unrealsdk.GetEngine().GetCurrentWorldInfo().GRI
@@ -990,10 +1093,12 @@ class Main(ModMenu.SDKMod):
                 threading.Thread(target=self.do_spawn_delayed).start()
                 self.fill_ammo()
 
+                pcon.Pawn.InvManager.InventorySlotMax_Misc = 100
+
                 pcon.bShowUndiscoveredMissions = False
 
                 mission_display.MissionStuff.set_mission_name(
-                    f"{MISSION_TYPE_READABLE[GameState.map_type]}Round {self.round_counter} / 8",
+                    f"{MISSION_TYPE_READABLE[GameState.map_type]}Round {self.round_counter} / 9",
                 )
                 mission_display.update_mission_display()
 
@@ -1015,18 +1120,19 @@ class Main(ModMenu.SDKMod):
                 # animation.RateScale = 5
 
                 if GameState.current_map.map_file == "G1 Hatreds Shadow Victory Room.json":
-                    threading.Thread(target=map_scripts.g1_hatreds_shadow_victory_room.finish_cubes).start()
+                    map_scripts.g1_hatreds_shadow_victory_room.finish_room.abort_threads = False
+                    threading.Thread(target=map_scripts.g1_hatreds_shadow_victory_room.finish_room.finish_cubes).start()
 
                 if GameState.map_type == MapType.MiniGame:
                     threading.Thread(target=self.do_minigame_text).start()
                     if GameState.current_map.should_show_timer:
                         self.countdown_timer = GameState.current_map.kill_challenge_goal
                         threading.Thread(target=self.do_countdown).start()
-                    if GameState.current_map.map_file == "E7 Beatdown Shifting Floors 1.json":
+                    if GameState.current_map.map_file in ("E7A Beatdown Shifting Floors 1.json", "E7B Beatdown Shifting Floors 2.json", "E7C Beatdown Shifting Floors 3.json"):
                         threading.Thread(
                             target=map_scripts.e7_beatdown_shifting_floors.move_floors_for_floors_minigame,
                         ).start()
-                    if GameState.current_map.map_file == "E8 Forest Glitch Mini Game 1.json":
+                    if GameState.current_map.map_file in ("E4A Forest Glitch 1.json", "E4B Forest Glitch 2.json", "E4C Forest Glitch 3.json"):
                         threading.Thread(target=map_scripts.e8_forest_glitch_mini_game.glitch_room).start()
             return True
 
@@ -1035,62 +1141,66 @@ class Main(ModMenu.SDKMod):
             _function: unrealsdk.UFunction,
             params: unrealsdk.FStruct,
         ) -> bool:
+            if str(params.msg) == "iamstuck":
+                unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn.Location = GameState.current_map.spawn_location
+                unrealsdk.GetEngine().GamePlayers[0].Actor.Pawn.Controller.Rotation = GameState.current_map.spawn_rotation
+                return False
             splitstring = params.msg.split(" ")
-            # if str(params.PRI.PlayerName) == "PyrexBLJ" or str(params.PRI.PlayerName) == "JoltzDude139":
-            # unrealsdk.Log(str(params.PRI.PlayerName))
-            if splitstring[0].lower() != "rl":
-                return True
+            if str(params.PRI.PlayerName) == "PyrexBLJ" or str(params.PRI.PlayerName) == "JoltzDude139":
+                # unrealsdk.Log(str(params.PRI.PlayerName))
+                if splitstring[0].lower() != "rl":
+                    return True
 
-            cmd: str = splitstring[1].lower()
+                cmd: str = splitstring[1].lower()
 
-            unrealsdk.Log("rl Recieved")
-            if cmd == "goto":
-                GameState.map_is_loaded = False
-                placeablehelper.unload_map()
+                unrealsdk.Log("rl Recieved")
+                if cmd == "goto":
+                    GameState.map_is_loaded = False
+                    placeablehelper.unload_map()
 
-                for item in unrealsdk.FindAll("WillowPickup")[1:]:
-                    item.Behavior_Destroy()
+                    for item in unrealsdk.FindAll("WillowPickup")[1:]:
+                        item.Behavior_Destroy()
 
-                GameState.current_map.bosses_killed = 0
-                GameState.current_map.kill_challenge_count = 0
+                    GameState.current_map.bosses_killed = 0
+                    GameState.current_map.kill_challenge_count = 0
 
-                self.kill_challenge_complete = False
-                self.boss_challenge_complete = False
-                GameState.mission_complete = False
-                GameState.mission_complete_sound_played = False
+                    self.kill_challenge_complete = False
+                    self.boss_challenge_complete = False
+                    GameState.mission_complete = False
+                    GameState.mission_complete_sound_played = False
 
-                GameState.map_type = MapType(int(splitstring[2]))
-                GameState.current_map = MAP_DATA[GameState.map_type][int(splitstring[3])]
+                    GameState.map_type = MapType(int(splitstring[2]))
+                    GameState.current_map = MAP_DATA[GameState.map_type][int(splitstring[3])]
 
-                self.draw_timer = False
-                GameState.travel_timer = 3
-                self.draw_minigame_text = 3
+                    self.draw_timer = False
+                    GameState.travel_timer = 3
+                    self.draw_minigame_text = 3
 
-                unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
-                unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = True
-                util.travel_to_destination(GameState.current_map.travel_object_name)
-            elif cmd == "round":
-                self.round_counter = int(splitstring[2])
-            elif cmd == "tier":
-                GameState.level_offset = int(splitstring[2]) - 1
-            elif cmd == "unloadmap":
-                GameState.map_is_loaded = False
-                placeablehelper.unload_map()
-            elif cmd == "loadmap":
-                loaded_map: str = unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower()
-                map_file_path: Path = Path(__file__).parent.resolve() / "assets/Maps" / GameState.current_map.map_file
-                if loaded_map == GameState.current_map.package:
-                    if map_file_path.is_file():
-                        with open(map_file_path) as mapfile:
-                            maptoload = json.load(mapfile)
-                            loadplease = maptoload.get(
-                                loaded_map,
-                                None,
-                            )
-                        placeablehelper.load_map(loadplease)
-                        GameState.map_is_loaded = True
-                    else:
-                        unrealsdk.Log(str(map_file_path) + " Doesnt Exist")
+                    unrealsdk.GetEngine().GamePlayers[0].Actor.UnclaimedRewards = []
+                    unrealsdk.GetEngine().GameViewport.bDisableWorldRendering = True
+                    util.travel_to_destination(GameState.current_map.travel_object_name)
+                elif cmd == "round":
+                    self.round_counter = int(splitstring[2])
+                elif cmd == "tier":
+                    GameState.level_offset = int(splitstring[2]) - 1
+                elif cmd == "unloadmap":
+                    GameState.map_is_loaded = False
+                    placeablehelper.unload_map()
+                elif cmd == "loadmap":
+                    loaded_map: str = unrealsdk.GetEngine().GetCurrentWorldInfo().GetStreamingPersistentMapName().lower()
+                    map_file_path: Path = Path(__file__).parent.resolve() / "assets/Maps" / GameState.current_map.map_file
+                    if loaded_map == GameState.current_map.package:
+                        if map_file_path.is_file():
+                            with open(map_file_path) as mapfile:
+                                maptoload = json.load(mapfile)
+                                loadplease = maptoload.get(
+                                    loaded_map,
+                                    None,
+                                )
+                            placeablehelper.load_map(loadplease)
+                            GameState.map_is_loaded = True
+                        else:
+                            unrealsdk.Log(str(map_file_path) + " Doesnt Exist")
             return False
 
         def no(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
@@ -1243,15 +1353,17 @@ class Main(ModMenu.SDKMod):
             #unrealsdk.Log(f"WeaponFired Caller: {str(_caller)} StartTrace: {str(_params.StartTrace)} EndTrace: {str(_params.EndTrace)}")
             if GameState.current_map.map_file == "F1 Sanctuary (Gold Chest Room).json":
                 map_scripts.f1_sanctuary_chest_room.check_button(_params.EndTrace)
+            elif GameState.current_map.map_file == "G1 Hatreds Shadow Victory Room.json":
+                map_scripts.g1_hatreds_shadow_victory_room.finish_room.check_crystals(_params.EndTrace)
             elif GameState.map_type == MapType.MiniBoss:
                 map_scripts.miniboss.miniboss_shootable_objects(GameState.current_map, _params.EndTrace)
             elif GameState.map_type == MapType.RedBarBoss:
                 map_scripts.redbarboss.open_gift_box(_params.EndTrace)
             elif GameState.map_type == MapType.StartRoom:
                 map_scripts.starting_room.lel_gubs(GameState.current_map, _params.EndTrace)
-            elif GameState.current_map.map_file == "E4 Bloodshot Secret Rooms 1.json":
+            elif GameState.current_map.map_file == "E8 Bloodshot Secret Rooms 1.json":
                 map_scripts.e4_bloodshot_secret_rooms.check_wall_hit(_params.EndTrace)
-            elif GameState.current_map.map_file == "E9 Lair of Infinite Agony Puzzle Rooms 1.json":
+            elif GameState.current_map.map_file in ("E5A Lair of Infinite Agony Puzzle Rooms 1.json", "E5B Lair of Infinite Agony Puzzle Rooms 2.json", "E5C Lair of Infinite Agony Puzzle Rooms 3.json"):
                 map_scripts.e9_lair_of_infinite_agony_puzzle_rooms.loia_puzzle(GameState.current_map, _params.EndTrace)
             if GameState.current_map.map_file == "A78 Unassuming Docks Mobbing 1.json":
                 target = placeablehelper.TAGGED_OBJECTS.get("Target 1")
@@ -1268,6 +1380,10 @@ class Main(ModMenu.SDKMod):
                     GameState.current_map.custom_map_data[2] = True
                     # unrealsdk.Log("Hit Target")
                     threading.Thread(target=map_scripts.a78_unassuming_docks_mobbing.move_boat).start()
+            if GameState.current_map.map_file == "G1 Hatreds Shadow Victory Room.json" and map_scripts.g1_hatreds_shadow_victory_room.finish_room.abort_threads == True and self.dontfuckindothetravelmorethanonceisweartogodurbreakingeverything == False:
+                self.dontfuckindothetravelmorethanonceisweartogodurbreakingeverything = True
+                threading.Thread(target=self.secret_travel).start()
+                map_scripts.g1_hatreds_shadow_victory_room.finish_room.hitcrystals = []
             return True
         
         def playermove(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
@@ -1284,11 +1400,11 @@ class Main(ModMenu.SDKMod):
 
             if GameState.map_type == MapType.MiniGame:
                 if not GameState.mission_complete:
-                    if GameState.current_map.map_file == "E5 Crater Bar Glass Floor 1.json":
+                    if GameState.current_map.map_file in ("E2A Crater Bar Glass Floor 1.json", "E2B Crater Bar Glass Floor 2.json", "E2C Crater Bar Glass Floor 3.json"):
                         map_scripts.e5_crater_bar_glass_floor.glass_break_minigame(GameState.current_map)
-                    elif GameState.current_map.map_file == "E9 Lair of Infinite Agony Puzzle Rooms 1.json":
+                    elif GameState.current_map.map_file in ("E5A Lair of Infinite Agony Puzzle Rooms 1.json", "E5B Lair of Infinite Agony Puzzle Rooms 2.json", "E5C Lair of Infinite Agony Puzzle Rooms 3.json"):
                         map_scripts.e9_lair_of_infinite_agony_puzzle_rooms.loia_puzzle_player(GameState.current_map)
-                    elif GameState.current_map.map_file == "E10 Digipeak Trivia Mini Game 1.json":
+                    elif GameState.current_map.map_file == "E9 Digipeak Trivia Mini Game 1.json":
                         map_scripts.e10_digipeak_trivia_mini_game.trivia_questions(GameState.current_map)
                 x, y, z = GameState.current_map.custom_map_data[0]
                 self.distancetofinish = util.distance(pawn_location, (x, y, z))
@@ -1322,6 +1438,7 @@ class Main(ModMenu.SDKMod):
             
             if GameState.map_type == MapType.StartRoom:
                 map_scripts.starting_room.check_for_tip()
+                map_scripts.starting_room.check_for_mini_leviathan()
 
                 if (
                     util.distance(pawn_location, (6038.69873046875, -44883.6328125, -4841.07470703125)) < 250
@@ -1376,31 +1493,34 @@ class Main(ModMenu.SDKMod):
 
                     self.round_counter += 1
 
-                    if self.round_counter % 8 == 0 and GameState.level_offset == 2:
+                    if self.round_counter % 9 == 0 and GameState.level_offset == 2:
                         # unrealsdk.Log("Picking Finale For Round " + str(self.round_counter))
                         GameState.map_type = MapType.Special
                         GameState.current_map = MAP_DATA[GameState.map_type][1]
-                    elif self.round_counter % 8 == 0:
+                    elif self.round_counter % 9 == 0:
                         # unrealsdk.Log("Picking Mini Game For Round " + str(self.round_counter))
                         GameState.map_type = MapType.MiniGame
                         self.roll_new_map()
-                    elif self.round_counter % 8 == 7 and GameState.level_offset == 2:
+                    elif self.round_counter % 9 == 8 and GameState.level_offset == 2:
                         # unrealsdk.Log("Picking Final Boss For Round " + str(self.round_counter))
                         GameState.map_type = MapType.FinalBoss
                         GameState.current_map = MAP_DATA[GameState.map_type][0]
-                    elif self.round_counter % 8 == 7:
+                    elif self.round_counter % 9 == 8:
                         # unrealsdk.Log("Picking Raid Boss For Round " + str(self.round_counter))
                         GameState.map_type = MapType.RaidBoss
                         self.roll_new_map()
-                    elif self.round_counter % 8 == 6:
+                    elif self.round_counter % 9 == 7:
                         # unrealsdk.Log("Picking Gold Chest For Round " + str(self.round_counter))
                         GameState.map_type = MapType.Special
                         GameState.current_map = MAP_DATA[GameState.map_type][0]
-                    elif self.round_counter % 8 == 5:
+                    elif self.round_counter % 9 == 6:
+                        GameState.map_type = MapType.Hoard
+                        GameState.current_map = MAP_DATA[GameState.map_type][GameState.level_offset]
+                    elif self.round_counter % 9 == 5:
                         # unrealsdk.Log("Picking Red Bar Boss For Round " + str(self.round_counter))
                         GameState.map_type = MapType.RedBarBoss
                         self.roll_new_map()
-                    elif self.round_counter % 8 == 4:
+                    elif self.round_counter % 9 == 4:
                         # unrealsdk.Log("Picking Mini Boss For Round " + str(self.round_counter))
                         GameState.map_type = MapType.MiniBoss
                         self.roll_new_map()
@@ -1439,7 +1559,12 @@ class Main(ModMenu.SDKMod):
             if GameState.map_is_loaded:
                 if GameState.map_type == MapType.Mobbing:
                     map_scripts.mobbing.check_plates()
-                    map_scripts.mobbing.check_vault_symbols()
+
+                if GameState.current_map.map_file == "G1 Hatreds Shadow Victory Room.json":
+                    map_scripts.g1_hatreds_shadow_victory_room.finish_room.boss_hint()
+
+                if GameState.current_map.map_file == "H2 Secret Raid Boss.json":
+                    map_scripts.h2_secret_raid_boss.secret_boss.warning()
 
             #unrealsdk.Log(f"AdjustPlayerWalkingMoveAccel: {str(_params)}")
             if GameState.travel_timer > 0:
@@ -1448,6 +1573,21 @@ class Main(ModMenu.SDKMod):
         
         def wpriinit(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
             unrealsdk.Log("WPRIInitialized")
+            return True
+        
+        def UseInteractiveItem(_caller: unrealsdk.UObject, _function: unrealsdk.UFunction, _params: unrealsdk.FStruct) -> bool:
+            if GameState.map_is_loaded:
+                if GameState.map_type == MapType.Mobbing:
+                    map_scripts.mobbing.check_vault_symbols()
+                if GameState.map_type == MapType.MiniGame:
+                    if GameState.current_map.map_file in ("E1A Scyllas Grove Hidden Lever 1.json", "E1B Scyllas Grove Hidden Lever 2.json", "E1C Scyllas Grove Hidden Lever 3.json"):
+                        map_scripts.e1_scyllas_grove_hidden_lever.check_lever()
+                if GameState.map_type == MapType.Hoard:
+                    map_scripts.hoard.check_token()
+                if GameState.current_map.map_file == "H2 Secret Raid Boss.json":
+                    map_scripts.h2_secret_raid_boss.secret_boss.check_buttons()
+                if GameState.current_map.map_file == "J3 Wam Bam Hoard Round.json":
+                    map_scripts.hoard.check_offering()
             return True
 
         unrealsdk.RegisterHook(
@@ -1488,7 +1628,7 @@ class Main(ModMenu.SDKMod):
             "NoMarketingPopups",
             no,
         )
-        #unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", on_chat_command)
+        unrealsdk.RegisterHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands", on_chat_command)
         unrealsdk.RegisterHook("WillowGame.WillowPlayerPawn.SetInjuredState", "SetInjuredState", soundplayed)
         unrealsdk.RegisterHook("Engine.Actor.GetActorEyesViewPoint", "FrontEndLoaded", frontendhook)
         unrealsdk.RegisterHook("WillowGame.FrontendGFxMovie.LaunchNewGame", "NoNewGame", sometimesno)
@@ -1509,6 +1649,7 @@ class Main(ModMenu.SDKMod):
         unrealsdk.RegisterHook("WillowGame.WillowPlayerController.DisplaySkillPointsPrompt", "NoSkillPointReminder", no)
         unrealsdk.RegisterHook("WillowGame.WillowLightProjectileManager.AddProj", "AddProjectile", hitloc)
         unrealsdk.RegisterHook("Engine.PlayerController.AdjustPlayerWalkingMoveAccel", "PlayerMove", playermove)
+        unrealsdk.RegisterHook("WillowGame.WillowInteractiveObject.UseObject", "Use", UseInteractiveItem)
         #unrealsdk.RegisterHook("Engine.PlayerReplicationInfo.PostBeginPlay", "WPRIInitialized", wpriinit)
         # unrealsdk.RegisterHook("WillowGame.WillowPlayerController.DisplayHUDMessage", "ChallengePopup2", gimmechallengename)
         # unrealsdk.RegisterHook("Engine.Canvas.DrawText", "DrawText", localizetext)
@@ -1545,7 +1686,7 @@ class Main(ModMenu.SDKMod):
             "WillowGame.StatusMenuExGFxMovie.DisplayMarketingUnlockDialogIfNecessary",
             "NoMarketingPopups",
         )
-        #unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
+        unrealsdk.RemoveHook("WillowGame.TextChatGFxMovie.AddChatMessage", "ChatCommands")
         unrealsdk.RemoveHook("WillowGame.WillowPlayerPawn.SetInjuredState", "SetInjuredState")
         unrealsdk.RemoveHook("Engine.Actor.GetActorEyesViewPoint", "FrontEndLoaded")
         unrealsdk.RemoveHook("WillowGame.FrontendGFxMovie.LaunchNewGame", "NoNewGame")
@@ -1558,6 +1699,7 @@ class Main(ModMenu.SDKMod):
         unrealsdk.RemoveHook("WillowGame.WillowPlayerController.DisplaySkillPointsPrompt", "NoSkillPointReminder")
         unrealsdk.RemoveHook("WillowGame.WillowLightProjectileManager.AddProj", "AddProjectile")
         unrealsdk.RemoveHook("Engine.PlayerController.AdjustPlayerWalkingMoveAccel", "PlayerMove")
+        unrealsdk.RemoveHook("WillowGame.WillowInteractiveObject.UseObject", "Use")
         #unrealsdk.RemoveHook("Engine.PlayerReplicationInfo.PostBeginPlay", "WPRIInitialized")
         # unrealsdk.RemoveHook("WillowGame.WillowPlayerController.DisplayHUDMessage", "ChallengePopup2")
         # unrealsdk.RemoveHook("Core.Object.Localize", "LocalizeText")

@@ -1,0 +1,1890 @@
+{
+    "templeslaughter_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01_Large_AccurateCol": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2550.4208984375,
+                            19160.62109375,
+                            3441.01708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            4000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01_Large_AccurateCol": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3180.4208984375,
+                            12880.62109375,
+                            3441.01708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            -3000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01_Large_AccurateCol": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6640.4208984375,
+                            15500.62109375,
+                            3441.01708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            16000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01_Large_AccurateCol": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6235.4208984375,
+                            18504.62109375,
+                            3928.01708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            23400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1191.383056640625,
+                            17089.197265625,
+                            4255.34619140625
+                        ],
+                        "Rotation": [
+                            0,
+                            9900,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4195.61279296875,
+                            19381.6796875,
+                            4495.201171875
+                        ],
+                        "Rotation": [
+                            0,
+                            -18600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_01_Large_AccurateCol": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1295.616943359375,
+                            15688.4921875,
+                            3655.722900390625
+                        ],
+                        "Rotation": [
+                            0,
+                            -12600,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_DwarfMines.Mesh.Dwarven_Flag_BA_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2472.85693359375,
+                            15834.7431640625,
+                            4695.85986328125
+                        ],
+                        "Rotation": [
+                            0,
+                            5100,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4271.607421875,
+                            17817.400390625,
+                            3530.779052734375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Crate.Meshes.AmmoCrate": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4450.55615234375,
+                            17909.65625,
+                            3517.096923828125
+                        ],
+                        "Rotation": [
+                            0,
+                            -10700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Arch": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3643.603759765625,
+                            15901.4453125,
+                            3487.7548828125
+                        ],
+                        "Rotation": [
+                            -2700,
+                            -6700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            0.6899999976158142
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Armor.Meshes.BanditCoinsack": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4372.31982421875,
+                            17778.603515625,
+                            3546.534912109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.BoulderPile_01_CC": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5109.18505859375,
+                            18350.123046875,
+                            3703.89599609375
+                        ],
+                        "Rotation": [
+                            0,
+                            30800,
+                            0
+                        ],
+                        "Scale": 0.4099999964237213,
+                        "Scale3D": [
+                            1.159999966621399,
+                            1.25,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.CaveRock_02_Hole": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1843.0379638671875,
+                            17191.130859375,
+                            4316.02099609375
+                        ],
+                        "Rotation": [
+                            0,
+                            22000,
+                            100
+                        ],
+                        "Scale": 0.3700000047683716,
+                        "Scale3D": [
+                            1.2200000286102295,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Corpses_02.Meshes.CrushedSkeleton": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5385.80517578125,
+                            16462.4375,
+                            3494.439208984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Doors.Meshes.FantasyDoor04": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2974.781982421875,
+                            18075.513671875,
+                            3590.14794921875
+                        ],
+                        "Rotation": [
+                            0,
+                            6900,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Doors.Meshes.FantasyDoor04": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3450.781982421875,
+                            18405.513671875,
+                            3590.14794921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -26500,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.FlatCaveRock_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3783.73291015625,
+                            17163.318359375,
+                            3573.8779296875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Details.Meshes.ForgeHammer": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4994.9970703125,
+                            17757.828125,
+                            3686.94189453125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Igloo.Meshes.Furnace": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3631.489013671875,
+                            14066.01171875,
+                            3694.735107421875
+                        ],
+                        "Rotation": [
+                            0,
+                            12400,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "FX_Shared_Mesh_px.Meshes.EmberMesh_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3693.863037109375,
+                            14093.845703125,
+                            3716.966064453125
+                        ],
+                        "Rotation": [
+                            0,
+                            11300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1.2899999618530273,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Igloo.Meshes.FurnaceDoor": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3643.462890625,
+                            14097.2861328125,
+                            3691.0009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            11900,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Details.Meshes.Gear": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5411.287109375,
+                            15563.4169921875,
+                            3690.29296875
+                        ],
+                        "Rotation": [
+                            11500,
+                            -3200,
+                            0
+                        ],
+                        "Scale": 15,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Armor.Meshes.Helmet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3474.5419921875,
+                            16088.3779296875,
+                            3691
+                        ],
+                        "Rotation": [
+                            7000,
+                            1000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Weapons.Meshes.Melee_HandleAxe": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3484.908935546875,
+                            15948.4013671875,
+                            3778.319091796875
+                        ],
+                        "Rotation": [
+                            22000,
+                            -13000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Metal_Brazier": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2770.48193359375,
+                            17825.880859375,
+                            3699.927001953125
+                        ],
+                        "Rotation": [
+                            -2000,
+                            6000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Ruins.Meshes.Metal_Brazier": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3800.48193359375,
+                            18565.880859375,
+                            3529.927001953125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Farm.Meshes.OilLamp": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4245.72607421875,
+                            17852.26953125,
+                            3647.8583984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Tools.Meshes.PickAxe_Collision": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4979.189453125,
+                            14875.83203125,
+                            3689.490966796875
+                        ],
+                        "Rotation": [
+                            -17000,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Aster_Prop_Rocks.Meshes.RockPile_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5107.10400390625,
+                            16286.8486328125,
+                            3502.322021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -4000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_poles.Meshes.ScaffoldSpikeTriple": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4050.06298828125,
+                            15787.9248046875,
+                            3663.906005859375
+                        ],
+                        "Rotation": [
+                            0,
+                            -7000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "prop_poles.Meshes.ScaffoldSpikeTriple": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4190.06298828125,
+                            15757.9248046875,
+                            3543.906005859375
+                        ],
+                        "Rotation": [
+                            0,
+                            -38000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Barrels.Meshes.WoodenBarrel": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3973.95703125,
+                            15426.5419921875,
+                            3648.625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Barrels.Meshes.WoodenBarrel": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3873.95703125,
+                            15426.5419921875,
+                            3678.625
+                        ],
+                        "Rotation": [
+                            15000,
+                            -10000,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Token",
+                        "Tags": [
+                            "Token of Wealth"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            3720.130126953125,
+                            14011.12890625,
+                            3715.6943359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Aster_Prop_DwarfMines.Mesh.DwarfMines_ArchDoorWay": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3204.248046875,
+                            18262.90234375,
+                            3219.18896484375
+                        ],
+                        "Rotation": [
+                            0,
+                            6300,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.949999988079071,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "AIPawnBalanceDefinition": [
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4480.193359375,
+                            16857.98046875,
+                            3347.4462890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3308.86328125,
+                            14276.4140625,
+                            3511.983154296875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4192.7568359375,
+                            16853.150390625,
+                            3318.16943359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3802.4443359375,
+                            16739.048828125,
+                            3341.743408203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3404.38916015625,
+                            16893.4453125,
+                            3384.754638671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3179.541748046875,
+                            17258,
+                            3404.030029296875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3116.30224609375,
+                            17751.208984375,
+                            3436.85791015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2773.90869140625,
+                            17631.3125,
+                            3462.91259765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2651.529541015625,
+                            17315.26953125,
+                            3537.224853515625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2666.18701171875,
+                            16921.572265625,
+                            3522.732421875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2666.799072265625,
+                            16571.7265625,
+                            3491.79638671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2712.606201171875,
+                            16105.595703125,
+                            3466.141357421875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2880.876953125,
+                            15650.478515625,
+                            3426.202880859375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3026.58251953125,
+                            15238.080078125,
+                            3395.863525390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3084.875,
+                            14736.3310546875,
+                            3413.385498046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3602.85498046875,
+                            14842.1748046875,
+                            3384.2587890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4047.00341796875,
+                            15069.2724609375,
+                            3327.951904296875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4496.87060546875,
+                            15312.6181640625,
+                            3286.4638671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4933.24951171875,
+                            15502.716796875,
+                            3244.364990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4772.0576171875,
+                            16187.6181640625,
+                            3258.08740234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4781.666015625,
+                            16626.126953125,
+                            3343.884033203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4515.41552734375,
+                            16438.5,
+                            3352.802001953125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3970.94482421875,
+                            16479.470703125,
+                            3389.14892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4403.11865234375,
+                            16119.7978515625,
+                            3363.52783203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3835.927978515625,
+                            16201.8623046875,
+                            3387.989501953125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3715.7763671875,
+                            15972.6220703125,
+                            3441.668212890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3513.775146484375,
+                            15477.01953125,
+                            3473.522705078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3181.855712890625,
+                            15801.4990234375,
+                            3451.22021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3012.972900390625,
+                            16352.1962890625,
+                            3458.84423828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3027.374755859375,
+                            16840.814453125,
+                            3454.626708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3595.732177734375,
+                            16594.6796875,
+                            3398.453369140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4139.0244140625,
+                            15988.31640625,
+                            3434.985595703125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5202.63525390625,
+                            15921.9658203125,
+                            3286.365234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            4860.41357421875,
+                            15298.197265625,
+                            3375.66162109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Pop_Dwarves.Balance.PawnBalance_Dwarf_Miner": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3498.879638671875,
+                            14569.1591796875,
+                            3512.71630859375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5349.74462890625,
+                            15822.4892578125,
+                            3497.84912109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -8472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5524.3515625,
+                            17038.435546875,
+                            3517.48193359375
+                        ],
+                        "Rotation": [
+                            0,
+                            -70472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5527.26220703125,
+                            17148.056640625,
+                            3513.48681640625
+                        ],
+                        "Rotation": [
+                            0,
+                            -62472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            3357.3798828125,
+                            16376.5498046875,
+                            3666.159912109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -35472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            1954.6549072265625,
+                            17909.447265625,
+                            3789.275634765625
+                        ],
+                        "Rotation": [
+                            0,
+                            -46472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Aster_Lootables.Balance.ObjectGrade_Urn": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            2908.458251953125,
+                            14438.4267578125,
+                            3722.807373046875
+                        ],
+                        "Rotation": [
+                            0,
+                            -33472,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_LevelChallenges.InteractiveObjects.IO_VaultRoy": {
+                        "Rename": "Token Trigger",
+                        "Tags": [
+                            "Token of Wealth Trigger"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            3719.588623046875,
+                            14013,
+                            3721.109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            16400
+                        ],
+                        "Scale": 0.15000000596046448,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ]
+        }
+    }
+}

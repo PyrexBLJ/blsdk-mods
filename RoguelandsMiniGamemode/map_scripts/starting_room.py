@@ -11,14 +11,14 @@ from Mods.MapLoader import placeablehelper
 from .. import maps, util
 from ..game_state import GameState
 
-__all__ = ["start_loot_thread", "check_for_tip"]
+__all__ = ["start_loot_thread", "check_for_tip", "check_for_mini_leviathan"]
 
 
 TIPS: List[str] = [
     "Be sure to explore maps! I heard there are some cool, hidden easter eggs lying around.",
     "Have you found my hidden Prismatic Plates yet? I'll give you nice loot if you stand on them.",
     "As you progress, loot rewards will get better.",
-    "Be on the lookout for vault symbols. They now give nice loot if you approach them.",
+    "Be on the lookout for vault symbols. They now give nice loot if you interact with them.",
     "Enemies have a chance to drop rare candies! They give very powerful effects, but they only last for a short duration.",
     "Slag has been reduced to a 50% damage bonus. It still helps, but you don't have to rely heavily on it.",
     "I heard a rumor about rare, loot enemies roaming the Roguelands. I've never actually seen one though.",
@@ -26,15 +26,19 @@ TIPS: List[str] = [
     "Difficulty has been completely reworked! Don't fear soloing a raid boss.",
     "Defeating a boss rewards an ethereal gift box. Shoot them open for nice rewards!",
     "Your ammo is refilled at the beginning of every round. However, grenades and launcher ammo get a smaller portion back.",
+    "If you beat a mini game, you get a big eridium payout.",
+    "After a round ends, you receive double movement speed for looting convenience!",
 ]
 
 
 class State:
     candisplaytip: bool = False
+    candisplayleviathan: bool = False
 
     @staticmethod
     def reset() -> None:
         State.candisplaytip = False
+        State.candisplayleviathan = False
 
 
 def start_loot_thread() -> None:
@@ -101,6 +105,26 @@ def check_for_tip() -> None:
             )
     else:
         State.candisplaytip = False
+
+def check_for_mini_leviathan() -> None:
+    thebutt = placeablehelper.TAGGED_OBJECTS.get("Levi EE")
+    if thebutt is None:
+        return
+    
+    location: Tuple[float, float, float] = placeablehelper.interactive_objects.get_location(
+        placeablehelper.TAGGED_OBJECTS["Levi EE"][0].uobj,
+    )
+    if util.distance(util.get_player_location(), location) < 250:
+        if not State.candisplayleviathan:
+            State.candisplayleviathan = True
+            uFeed.ShowHUDMessage(
+                Title="Mini Leviathan:",
+                Message="ZzZzZzZzZz",
+                Duration=7,
+                MenuHint=0,
+            )
+    else:
+        State.candisplayleviathan = False
 
 
 def lel_gubs(this_map: maps.MapData, hitloc) -> None:

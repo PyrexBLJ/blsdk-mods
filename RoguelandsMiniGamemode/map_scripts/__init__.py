@@ -1,5 +1,6 @@
 from . import (
     a78_unassuming_docks_mobbing,
+    e1_scyllas_grove_hidden_lever,
     e4_bloodshot_secret_rooms,
     e5_crater_bar_glass_floor,
     e7_beatdown_shifting_floors,
@@ -8,15 +9,19 @@ from . import (
     e10_digipeak_trivia_mini_game,
     f1_sanctuary_chest_room,
     g1_hatreds_shadow_victory_room,
+    h2_secret_raid_boss,
     starting_room,
     miniboss,
     mobbing,
     redbarboss,
+    hoard,
+    raidboss,
 )
 
 __all__ = [
     "starting_room",
     "a78_unassuming_docks_mobbing",
+    "e1_scyllas_grove_hidden_lever",
     "e4_bloodshot_secret_rooms",
     "e5_crater_bar_glass_floor",
     "g1_hatreds_shadow_victory_room",
@@ -25,7 +30,10 @@ __all__ = [
     "e9_lair_of_infinite_agony_puzzle_rooms",
     "f1_sanctuary_chest_room",
     "e10_digipeak_trivia_mini_game",
+    "h2_secret_raid_boss",
     "miniboss",
     "mobbing",
     "redbarboss",
+    "hoard",
+    "raidboss",
 ]

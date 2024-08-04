@@ -14,7 +14,7 @@ def loia_puzzle(this_map: maps.MapData, hitloc) -> None:
     if playerpawn.Weapon and (
         util.distance(
             hitloc,
-            (-7338.60009765625, 2970.180908203125, 1874.0479736328125),
+            (placeablehelper.static_mesh.get_location(placeablehelper.TAGGED_OBJECTS["Button 2"][0].uobj)),
         )
         <= 150
         and not this_map.custom_map_data[2]
@@ -28,7 +28,7 @@ def loia_puzzle(this_map: maps.MapData, hitloc) -> None:
 
 def loia_puzzle_player(this_map: maps.MapData) -> None:
     if (
-        util.distance(util.get_player_location(), (-6387.3701171875, 2981.469970703125, 474.5929870605469)) <= 150
+        util.distance(util.get_player_location(), (placeablehelper.static_mesh.get_location(placeablehelper.TAGGED_OBJECTS["Button 1"][0].uobj))) <= 150
         and not this_map.custom_map_data[1]
     ):
         this_map.custom_map_data[1] = True
@@ -38,7 +38,7 @@ def loia_puzzle_player(this_map: maps.MapData) -> None:
         d = threading.Thread(target=loia_puzzle_door_1)
         d.start()
     if (
-        util.distance(util.get_player_location(), (-18296.65234375, 3302.770751953125, 565.12548828125)) <= 150
+        util.distance(util.get_player_location(), (placeablehelper.static_mesh.get_location(placeablehelper.TAGGED_OBJECTS["Button 3"][0].uobj))) <= 150
         and not this_map.custom_map_data[3]
     ):
         this_map.custom_map_data[3] = True

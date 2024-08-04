@@ -116,6 +116,27 @@ def update_mission_display() -> None:
             )
             MissionStuff.set_objective_required(MissionStuff.Line2)
             MissionStuff.set_number_of_objectives(2)
+    elif GameState.map_type == MapType.Hoard:
+        MissionStuff.set_objective_text(
+            False,
+            MissionStuff.Line1,
+            f"Kill Enemies: {GameState.current_map.kill_challenge_count} / {GameState.current_map.kill_challenge_goal}",
+        )
+        MissionStuff.set_objective_text(
+            False,
+            MissionStuff.Line2,
+            f"Find The {GameState.current_map.name}",
+        )
+        if not GameState.mission_complete_sound_played:
+            MissionStuff.set_number_of_objectives(2)
+        else:
+            MissionStuff.set_objective_text(
+                False,
+                MissionStuff.Line3,
+                f"Round Complete! Press [{ClaimRewardBind.Key}] To Continue",
+            )
+            MissionStuff.set_objective_required(MissionStuff.Line3)
+            MissionStuff.set_number_of_objectives(3)
     elif GameState.map_type == MapType.MiniGame:
         MissionStuff.set_objective_text(
             False,

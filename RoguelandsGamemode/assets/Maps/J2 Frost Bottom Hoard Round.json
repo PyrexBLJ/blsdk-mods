@@ -1,0 +1,1826 @@
+{
+    "xmas_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3576.789306640625,
+                            -6044.02294921875,
+                            1775.4449462890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3886.7890625,
+                            -5544.02294921875,
+                            1775.4449462890625
+                        ],
+                        "Rotation": [
+                            1000,
+                            -14000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4336.7890625,
+                            -5664.02294921875,
+                            1755.4449462890625
+                        ],
+                        "Rotation": [
+                            1000,
+                            -35000,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4506.7890625,
+                            -5194.02294921875,
+                            1825.4449462890625
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -66000,
+                            -1000
+                        ],
+                        "Scale": 2.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1645.3360595703125,
+                            -7011.2490234375,
+                            1633.7950439453125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -11000,
+                            0
+                        ],
+                        "Scale": 2,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1855.3360595703125,
+                            -7621.2490234375,
+                            1493.7950439453125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -3000,
+                            2000
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1445.3360595703125,
+                            -8121.2490234375,
+                            1543.7950439453125
+                        ],
+                        "Rotation": [
+                            -1000,
+                            -41000,
+                            0
+                        ],
+                        "Scale": 2.4000000953674316,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1956.052978515625,
+                            -10791.775390625,
+                            1631.613037109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -41000,
+                            0
+                        ],
+                        "Scale": 2.4000000953674316,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2306.052978515625,
+                            -11321.775390625,
+                            1611.613037109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -58000,
+                            0
+                        ],
+                        "Scale": 2.200000047683716,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2376.052978515625,
+                            -10911.775390625,
+                            1611.613037109375
+                        ],
+                        "Rotation": [
+                            1000,
+                            -58000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Candycane.Mesh.CandycaneLarge": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3357.925048828125,
+                            -12974.521484375,
+                            2072.756103515625
+                        ],
+                        "Rotation": [
+                            -7000,
+                            11000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Candycane.Mesh.CandycaneLarge": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3407.925048828125,
+                            -13314.521484375,
+                            2122.756103515625
+                        ],
+                        "Rotation": [
+                            -7000,
+                            -20000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_TrainLootChest.Mesh.Coalcart": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5437.533203125,
+                            -13983.8974609375,
+                            1611.509033203125
+                        ],
+                        "Rotation": [
+                            6000,
+                            -17000,
+                            1000
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_IcePack.Mesh.IcicleGroup_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3153.89208984375,
+                            -13357.8212890625,
+                            2428.1201171875
+                        ],
+                        "Rotation": [
+                            0,
+                            -2000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.4000000059604645,
+                            1.2999999523162842,
+                            1.399999976158142
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.ObsidianRock_05_RigidBody": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7908.55712890625,
+                            -8258.7470703125,
+                            718.4329833984375
+                        ],
+                        "Rotation": [
+                            0,
+                            10000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.5,
+                            0.6000000238418579,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Rocks_03.Meshes.ObsidianRock_05_RigidBody": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -8061.22119140625,
+                            -11740.185546875,
+                            868.4580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            -42000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            0.7400000095367432,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 1",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6482.0322265625,
+                            -12816.0615234375,
+                            1575.2340087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -8500,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1.399999976158142,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 2",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5818.0322265625,
+                            -13515.0615234375,
+                            1553.2340087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            2.190000057220459,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 3",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3578.031982421875,
+                            -13523.0615234375,
+                            1499.2340087890625
+                        ],
+                        "Rotation": [
+                            0,
+                            11300,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            1.0800000429153442,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 4",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2589.257080078125,
+                            -11603.3173828125,
+                            1586.9580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            10700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            2.109999895095825,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 5",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -1883.1240234375,
+                            -8550.56640625,
+                            1512.218994140625
+                        ],
+                        "Rotation": [
+                            0,
+                            16700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            2.609999895095825,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Prop_ChristmasTree.Mesh.ChristmasTree": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5156.7890625,
+                            -6114.02294921875,
+                            1975.4449462890625
+                        ],
+                        "Rotation": [
+                            -1000,
+                            0,
+                            0
+                        ],
+                        "Scale": 1.600000023841858,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 6",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3133.927978515625,
+                            -5857.30078125,
+                            1678.1319580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            32700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            2.609999895095825,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 7",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5043.92822265625,
+                            -5847.30078125,
+                            1678.1319580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            47700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            0.9100000262260437,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Common_Meshes.Blocking.Blocking_Cube": {
+                        "Rename": "Invisible Wall 8",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5143.92822265625,
+                            -6537.30078125,
+                            1678.1319580078125
+                        ],
+                        "Rotation": [
+                            0,
+                            35700,
+                            0
+                        ],
+                        "Scale": 3,
+                        "Scale3D": [
+                            2.109999895095825,
+                            0.0010000000474974513,
+                            1.25
+                        ],
+                        "Materials": [
+                            "FX_ENV_VOG.Materials.Angel_Echo_INST"
+                        ]
+                    }
+                },
+                {
+                    "Env_Xmas.Meshes.PoseCoverMouth": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6954.97216796875,
+                            -9327.6123046875,
+                            1548.2490234375
+                        ],
+                        "Rotation": [
+                            0,
+                            400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Token",
+                        "Tags": [
+                            "Token of Wealth"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -3740.6240234375,
+                            -8331.1982421875,
+                            1794.7490234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                }
+            ],
+            "AIPawnBalanceDefinition": [
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3739.8203125,
+                            -7569.49609375,
+                            1320.5540771484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4045.227294921875,
+                            -8684.693359375,
+                            1425.990234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4360.14599609375,
+                            -8451.6494140625,
+                            1380.695068359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4687.94775390625,
+                            -8095.12353515625,
+                            1289.4130859375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5402.67919921875,
+                            -8478.41015625,
+                            1320.729736328125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5997.361328125,
+                            -8826.3310546875,
+                            1341.3367919921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6415.58349609375,
+                            -9298.0556640625,
+                            1294.2374267578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6235.6357421875,
+                            -10012.216796875,
+                            1259.9454345703125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5773.58154296875,
+                            -10572.01953125,
+                            1276.5677490234375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5274.50048828125,
+                            -10887.501953125,
+                            1308.615966796875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4614.35302734375,
+                            -10807.4970703125,
+                            1306.3353271484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4042.65087890625,
+                            -10421.8994140625,
+                            1351.9268798828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3695.146484375,
+                            -9712.1953125,
+                            1348.461669921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3839.626220703125,
+                            -9211.65625,
+                            1358.6199951171875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3029.3427734375,
+                            -9956.412109375,
+                            1406.3277587890625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2817.814453125,
+                            -10357.0771484375,
+                            1296.9383544921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -2934.43603515625,
+                            -10939.759765625,
+                            1274.087646484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3259.62451171875,
+                            -11394.494140625,
+                            1284.644287109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -3652.0107421875,
+                            -11778.779296875,
+                            1275.976318359375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4103.916015625,
+                            -12052.384765625,
+                            1253.46533203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4516.35986328125,
+                            -12194.3603515625,
+                            1382.6578369140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -4951.19921875,
+                            -12324.5859375,
+                            1286.1435546875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5461.03173828125,
+                            -11763.830078125,
+                            1197.572021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5995.5546875,
+                            -11543.5654296875,
+                            1254.17333984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6521.2763671875,
+                            -11239.4794921875,
+                            1307.8944091796875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7047.69384765625,
+                            -11022.9267578125,
+                            1233.9039306640625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7338.3779296875,
+                            -10576.025390625,
+                            1243.0428466796875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7519.953125,
+                            -10061.87109375,
+                            1190.9000244140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7467.69775390625,
+                            -9513.328125,
+                            1187.316650390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7275.43896484375,
+                            -9009.017578125,
+                            1153.417724609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -7054.99951171875,
+                            -8485.7177734375,
+                            1203.4691162109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6735.5263671875,
+                            -8061.29443359375,
+                            1154.6790771484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -6350.630859375,
+                            -7644.84423828125,
+                            1170.9171142578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5895.296875,
+                            -7466.5146484375,
+                            1136.28369140625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_SnowMinion.Population.PawnBalance_SnowMinion": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            -5274.52734375,
+                            -7311.3720703125,
+                            1132.230224609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Allium_GenericSwitches.InteractiveObjects.GenericSwitch": {
+                        "Rename": "Token Trigger",
+                        "Tags": [
+                            "Token of Wealth Trigger"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -3741.180908203125,
+                            -8332.392578125,
+                            1798.800048828125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            1,
+                            0.019999999552965164,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 1",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -4197.8837890625,
+                            -9094.0380859375,
+                            -8381
+                        ],
+                        "Rotation": [
+                            400,
+                            -9600,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_69.SkeletalMeshComponent_371.MaterialInstanceConstant_371"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 2",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -4637.8837890625,
+                            -8734.0380859375,
+                            -8391
+                        ],
+                        "Rotation": [
+                            400,
+                            -2600,
+                            300
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_70.SkeletalMeshComponent_372.MaterialInstanceConstant_372"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 3",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5217.8837890625,
+                            -8814.0380859375,
+                            -8371
+                        ],
+                        "Rotation": [
+                            -300,
+                            4400,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_71.SkeletalMeshComponent_373.MaterialInstanceConstant_373"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 4",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5594.8837890625,
+                            -9072.0380859375,
+                            -8350
+                        ],
+                        "Rotation": [
+                            -300,
+                            9400,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_72.SkeletalMeshComponent_374.MaterialInstanceConstant_374"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 5",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5744.8837890625,
+                            -9563.0380859375,
+                            -8341
+                        ],
+                        "Rotation": [
+                            300,
+                            16300,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_73.SkeletalMeshComponent_375.MaterialInstanceConstant_375"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 6",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5669.8837890625,
+                            -10081.0380859375,
+                            -8353
+                        ],
+                        "Rotation": [
+                            200,
+                            21900,
+                            1000
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_74.SkeletalMeshComponent_376.MaterialInstanceConstant_376"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 7",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -5307.8837890625,
+                            -10435.0380859375,
+                            -8354
+                        ],
+                        "Rotation": [
+                            0,
+                            30000,
+                            1500
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_75.SkeletalMeshComponent_377.MaterialInstanceConstant_377"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 8",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -4807.8837890625,
+                            -10515.0380859375,
+                            -8354
+                        ],
+                        "Rotation": [
+                            0,
+                            34000,
+                            800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_76.SkeletalMeshComponent_378.MaterialInstanceConstant_378"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 9",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -4217.8837890625,
+                            -10315.0380859375,
+                            -8354
+                        ],
+                        "Rotation": [
+                            0,
+                            41000,
+                            800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_77.SkeletalMeshComponent_379.MaterialInstanceConstant_379"
+                        ]
+                    }
+                },
+                {
+                    "GD_Balance_Treasure.ChestGrades.ObjectGrade_TreasureChest": {
+                        "Rename": "Chest 10",
+                        "Tags": [
+                            "Chest Reward"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            -3987.884033203125,
+                            -9755.0380859375,
+                            -8374
+                        ],
+                        "Rotation": [
+                            500,
+                            49000,
+                            800
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Xmas_P.TheWorld:PersistentLevel.WillowInteractiveObject_78.SkeletalMeshComponent_380.MaterialInstanceConstant_380"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

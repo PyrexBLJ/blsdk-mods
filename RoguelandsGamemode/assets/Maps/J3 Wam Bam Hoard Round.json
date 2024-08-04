@@ -1,0 +1,1780 @@
+{
+    "easter_p": {
+        "Create": {
+            "StaticMesh": [
+                {
+                    "Env_Easter.Mesh.WoodStage": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            5405.64208984375,
+                            -6801.94677734375,
+                            2585.255126953125
+                        ],
+                        "Rotation": [
+                            16400,
+                            -9400,
+                            0
+                        ],
+                        "Scale": 1.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_EasterRocks.Meshes.Easter_RockLarge": {
+                        "Rename": "Lowering Rock Wall",
+                        "Tags": [
+                            "Lowering Rock Wall"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            7455.61181640625,
+                            -11707.2578125,
+                            3864
+                        ],
+                        "Rotation": [
+                            0,
+                            -33100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.1100000143051147,
+                            0.6100000143051147,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_EasterRocks.Meshes.Easter_RockLarge": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            11087.361328125,
+                            -10691.1015625,
+                            4129.89697265625
+                        ],
+                        "Rotation": [
+                            0,
+                            12000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Nast_Savage.Mesh.SavageBarkMaskNoStrap": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            11098.6484375,
+                            -10020.0322265625,
+                            5509.47900390625
+                        ],
+                        "Rotation": [
+                            16400,
+                            -21000,
+                            0
+                        ],
+                        "Scale": 30,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Nast_Savage.Mesh.SavageBarkMaskNoStrap": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            11208.6484375,
+                            -9380.0322265625,
+                            5379.47900390625
+                        ],
+                        "Rotation": [
+                            16400,
+                            -16000,
+                            0
+                        ],
+                        "Scale": 25,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Char_Nast_Savage.Mesh.SavageBarkMaskNoStrap": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            10628.6484375,
+                            -10390.0322265625,
+                            5349.47900390625
+                        ],
+                        "Rotation": [
+                            16400,
+                            -24000,
+                            0
+                        ],
+                        "Scale": 18.700000762939453,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Iris_Pickups.Meshes.Torgue_Token": {
+                        "Rename": "Token",
+                        "Tags": [
+                            "Token of Wealth"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            6504.64013671875,
+                            -10629.0224609375,
+                            2889
+                        ],
+                        "Rotation": [
+                            -1200,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Char_Crystalisk.Materials.Mati_CrystalsLeg_Explosive"
+                        ]
+                    }
+                },
+                {
+                    "Prop_Carnival.GypsyWagonWheel": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7469.85400390625,
+                            -10828.759765625,
+                            2893.865966796875
+                        ],
+                        "Rotation": [
+                            0,
+                            1600,
+                            -15400
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_EasterRocks.Meshes.Easter_RockLarge": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7799.36083984375,
+                            -13662.1015625,
+                            3385.89697265625
+                        ],
+                        "Rotation": [
+                            0,
+                            37700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            0.6499999761581421,
+                            0.7200000286102295
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Village_Building_SecFloor_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7679.67822265625,
+                            -12832.9189453125,
+                            3059.5419921875
+                        ],
+                        "Rotation": [
+                            0,
+                            3500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Gyrocopter.Meshes.Warehouse_Side": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7700.97705078125,
+                            -12913.7763671875,
+                            3318.19091796875
+                        ],
+                        "Rotation": [
+                            0,
+                            20000,
+                            0
+                        ],
+                        "Scale": 0.8500000238418579,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.TuskGroup_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7192.38916015625,
+                            -12655.2255859375,
+                            3062.60888671875
+                        ],
+                        "Rotation": [
+                            0,
+                            1200,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.TuskGroup_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7938.38916015625,
+                            -12448.2255859375,
+                            3070.60888671875
+                        ],
+                        "Rotation": [
+                            0,
+                            41600,
+                            0
+                        ],
+                        "Scale": 0.4000000059604645,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_MoxxiNude.Meshes.Iris_MoxxiNude03": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7650,
+                            -12749.2001953125,
+                            3466.388916015625
+                        ],
+                        "Rotation": [
+                            0,
+                            3600,
+                            16400
+                        ],
+                        "Scale": 1.7599999904632568,
+                        "Scale3D": [
+                            0.9200000166893005,
+                            1.1699999570846558,
+                            0.00009999999747378752
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.Money_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7740.44482421875,
+                            -12684.6689453125,
+                            3327.947021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.Money_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7674.44482421875,
+                            -12684.6689453125,
+                            3327.947021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -19900,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.Money_02": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7586.44482421875,
+                            -12753.6689453125,
+                            3327.947021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            -30200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.Meshes.HangingMossTall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7558.9501953125,
+                            -12831.4736328125,
+                            3619.39892578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.EridiumBar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7784.701171875,
+                            -12729.3037109375,
+                            3328.330078125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.EridiumBar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7809.06494140625,
+                            -12681.5029296875,
+                            3328.45703125
+                        ],
+                        "Rotation": [
+                            0,
+                            -4500,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.EridiumContainer": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7739.59912109375,
+                            -12585.443359375,
+                            3327.922119140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -17700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.DeadMaleVillager_01c_Nast": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7535.26220703125,
+                            -12874.962890625,
+                            3326.659912109375
+                        ],
+                        "Rotation": [
+                            0,
+                            -14100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.CashPickup": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7565.4619140625,
+                            -12820.8564453125,
+                            3327.7099609375
+                        ],
+                        "Rotation": [
+                            0,
+                            7700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Pickups.Meshes.CashPickup": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7486.0322265625,
+                            -12674.697265625,
+                            3327.76708984375
+                        ],
+                        "Rotation": [
+                            0,
+                            12300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.Bandit_Stairs_160_Nast": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7504.05322265625,
+                            -12339.115234375,
+                            3165.337890625
+                        ],
+                        "Rotation": [
+                            0,
+                            -13000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.Bandit_Stairs_160_Nast": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7423.05322265625,
+                            -12100.115234375,
+                            3008
+                        ],
+                        "Rotation": [
+                            0,
+                            -13000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter_2.Meshes.AmmoCrate_Nast": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7733.28076171875,
+                            -12203.0849609375,
+                            3072.8330078125
+                        ],
+                        "Rotation": [
+                            1800,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_PrimalBeastDen.Mesh.Tusk": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7098.68994140625,
+                            -12308.583984375,
+                            3030.842041015625
+                        ],
+                        "Rotation": [
+                            0,
+                            2800,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Mesh.Hangy_Moss_Sheet": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7725.98095703125,
+                            -12498.521484375,
+                            3606.10888671875
+                        ],
+                        "Rotation": [
+                            0,
+                            3000,
+                            0
+                        ],
+                        "Scale": 0.5,
+                        "Scale3D": [
+                            1.2100000381469727,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Mesh.Hangy_Moss_Arc": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7431.1748046875,
+                            -12728.8935546875,
+                            3620.64208984375
+                        ],
+                        "Rotation": [
+                            0,
+                            -13300,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1.309999942779541,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Mesh.ElephantEar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7967.69091796875,
+                            -12628.865234375,
+                            3112.172119140625
+                        ],
+                        "Rotation": [
+                            0,
+                            -9700,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Mesh.ElephantEar": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7377.64111328125,
+                            -12920.0556640625,
+                            3060.137939453125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 0.7799999713897705,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.GrassThick2": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7296.046875,
+                            -12294.1748046875,
+                            3034.930908203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            1100
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Plants.GrassTall": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7610.1171875,
+                            -12170.0087890625,
+                            3052.341064453125
+                        ],
+                        "Rotation": [
+                            0,
+                            -28000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Prop_Easter_Village.Easter_Roof_01": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7646.5869140625,
+                            -12698.3388671875,
+                            3611.571044921875
+                        ],
+                        "Rotation": [
+                            0,
+                            -13200,
+                            0
+                        ],
+                        "Scale": 0.8999999761581421,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "Env_Easter.Davery_Mine_support": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7178.34521484375,
+                            -12194.6552734375,
+                            2494.455078125
+                        ],
+                        "Rotation": [
+                            -400,
+                            7100,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            0.8999999761581421,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "AIPawnBalanceDefinition": [
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7892.9248046875,
+                            -8945.025390625,
+                            2781.595947265625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6403.953125,
+                            -7917.236328125,
+                            2430.431640625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6440.56201171875,
+                            -8039.3974609375,
+                            2483.85791015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6475.45654296875,
+                            -8351.546875,
+                            2527.837158203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6570.6640625,
+                            -8678.1884765625,
+                            2575.921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6574.7197265625,
+                            -9111.4248046875,
+                            2635.714599609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6985.83984375,
+                            -9671.8388671875,
+                            2742.910888671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7216.107421875,
+                            -10004.0263671875,
+                            2747.740478515625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7010.958984375,
+                            -10687.453125,
+                            2807.4150390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7331.2646484375,
+                            -10214.3671875,
+                            2780.934814453125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7621.99951171875,
+                            -9934.34765625,
+                            2748.54150390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7776.42236328125,
+                            -9645.1728515625,
+                            2772.67138671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7907.91845703125,
+                            -9262.0263671875,
+                            2766.322021484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8270.404296875,
+                            -9002.5029296875,
+                            2773.23046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8783.595703125,
+                            -9157.421875,
+                            2778.02783203125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9181.05078125,
+                            -9538.3544921875,
+                            2811.103759765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9754.55078125,
+                            -9394.74609375,
+                            2888.888671875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            9479.1982421875,
+                            -8829.935546875,
+                            2954.2822265625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8971.87109375,
+                            -8581.91015625,
+                            2915.55126953125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8600.5791015625,
+                            -8370.3193359375,
+                            2886.8984375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8288.703125,
+                            -8090.7998046875,
+                            2909.07275390625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            8187.3212890625,
+                            -8645.1259765625,
+                            2809.13916015625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7376.205078125,
+                            -9179.251953125,
+                            2742.479248046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7172.23388671875,
+                            -8975.1865234375,
+                            2765.198974609375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7033.65478515625,
+                            -8600.400390625,
+                            2748.9912109375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7361.36474609375,
+                            -8239.7109375,
+                            2772.883056640625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7111.1591796875,
+                            -7977.26025390625,
+                            2721.436767578125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6605.630859375,
+                            -7949.283203125,
+                            2545.477294921875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6579.708984375,
+                            -8390.89453125,
+                            2612.714111328125
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6836.84912109375,
+                            -8658.6484375,
+                            2711.81103515625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6868.86669921875,
+                            -9079.490234375,
+                            2728.462646484375
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            6744.1240234375,
+                            -9477.0927734375,
+                            2746.947998046875
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Native_Warrior.Population.PawnBalance_Nast_Native_Warrior": {
+                        "Rename": "",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7192.302734375,
+                            -9462.166015625,
+                            2724.260009765625
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                }
+            ],
+            "InteractiveObjectDefinition": [
+                {
+                    "GD_Nasturtium_GenericSwitches.InteractiveObjects.GenericSwitchWaterWheel": {
+                        "Rename": "Token Trigger",
+                        "Tags": [
+                            "Token of Wealth Trigger"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            6506.0830078125,
+                            -10628.5458984375,
+                            2890.3359375
+                        ],
+                        "Rotation": [
+                            -1600,
+                            0,
+                            -16400
+                        ],
+                        "Scale": 0.6000000238418579,
+                        "Scale3D": [
+                            1,
+                            0.18000000715255737,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Easter_Side01_Data.InteractiveObject.IO_Nasturtium_GaigeAltar": {
+                        "Rename": "Offering Table",
+                        "Tags": [
+                            "Offering Table"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            7551.81689453125,
+                            -8694.494140625,
+                            -7187
+                        ],
+                        "Rotation": [
+                            0,
+                            8200,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Nast_Easter_Plot_M01Data.IOs.IO_RaidOffering": {
+                        "Rename": "Eridium Offering",
+                        "Tags": [
+                            "Eridium Offering"
+                        ],
+                        "Metadata": "",
+                        "Location": [
+                            7536.3232421875,
+                            -8703.7060546875,
+                            -7111
+                        ],
+                        "Rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": []
+                    }
+                },
+                {
+                    "GD_Balance_Shopping.VendingMachineGrades.ObjectGrade_VendingMachine_HealthItems": {
+                        "Rename": "Moxxi Vendor",
+                        "Tags": [],
+                        "Metadata": "",
+                        "Location": [
+                            7663.5791015625,
+                            -12781.2646484375,
+                            3323.76611328125
+                        ],
+                        "Rotation": [
+                            0,
+                            20000,
+                            0
+                        ],
+                        "Scale": 1,
+                        "Scale3D": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "Materials": [
+                            "Prop_VendingMachines.Materials.Mati_ZedVendingMachine",
+                            "Prop_VendingMachines.Materials.Mati_ZedVendingFaceplate",
+                            "Common_Materials.Hyperion.Master_HyperionEye_INST"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

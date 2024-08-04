@@ -12,6 +12,7 @@ class MapType(Enum):
     Special = auto()
     FinalBoss = auto()
     StartRoom = auto()
+    Hoard = auto()
 
 
 @dataclass
@@ -42,6 +43,7 @@ MISSION_TYPE_READABLE: Dict[MapType, str] = {
     MapType.Special: "Reward ",
     MapType.FinalBoss: "Final Raid Boss ",
     MapType.StartRoom: "Starting ",
+    MapType.Hoard: "Hoard ",
 }
 
 
@@ -54,7 +56,7 @@ MAP_DATA: Dict[MapType, List[MapData]] = {
         MapData("Three Horns Divide", "ice_p", "GD_FastTravelStations.Zone1.IceEast", (-756.2860107421875, 23787.75390625, 2045.7357177734375), (439, 322, 0), 0, 15, 0, 0, [False, False, False], "A4 Three Horns Divide Mobbing 2.json"),
         MapData("Three Horns Valley", "frost_p", "GD_FastTravelStations.Zone1.IceWest", (-5716.23779296875, -16642.73046875, 610.8543701171875), (53, -22060, 0), 0, 15, 0, 0, [False, False, False], "A5 Three Horns Valley Mobbing 1.json"),
         MapData("Three Horns Valley", "frost_p", "GD_FastTravelStations.Zone1.IceWest", (-1139.935302734375, -1729.6339111328125, 2227.14990234375), (64721, 23437, 0), 0, 10, 0, 0, [False, False, False], "A6 Three Horns Valley Mobbing 2.json"),
-        MapData("Frostburn Canyon", "icecanyon_p", "GD_FastTravelStations.Zone1.IceCanyon", (14857.6181640625, 11037.859375, -784.7105102539062), (31, -101594, 0), 0, 15, 0, 0, [False, False, False], "A7 Frostburn Canyon Mobbing 1.json", False, "", False, True),
+        MapData("Frostburn Canyon", "icecanyon_p", "GD_FastTravelStations.Zone1.IceCanyon", (14857.6181640625, 11037.859375, -784.7105102539062), (31, -101594, 0), 0, 15, 0, 0, [False, False, False], "A7 Frostburn Canyon Mobbing 1.json", False, "", False, False),
         MapData("Frostburn Canyon", "icecanyon_p", "GD_FastTravelStations.Zone1.IceCanyon", (-1902.07177734375, 7972.1923828125, -1425.33447265625), (1098, -102790, 0), 0, 10, 0, 0, [False, False, False], "A8 Frostburn Canyon Mobbing 2.json", False, "", False, True),
         MapData("Frostburn Canyon", "icecanyon_p", "GD_FastTravelStations.Zone1.IceCanyon", (-11244.82421875, -7983.71533203125, 2193.81298828125), (270, -83246, 0), 0, 10, 0, 0, [False, False, False], "A9 Frostburn Canyon Mobbing 3.json", False, "", False, True),
         MapData("The Dust", "interlude_p", "GD_FastTravelStations.Interlude.Interlude", (-20662.64648375, 41168.25390625, -978.2523803710938), (65506, 11479, 0), 0, 15, 0, 0, [False, False, False], "A10 The Dust Mobbing 1.json", False, "", False, True),
@@ -109,7 +111,7 @@ MAP_DATA: Dict[MapType, List[MapData]] = {
         MapData("Wurmwater", "orchid_saltflats_p", "GD_Orchid_FastTravel.SaltFlats.SaltFlats", (-49689.453125, -32373.68359375, 2894.479436328125), (64809, -1870, 0), 0, 10, 0, 0, [False, False, False], "A59 Wurmwater Mobbing 1.json"),
         MapData("Wurmwater", "orchid_saltflats_p", "GD_Orchid_FastTravel.SaltFlats.SaltFlats", (47723.921875, 4043.66455078125, -830.6511840820312), (25, -56098, 0), 0, 15, 0, 0, [False, False, False], "A60 Wurmwater Mobbing 2.json"),
         MapData("Wurmwater", "orchid_saltflats_p", "GD_Orchid_FastTravel.SaltFlats.SaltFlats", (-27364.87890625, 32095.203125, 2214.000732421875), (401, -103430, 0), 0, 10, 0, 0, [False, False, False], "A61 Wurmwater Mobbing 3.json", False, "", False, True),
-        MapData("Wurmwater", "orchid_saltflats_p", "GD_Orchid_FastTravel.SaltFlats.SaltFlats", (43722.984375, -57726.26171875, 3973.85009765625), (65532, -34763, 0), 0, 15, 0, 0, [False, False, False], "A62 Wurmwater Mobbing 4.json"),
+        MapData("Wurmwater", "orchid_saltflats_p", "GD_Orchid_FastTravel.SaltFlats.SaltFlats", (43722.984375, -57726.26171875, 3973.85009765625), (65532, -34763, 0), 0, 10, 0, 0, [False, False, False], "A62 Wurmwater Mobbing 4.json"),
         MapData("Hater's Folley", "orchid_caves_p", "GD_Orchid_FastTravel.Caves", (1670.505615234375, 6664.62744140625, -4081.461181640625), (65488, 59600, 0), 0, 15, 0, 0, [False, False, False], "A63 Hater's Folley Mobbing 1.json", False, "", False, True),
         MapData("Hater's Folley", "orchid_caves_p", "GD_Orchid_FastTravel.Caves", (-7181.837890625, -8138.18359375, -3163.651123046875), (65212, 36924, 0), 0, 15, 0, 0, [False, False, False], "A64 Hater's Folley Mobbing 2.json"),
         MapData("The Rustyards", "orchid_shipgraveyard_p", "GD_Orchid_FastTravel.ShipGraveyard", (-24880.8671875, 21464.701171875, -1668.159912109375), (2457, -22634, 0), 0, 15, 0, 0, [False, False, False], "A65 The Rustyards Mobbing 1.json"),
@@ -151,7 +153,7 @@ MAP_DATA: Dict[MapType, List[MapData]] = {
         MapData("Doc Mercy", "frost_p", "GD_FastTravelStations.Zone1.IceWest", (3241.085205078125, 4407.25537109375, 3136.1376953125), (1570, 1195, 0), 0, 0, 0, 1, [["AIClassDefinition GD_MrMercy.Character.CharClass_MrMercy"]], "C2 Doc Mercy Boss.json"),
         MapData("Scorch", "icecanyon_p", "GD_FastTravelStations.Zone1.IceCanyon", (-11238.3359375, 16298.080078125, -544.4419555664062), (927, -155650, 0), 0, 0, 0, 1, [["AIClassDefinition GD_SpiderantScorch.Character.CharClass_SpiderantScorch"]], "C3 Scorch Boss.json"),
         MapData("Smash Head", "fridge_p", "GD_FastTravelStations.Zone2.TheFridge", (-7792.41748046875, 8808.92578125, 10670.3828125), (606, -8167, 0), 0, 0, 0, 1, [["AIClassDefinition gd_bluntcrack.Character.CharClass_BluntCrack"]], "C4 Smash-Head Boss.json"),
-        #MapData("Motor Mama", "iris_hub2_p", "GD_Iris_FastTravelStations.SouthernRaceway", (-42478.54296875, 43019.8984375, -4666.150390625), (55, 61813, 0), 0, 0, 0, 1, [["AIClassDefinition GD_Iris_MotorMama.Character.CharClass_Iris_MotorMama"]], "C5 Motor Mama Boss.json"),
+        #MapData("Motor Mama", "iris_hub2_p", "GD_Iris_FastTravelStations.SouthernRaceway", (-42478.54296875, 43019.8984375, -4666.150390625), (55, 61813, 0), 0, 0, 0, 1, [["AIClassDefinition GD_Iris_MotorMama.Character.CharClass_Iris_MotorMama"]], "C5 Motor Mama Boss.json"), # rest in piss
         MapData("Sorcerer's Daughter", "dungeon_p", "GD_Aster_FastTravel.Dungeons", (21.008975982666016, -17616.1796875, 4077.85009765625), (607, -16326, 0), 0, 0, 0, 1, [["AIClassDefinition GD_AngelBoss.Character.CharClass_AngelBoss"]], "C6 Sorcerer's Daughter Boss.json"),
         MapData("Gold Golem", "mines_p", "GD_Aster_FastTravel.Mines", (-15005.345703125, 26002.318359375, -7283.15234375), (30, -49001, 0), 0, 0, 0, 1, [["AIClassDefinition GD_GolemGold.Character.CharClass_GolemGold"]], "C7 Gold Golem Boss.json"),
         MapData("Uranus", "helios_p", "GD_Anemone_FastTravel.FastTravelStations.Helios", (37449.6171875, -106473.125, 17807.001953125), (65317, 59284, 0), 0, 0, 0, 1, [["AIClassDefinition GD_Anemone_UranusBOT.Character.CharClass_Anemone_UranusBOT"]], "C8 Uranus Boss.json"),
@@ -170,16 +172,27 @@ MAP_DATA: Dict[MapType, List[MapData]] = {
         MapData("Son of Crawmerax", "easter_p", "GD_Nasturtium_FastTravel.EasterTravel", (41317.0859375, 2786.37353515625, -3388.067626953125), (745, -61962, 0), 0, 0, 0, 1, [["AIClassDefinition GD_Crawmerax_Son.Character.CharClass_Crawmerax_Son"]], "D4 Son of Craw Raid Boss.json"),
         ],
     MapType.MiniGame:[
-        MapData("Complete Parkour", "hyperioncity_p", "GD_FastTravelStations.Zone2.HyperionCity", (47103.1015625, 22272.216796875, 1914.6287841796875), (65300, 103796, 0), 0, 35, 0, 0, [(44683.10546875, 20873.853515625, 2816.50634765625)], "E1 Opportunity (Parkour 1).json", False, "Climb!", False),
-        MapData("Complete Parkour", "interlude_p", "GD_FastTravelStations.Interlude.Interlude", (-8053.53955078125, -89154.65625, -3070.4990234375), (510, -19916, 0), 0, 45, 0, 0, [(-8250.294921875, -95159.25, -2288.742919921875)], "E2 The Dust (Parkour 1).json", False, "Don't Fall...", False),
-        MapData("Descend", "village_p", "GD_Aster_FastTravel.Village", (6316.62744140625, -40070.1953125, 45008.68359375), (63679, -264079, 0), 0, 50, 0, 0, [(6589.58203125, -40170.45703125, 28333.111328125)], "E3 Flamerock Descend 1.json", False, "Descend!", False),
-        MapData("Find Buttstallion", "dam_p", "GD_FastTravelStations.Zone1.GoshDam", (-28915.439453125, 18473.8046875, 2108.46044921875), (64740, -58809, 0), 0, 99999, 0, 0, [(-28618.25390625, 19602.751953125, 2108.46044921875), False, False, False], "E4 Bloodshot Secret Rooms 1.json", False, "Break Out!", False),
-        MapData("Reach Buttstallion", "iris_moxxi_p", "GD_Iris_FastTravelStations.BadassBar", (32178.732421875, -735.8997802734375, 4072.61572265625), (64691, -16291, 0), 0, 99999, 0, 0, [(32182.640625, -4087.793212890625, 4066.01171875), False, False, False, False, False, False, False, False, False, False], "E5 Crater Bar Glass Floor 1.json", False, "Reach Buttstallion", False),
-        MapData("Find Buttstallion", "glacial_p", "GD_FastTravelStations.Zone1.GlacialIgloo", (13090.2421875, 39381.95703125, 11546.41796875), (65291, -35307, 0), 0, 99999, 0, 0, [(10581.4150390625, 40017.171875, 11546.41796875)], "E6 Windshear Maze 1.json", False, "Find Buttstallion!", False),
-        MapData("Reach Buttstallion", "iris_dl2_p", "GD_Iris_FastTravelStations.Beatdown", (22996.02734375, -9467.2568359375, -4105.7646484375), (65471, -49212, 0), 0, 30, 0, 0, [(23045.16796875, -4900.4375, -4105.7646484375)], "E7 Beatdown Shifting Floors 1.json", False, "Reach Buttstallion!", False),
-        MapData("Error F1nD BuTTSta11i0n", "dark_forest_p", "GD_Aster_FastTravel.DarkForest", (3166.709228515625, -23734.240234375, -2337.60205078125), (65447, -36224, 0), 0, 99999, 0, 0, [(1937.7769775390625, -21442.109375, -2337.60205078125)], "E8 Forest Glitch Mini Game 1.json", False, "Find the Real Buttstallion", False),
-        MapData("Reach Buttstallion", "dungeon_p", "GD_Aster_FastTravel.Dungeons", (-5458.9794921875, 2980.408935546875, 557.5320434570312), (1280, -98333, 0), 0, 9999, 0, 0, [(-17933.298828125, 1426.82080078125, -19.16541290283203), False, False, False], "E9 Lair of Infinite Agony Puzzle Rooms 1.json", False, "Reach Buttstallion!", False),
-        MapData("Reach Buttstallion", "testingzone_p", "GD_Lobelia_FastTravel.TestingZone", (38222.2734375, 48020.37109375, 6136.5380859375), (65355, -32000, 0), 0, 9999, 0, 0, [(36713.07421875, 47913.1953125, 6850.8193359375), False, False, False, False, False, 0], "E10 Digipeak Trivia Mini Game 1.json", False, "Trivia Time!", False),
+        MapData("Reach Buttstallion", "sage_rockforest_p", "GD_Sage_FastTravel.RockForest", (24800.384765625, -52369.7890625, 12577.9189453125), (65385, 32970, 0), 0, 99999, 0, 0, [(24409.185546875, -48907.15625, 12583.9189453125), False], "E1A Scyllas Grove Hidden Lever 1.json", False, "Find The Lever", False),
+        MapData("Reach Buttstallion", "sage_rockforest_p", "GD_Sage_FastTravel.RockForest", (24800.384765625, -52369.7890625, 12577.9189453125), (65385, 32970, 0), 0, 99999, 0, 0, [(24409.185546875, -48907.15625, 12583.9189453125), False], "E1B Scyllas Grove Hidden Lever 2.json", False, "Find The Lever", False),
+        MapData("Reach Buttstallion", "sage_rockforest_p", "GD_Sage_FastTravel.RockForest", (24800.384765625, -52369.7890625, 12577.9189453125), (65385, 32970, 0), 0, 99999, 0, 0, [(24409.185546875, -48907.15625, 12583.9189453125), False], "E1C Scyllas Grove Hidden Lever 3.json", False, "Find The Lever", False),
+        MapData("Reach Buttstallion", "iris_moxxi_p", "GD_Iris_FastTravelStations.BadassBar", (32178.732421875, -735.8997802734375, 4072.61572265625), (64691, -16291, 0), 0, 99999, 0, 0, [(32196.09765625, -2513.668701171875, 4072.01171875), False, False, False, False, False, False, False, False, False, False], "E2A Crater Bar Glass Floor 1.json", False, "Reach Buttstallion", False),
+        MapData("Reach Buttstallion", "iris_moxxi_p", "GD_Iris_FastTravelStations.BadassBar", (32178.732421875, -735.8997802734375, 4072.61572265625), (64691, -16291, 0), 0, 99999, 0, 0, [(32196.09765625, -2513.668701171875, 4072.01171875), False, False, False, False, False, False, False, False, False, False], "E2B Crater Bar Glass Floor 2.json", False, "Reach Buttstallion", False),
+        MapData("Reach Buttstallion", "iris_moxxi_p", "GD_Iris_FastTravelStations.BadassBar", (32178.732421875, -735.8997802734375, 4072.61572265625), (64691, -16291, 0), 0, 99999, 0, 0, [(32196.09765625, -2513.668701171875, 4072.01171875), False, False, False, False, False, False, False, False, False, False], "E2C Crater Bar Glass Floor 3.json", False, "Reach Buttstallion", False),
+        MapData("Find Buttstallion", "glacial_p", "GD_FastTravelStations.Zone1.GlacialIgloo", (13090.2421875, 39381.95703125, 11546.41796875), (65291, -35307, 0), 0, 99999, 0, 0, [(10564.64453125, 40098.37890625, 11552.41796875)], "E3A Windshear Maze 1.json", False, "Find Buttstallion!", False),
+        MapData("Find Buttstallion", "glacial_p", "GD_FastTravelStations.Zone1.GlacialIgloo", (12182.6611328125, 39888.03125, 11546.41796875), (65271, 109348, 0), 0, 99999, 0, 0, [(11046.95703125, 37776.9140625, 11552.41796875)], "E3B Windshear Maze 2.json", False, "Find Buttstallion!", False),
+        MapData("Find Buttstallion", "glacial_p", "GD_FastTravelStations.Zone1.GlacialIgloo", (11080.220703125, 37911.7265625, 11546.41796875), (65231, -58989, 0), 0, 99999, 0, 0, [(13058.697265625, 39488.93359375, 11552.41796875)], "E3C Windshear Maze 3.json", False, "Find Buttstallion!", False),
+        MapData("Error F1nD BuTTSta11i0n", "dark_forest_p", "GD_Aster_FastTravel.DarkForest", (3166.709228515625, -23734.240234375, -2337.60205078125), (65447, -36224, 0), 0, 99999, 0, 0, [(1954.9144287109375, -21409.3125, -2331.60205078125)], "E4A Forest Glitch 1.json", False, "Find the Real Buttstallion", False),
+        MapData("Error F1nD BuTTSta11i0n", "dark_forest_p", "GD_Aster_FastTravel.DarkForest", (3166.709228515625, -23734.240234375, -2337.60205078125), (65447, -36224, 0), 0, 99999, 0, 0, [(906.675048828125, -23034.9453125, -2265.29443359375)], "E4B Forest Glitch 2.json", False, "Find the Real Buttstallion", False),
+        MapData("Error F1nD BuTTSta11i0n", "dark_forest_p", "GD_Aster_FastTravel.DarkForest", (3166.709228515625, -23734.240234375, -2337.60205078125), (65447, -36224, 0), 0, 99999, 0, 0, [(1117.9180908203125, -21613.951171875, -1971.1300048828125)], "E4C Forest Glitch 3.json", False, "Find the Real Buttstallion", False),
+        MapData("Reach Buttstallion", "dungeon_p", "GD_Aster_FastTravel.Dungeons", (-5458.9794921875, 2980.408935546875, 557.5320434570312), (1280, -98333, 0), 0, 9999, 0, 0, [(-17931.072265625, 1417.010009765625, -12.561384201049805), False, False, False], "E5A Lair of Infinite Agony Puzzle Rooms 1.json", False, "Reach Buttstallion!", False),
+        MapData("Reach Buttstallion", "dungeon_p", "GD_Aster_FastTravel.Dungeons", (-5920.673828125, 3041.10498046875, 545.7273559570312), (1280, -98333, 0), 0, 9999, 0, 0, [(-17931.072265625, 1417.010009765625, -12.561384201049805), False, False, False], "E5B Lair of Infinite Agony Puzzle Rooms 2.json", False, "Reach Buttstallion!", False),
+        MapData("Reach Buttstallion", "dungeon_p", "GD_Aster_FastTravel.Dungeons", (-5920.673828125, 3041.10498046875, 545.7273559570312), (1280, -98333, 0), 0, 9999, 0, 0, [(-17931.072265625, 1417.010009765625, -12.561384201049805), False, False, False], "E5C Lair of Infinite Agony Puzzle Rooms 3.json", False, "Reach Buttstallion!", False),
+        MapData("Complete Parkour", "hyperioncity_p", "GD_FastTravelStations.Zone2.HyperionCity", (47103.1015625, 22272.216796875, 1914.6287841796875), (65300, 103796, 0), 0, 35, 0, 0, [(44683.10546875, 20873.853515625, 2816.50634765625)], "E6 Opportunity (Parkour 1).json", False, "Climb!", False),
+        MapData("Reach Buttstallion", "iris_dl2_p", "GD_Iris_FastTravelStations.Beatdown", (22996.02734375, -9467.2568359375, -4105.7646484375), (65471, -49212, 0), 0, 30, 0, 0, [(23045.16796875, -4900.4375, -4105.7646484375)], "E7A Beatdown Shifting Floors 1.json", False, "Reach Buttstallion!", False), # 3 variations
+        MapData("Reach Buttstallion", "iris_dl2_p", "GD_Iris_FastTravelStations.Beatdown", (22996.02734375, -9467.2568359375, -4105.7646484375), (65471, -49212, 0), 0, 30, 0, 0, [(23045.16796875, -4900.4375, -4105.7646484375)], "E7B Beatdown Shifting Floors 2.json", False, "Reach Buttstallion!", False),
+        MapData("Reach Buttstallion", "iris_dl2_p", "GD_Iris_FastTravelStations.Beatdown", (22996.02734375, -9467.2568359375, -4105.7646484375), (65471, -49212, 0), 0, 30, 0, 0, [(23045.16796875, -4900.4375, -4105.7646484375)], "E7C Beatdown Shifting Floors 3.json", False, "Reach Buttstallion!", False),
+        #MapData("Find Buttstallion", "dam_p", "GD_FastTravelStations.Zone1.GoshDam", (-28915.439453125, 18473.8046875, 2108.46044921875), (64740, -58809, 0), 0, 99999, 0, 0, [(-28618.25390625, 19602.751953125, 2108.46044921875), False, False, False], "E8 Bloodshot Secret Rooms 1.json", False, "Break Out!", False),
+        MapData("Reach Buttstallion", "testingzone_p", "GD_Lobelia_FastTravel.TestingZone", (38222.2734375, 48020.37109375, 6136.5380859375), (65355, -32000, 0), 0, 9999, 0, 0, [(36713.07421875, 47913.1953125, 6850.8193359375), False, False, False, False, False, 0], "E9 Digipeak Trivia Mini Game 1.json", False, "Trivia Time!", False),
         ],
     MapType.Special:[
         MapData("Golden Chest", "sanctuaryair_p", "GD_FastTravelStations.Sanctuary.Sanctuary", (-5116.1533203125, -16532.931640625, 2681.26904296875), (201, 98146, 0), 0, 0, 0, 0, ["yay a reward", False, False], "F1 Sanctuary (Gold Chest Room).json", False),
@@ -187,11 +200,17 @@ MAP_DATA: Dict[MapType, List[MapData]] = {
         ],
     MapType.FinalBoss:[
         MapData("Ancient Dragons", "dungeonraid_p", "GD_Aster_LevelTravel.DungeonRaidToDungeon", (0.691972017288208, 713.7623901367188, 4205.14990234375), (145, 49069, 0), 0, 0, 0, 4, [["AIClassDefinition GD_DragonRed_Raid.Character.CharClass_DragonRed_Raid", "AIClassDefinition GD_DragonBlue_Raid.Character.CharClass_DragonBlue_Raid", "AIClassDefinition GD_DragonPurple_Raid.Character.CharClass_DragonPurple_Raid", "AIClassDefinition GD_DragonGreen_Raid.Character.CharClass_DragonGreen_Raid"]], "H1 Ancient Dragons Raid Boss.json"),
+        MapData("???????????", "grass_lynchwood_p", "GD_FastTravelStations.Interlude.Lynchwood", (4153.42626953125, -23613.98828125, -3288.936767578125), (65296, -34234, 0), 0, 3, 0, 1, [["AIClassDefinition GD_Skagzilla.Character.CharClass_Skagzilla"], False, False, False], "H2 Secret Raid Boss.json"),
     ],
     MapType.StartRoom:[
         MapData("Starting Room", "orchid_wormbelly_p", "GD_Orchid_LevelTravel.WormBelly.WormBellyToOasisTown", (5813.95947265625, -45436.44140625, -4841.07470703125), (65215, 16584, 0), 0, 0, 0, 0, ["buh", False, False, False], "G2 Leviathans Lair Starting Room 1.json", False),
         MapData("Starting Room", "orchid_wormbelly_p", "GD_Orchid_LevelTravel.WormBelly.WormBellyToOasisTown", (5813.95947265625, -45436.44140625, -4841.07470703125), (65215, 16584, 0), 0, 0, 0, 0, ["buh", False, False, False], "G3 Leviathans Lair Starting Room 2.json", False),
         MapData("Starting Room", "orchid_wormbelly_p", "GD_Orchid_LevelTravel.WormBelly.WormBellyToOasisTown", (5813.95947265625, -45436.44140625, -4841.07470703125), (65215, 16584, 0), 0, 0, 0, 0, ["buh", False, False, False], "G4 Leviathans Lair Starting Room 3.json", False),
+    ],
+    MapType.Hoard:[
+        MapData("Token of Wealth", "templeslaughter_p", "GD_Aster_LevelTravel.TempleOfSlaughterToVillage", (5122.0810546875, 17701.6484375, 3766.596435546875), (339, 107377, 0), 0, 25, 0, 0, [False], "J1 Murderlin's Temple Hoard Round.json", False),
+        MapData("Token of Giving", "xmas_p", "GD_Allium_FastTravel.Xmas", (-5622.00048828125, -13358.798828125, 1642.35400390625), (65339, -116798, 0), 0, 25, 0, 0, [False], "J2 Frost Bottom Hoard Round.json", False),
+        MapData("Token of Vitality", "easter_p", "GD_Nasturtium_FastTravel.EasterTravel", (5853.2470703125, -7339.46826171875, 2488.447021484375), (1582, -9622, 0), 0, 30, 0, 0, [False, False], "J3 Wam Bam Hoard Round.json", False),
     ],
 }
 # fmt: on
@@ -221,21 +240,26 @@ def reset_visited_maps(reset_raid_bosses: bool) -> None: # false
             the_map.has_been_visited_in_current_rotation = False
         for the_map in MAP_DATA[MapType.MiniGame]:
             the_map.has_been_visited_in_current_rotation = False
+        for the_map in MAP_DATA[MapType.Hoard]:
+            the_map.has_been_visited_in_current_rotation = False
 
     for minigame in MAP_DATA[MapType.MiniGame]:
-        if minigame.map_file == "E4 Bloodshot Secret Rooms 1.json":
+        if minigame.map_file == "E8 Bloodshot Secret Rooms 1.json":
             # Reset the 3 breakable walls
             minigame.custom_map_data[1] = False
             minigame.custom_map_data[2] = False
             minigame.custom_map_data[3] = False
-        elif minigame.map_file == "E5 Crater Bar Glass Floor 1.json":
+        elif minigame.map_file in ("E2A Crater Bar Glass Floor 1.json", "E2B Crater Bar Glass Floor 2.json", "E2C Crater Bar Glass Floor 3.json"):
             # Reset the 10 glass floors
             for i in range(1, 11):
                 minigame.custom_map_data[i] = False
-        elif minigame.map_file == "E10 Digipeak Trivia Mini Game 1.json":
+        elif minigame.map_file == "E9 Digipeak Trivia Mini Game 1.json":
             for i in range(1, 6):
                 minigame.custom_map_data[i] = False
             minigame.custom_map_data[6] = 0
+        elif minigame.map_file in ("E1A Scyllas Grove Hidden Lever 1.json", "E1B Scyllas Grove Hidden Lever 2.json", "E1C Scyllas Grove Hidden Lever 3.json"):
+            # Reset levers
+            minigame.custom_map_data[1] = False
 
     for the_map in MAP_DATA[MapType.StartRoom]:
         the_map.has_been_visited_in_current_rotation = False
@@ -245,3 +269,9 @@ def reset_visited_maps(reset_raid_bosses: bool) -> None: # false
     for map in MAP_DATA[MapType.Special]:
         map.custom_map_data[1] = False
         map.custom_map_data[2] = False
+    for map in MAP_DATA[MapType.Hoard]:
+        map.custom_map_data[0] = False
+    
+    MAP_DATA[MapType.FinalBoss][1].custom_map_data[2] = False
+    MAP_DATA[MapType.FinalBoss][1].custom_map_data[3] = False
+    MAP_DATA[MapType.Hoard][2].custom_map_data[1] = False
