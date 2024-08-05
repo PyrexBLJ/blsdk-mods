@@ -355,6 +355,7 @@ class Main(ModMenu.SDKMod):
     def secret_travel(self) -> None:
         # unrealsdk.FindObject("WillowGameInfo", "WillowGame.Default__WillowGameInfo").TravelCountdown()
         # unrealsdk.GetEngine().GamePlayers[0].Actor.PeerTravelAsHost(GameState.travel_timer, None)
+        self.draw_timer = True
         while GameState.travel_timer > 0 and not self.isinffyl:
             uFeed.ShowHUDMessage(
                 Title="Travel",

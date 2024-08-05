@@ -44,6 +44,10 @@ class MissionStuff:
         _cmd(f"set {objective_line} bObjectiveIsOptional False")
 
     @staticmethod
+    def set_objective_not_required(objective_line: str) -> None:
+        _cmd(f"set {objective_line} bObjectiveIsOptional True")
+
+    @staticmethod
     def set_number_of_objectives(count: int) -> None:
         objectives: List[str] = [
             "MissionObjectiveDefinition'GD_Z1_ShootMeInTheFace.M_ShootMeInTheFace:ShootInFace'",
@@ -89,6 +93,7 @@ def update_mission_display() -> None:
             f"Shoot {GameState.current_map.custom_map_data[1]}: {GameState.current_map.custom_map_data[2]} / 3",
         )
         MissionStuff.set_objective_required(MissionStuff.Line2)
+        MissionStuff.set_objective_not_required(MissionStuff.Line3)
 
         if not GameState.mission_complete_sound_played:
             MissionStuff.set_number_of_objectives(3)
@@ -127,6 +132,7 @@ def update_mission_display() -> None:
             MissionStuff.Line2,
             f"Find The {GameState.current_map.name}",
         )
+        MissionStuff.set_objective_not_required(MissionStuff.Line2)
         if not GameState.mission_complete_sound_played:
             MissionStuff.set_number_of_objectives(2)
         else:
